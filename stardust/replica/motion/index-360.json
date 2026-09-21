@@ -1,0 +1,406 @@
+{
+  "schema": 2,
+  "url": "https://www.redballtennis.com/",
+  "width": 360,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".top-navigation__logo-hamburger",
+      "frames": [
+        {
+          "t": 14826.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15028.900000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15233.400000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15436.900000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "triggers": [
+    {
+      "i": 0,
+      "sel": "nav.top-navigation.red-ball-colors > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+      "txt": "",
+      "controls": "top-navigation-bar",
+      "before": {
+        "ariaExpanded": "true",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 257,
+        "attrMutations": 1,
+        "childList": 0,
+        "classMutations": 2
+      },
+      "after": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 1,
+        "attrMutations": 2,
+        "childList": 0,
+        "classMutations": 4
+      },
+      "settled": "transitionend",
+      "mutations": {
+        "attr": 1,
+        "childList": 0,
+        "class": 2
+      },
+      "restored": {
+        "ariaExpanded": "false",
+        "controlsDisplay": "block"
+      }
+    },
+    {
+      "i": 1,
+      "sel": "div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+      "txt": "USTA SITES",
+      "controls": "list-id-8",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "flex",
+        "controlsHeight": 0,
+        "attrMutations": 2,
+        "childList": 0,
+        "classMutations": 4
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1995.1100000000006ms exceeded."
+    },
+    {
+      "i": 2,
+      "sel": "nav.top-navigation__navigation-menu.navigation-menu > ul.navigation-menu__list > li.navigation-menu__list-item--level-1.navigation-menu__dropdown-item > button.toggle-button",
+      "txt": "VISIT OUR OTHER SITES submenu",
+      "controls": "VISIT-OUR-OTHER-SITES-menu",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "flex",
+        "controlsHeight": 0,
+        "attrMutations": 2,
+        "childList": 0,
+        "classMutations": 4
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1995.173999999999ms exceeded."
+    },
+    {
+      "i": 3,
+      "sel": "div.ot-pc-scrollbar > section.ot-sdk-row.ot-cat-grp > div.ot-accordion-layout.ot-cat-item > button",
+      "txt": "",
+      "controls": "ot-desc-id-C0001",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 0,
+        "attrMutations": 2,
+        "childList": 0,
+        "classMutations": 4
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1994.5720000000001ms exceeded."
+    },
+    {
+      "i": 4,
+      "sel": "div.ot-pc-scrollbar > section.ot-sdk-row.ot-cat-grp > div.ot-accordion-layout.ot-cat-item > button",
+      "txt": "",
+      "controls": "ot-desc-id-C0004",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 0,
+        "attrMutations": 2,
+        "childList": 0,
+        "classMutations": 4
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1994.9969999999994ms exceeded."
+    },
+    {
+      "i": 5,
+      "sel": "div > div.ot-lst-subhdr > div.ot-fltr-cntr > button",
+      "txt": "Filter Icon",
+      "controls": null,
+      "before": {
+        "ariaExpanded": null,
+        "open": null,
+        "controlsDisplay": null,
+        "controlsHeight": null,
+        "attrMutations": 2,
+        "childList": 0,
+        "classMutations": 4
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1994.2979999999989ms exceeded."
+    }
+  ],
+  "entrances": [
+    {
+      "family": "nav.top-navigation__navigation-menu.navigation-menu",
+      "elements": 1,
+      "mutations": 2,
+      "firstY": 0,
+      "durationMs": 1048,
+      "from": {
+        "opacity": null,
+        "transform": null,
+        "visibility": null
+      },
+      "to": {
+        "opacity": null,
+        "transform": null,
+        "visibility": null
+      },
+      "sample": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar.top-navigation__top-bar--opened.top-to-bottom > nav.top-navigation__navigation-menu.navigation-menu"
+    },
+    {
+      "family": "img.top-navigation__logo-hamburger--menu",
+      "elements": 1,
+      "mutations": 2,
+      "firstY": 0,
+      "durationMs": 1048,
+      "from": {
+        "opacity": null,
+        "transform": null,
+        "visibility": null
+      },
+      "to": {
+        "opacity": null,
+        "transform": null,
+        "visibility": null
+      },
+      "sample": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger > img.top-navigation__logo-hamburger--menu"
+    },
+    {
+      "family": "img.top-navigation__logo-hamburger--cancel",
+      "elements": 1,
+      "mutations": 2,
+      "firstY": 0,
+      "durationMs": 1048,
+      "from": {
+        "opacity": null,
+        "transform": null,
+        "visibility": null
+      },
+      "to": {
+        "opacity": null,
+        "transform": null,
+        "visibility": null
+      },
+      "sample": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger > img.top-navigation__logo-hamburger--cancel"
+    }
+  ],
+  "stateMachines": [
+    {
+      "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+      "attr": "aria-expanded",
+      "kind": "attribute",
+      "controls": "top-navigation-bar",
+      "transitions": [
+        {
+          "from": "false",
+          "to": "true",
+          "y": 0,
+          "t": 14822,
+          "trigger": {
+            "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+            "txt": "",
+            "dtMs": 3
+          },
+          "controlsDisplay": {
+            "before": "block",
+            "after": "block"
+          }
+        },
+        {
+          "from": "true",
+          "to": "false",
+          "y": 0,
+          "t": 15870,
+          "trigger": {
+            "el": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger > img.top-navigation__logo-hamburger--cancel",
+            "txt": "",
+            "dtMs": 1
+          },
+          "controlsDisplay": {
+            "before": "block",
+            "after": "block"
+          }
+        }
+      ],
+      "count": 2,
+      "triggered": 2
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar.top-navigation__top-bar--opened.top-to-bottom",
+        "y": 0,
+        "dir": "rest",
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar",
+        "y": 0,
+        "dir": "rest",
+        "dur": "0.3s, 0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "top-navigation__top-bar--opened",
+          "top-to-bottom"
+        ],
+        "removed": [],
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar.top-navigation__top-bar--opened.top-to-bottom",
+        "y": 0,
+        "dir": "rest",
+        "t": 14822,
+        "trigger": {
+          "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+          "txt": "",
+          "dtMs": 3
+        }
+      },
+      {
+        "added": [
+          "top-to-bottom"
+        ],
+        "removed": [],
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar.top-navigation__top-bar--opened.top-to-bottom",
+        "y": 0,
+        "dir": "rest",
+        "t": 14822,
+        "trigger": {
+          "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+          "txt": "",
+          "dtMs": 3
+        }
+      },
+      {
+        "added": [],
+        "removed": [
+          "top-navigation__top-bar--opened",
+          "top-to-bottom"
+        ],
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar",
+        "y": 0,
+        "dir": "rest",
+        "t": 15870,
+        "trigger": {
+          "el": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger > img.top-navigation__logo-hamburger--cancel",
+          "txt": "",
+          "dtMs": 1
+        }
+      },
+      {
+        "added": [],
+        "removed": [
+          "top-navigation__top-bar--opened"
+        ],
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > div.top-navigation__top-bar",
+        "y": 0,
+        "dir": "rest",
+        "t": 15870,
+        "trigger": {
+          "el": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger > img.top-navigation__logo-hamburger--cancel",
+          "txt": "",
+          "dtMs": 1
+        }
+      }
+    ],
+    "attrMutations": [
+      {
+        "attr": "aria-expanded",
+        "from": "false",
+        "to": "true",
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+        "txt": "",
+        "y": 0,
+        "dir": "rest",
+        "t": 14822,
+        "trigger": {
+          "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+          "txt": "",
+          "dtMs": 3
+        },
+        "controls": "top-navigation-bar",
+        "controlsDisplay": {
+          "before": "block",
+          "after": "block"
+        }
+      },
+      {
+        "attr": "aria-expanded",
+        "from": "true",
+        "to": "false",
+        "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+        "txt": "",
+        "y": 0,
+        "dir": "rest",
+        "t": 15870,
+        "trigger": {
+          "el": "nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger > img.top-navigation__logo-hamburger--cancel",
+          "txt": "",
+          "dtMs": 1
+        },
+        "controls": "top-navigation-bar",
+        "controlsDisplay": {
+          "before": "block",
+          "after": "block"
+        }
+      }
+    ],
+    "childList": [],
+    "styleMutatedElements": 3
+  }
+}

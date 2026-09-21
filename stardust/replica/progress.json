@@ -1,0 +1,709 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-09-21T07:21:58Z",
+    "stardustVersion": "0.24.0-next.4",
+    "site": "https://www.redballtennis.com"
+  },
+  "captureState": {
+    "consent": "accept",
+    "consentMethod": "dismissed:#onetrust-accept-btn-handler",
+    "captureDate": "2026-09-21",
+    "technique": "headless",
+    "markers": [
+      "OneTrust accepted",
+      "no experiment cookies observed"
+    ]
+  },
+  "breakpointsConfigured": [
+    1440,
+    360
+  ],
+  "pageTypes": {
+    "landing": {
+      "archetype": "index",
+      "chromeVariant": "default",
+      "layoutCluster": "c1",
+      "siblings": [
+        "en-home-html",
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html"
+      ],
+      "siblingNote": "all four are aliases/redirects of index (state.json.pages[].redirect) \u2014 delivered as redirects, never as pages",
+      "breakpoints": {
+        "360": {
+          "iterations": 4,
+          "result": {
+            "regime": "prototype",
+            "pixelPct": 0.22,
+            "pixelPctUnmasked": 0.22,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/",
+              "width": 360,
+              "capturedAt": "2026-09-21T07:27:48.106Z",
+              "sidecar": "stardust/replica/gates/index-360/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T07:38:49.973Z",
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "structuralSource": "gates/index-360/content-diff-iter1.txt",
+            "visualSource": "gates/index-360/visual-diff-iter1.txt"
+          },
+          "record": "stardust/replica/gates/index-360/gate-iter4.json",
+          "motion": {
+            "assert": {
+              "verdict": "fail",
+              "at": "2026-09-21T07:38:11.029Z",
+              "target": "http://127.0.0.1:8877/index-proposed.html",
+              "regime": "prototype",
+              "observe": "stardust/replica/motion/index-360.json",
+              "schema": 2,
+              "width": 360,
+              "checks": {
+                "chrome": {
+                  "status": "n/a",
+                  "detail": "no header on either side",
+                  "target": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ]
+                },
+                "entrances": {
+                  "status": "fail",
+                  "detail": "live 3 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "live": 3,
+                  "target": 0
+                },
+                "widgets": {
+                  "status": "n/a",
+                  "detail": ".top-navigation__logo-hamburger: n/a (dead live (implement nothing))",
+                  "rows": [
+                    {
+                      "sel": ".top-navigation__logo-hamburger",
+                      "status": "n/a",
+                      "detail": "dead live (implement nothing)"
+                    }
+                  ]
+                },
+                "stateMachines": {
+                  "status": "pass",
+                  "detail": ".logo__hamburger: ariaExpanded changed (live: aria-expanded)",
+                  "rows": [
+                    {
+                      "el": "div.topnavigation.aem-GridColumn.aem-GridColumn--default--12 > nav.top-navigation.red-ball-colors.loadingDone > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+                      "attr": "aria-expanded",
+                      "status": "pass",
+                      "detail": ".logo__hamburger: ariaExpanded changed (live: aria-expanded)"
+                    }
+                  ]
+                },
+                "pageErrors": {
+                  "status": "pass",
+                  "detail": "0 pageerror(s)",
+                  "count": 0
+                }
+              },
+              "skips": {}
+            }
+          },
+          "overCap": "canon-followup",
+          "justified": [
+            {
+              "probe": "motion-assert",
+              "flag": "entrances fail (live 3, target 0)",
+              "why": "the three live \"entrances\" are inline display toggles on the nav and hamburger images during the drawer state machine (from/to opacity+transform null in index-360.json); the prototype mirrors the same inline display mutations (js/chrome.js setDrawer); no opacity/transform animation exists on live to reproduce \u2014 advisory verdict per D15, record present",
+              "permanent": true
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 4,
+          "result": {
+            "regime": "prototype",
+            "pixelPct": 0.13,
+            "pixelPctUnmasked": 0.13,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/",
+              "width": 1440,
+              "capturedAt": "2026-09-21T07:22:29.151Z",
+              "sidecar": "stardust/replica/gates/index-1440/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T07:38:37.331Z",
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "structuralSource": "gates/index-1440/content-diff-iter4.txt",
+            "visualSource": "gates/index-1440/visual-diff-iter1.txt"
+          },
+          "record": "stardust/replica/gates/index-1440/gate-iter4.json",
+          "motion": {
+            "assert": {
+              "verdict": "pass",
+              "at": "2026-09-21T07:38:07.043Z",
+              "target": "http://127.0.0.1:8877/index-proposed.html",
+              "regime": "prototype",
+              "observe": "stardust/replica/motion/index.json",
+              "schema": 2,
+              "width": 1440,
+              "checks": {
+                "chrome": {
+                  "status": "n/a",
+                  "detail": "no header on either side",
+                  "target": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ]
+                },
+                "entrances": {
+                  "status": "n/a",
+                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "live": 0,
+                  "target": 0
+                },
+                "widgets": {
+                  "status": "n/a",
+                  "detail": "no widget pokes in the observe run",
+                  "rows": []
+                },
+                "stateMachines": {
+                  "status": "pass",
+                  "detail": "USTA SITES: ariaExpanded changed (live: aria-expanded)",
+                  "rows": [
+                    {
+                      "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+                      "attr": "aria-expanded",
+                      "status": "pass",
+                      "detail": "USTA SITES: ariaExpanded changed (live: aria-expanded)"
+                    }
+                  ]
+                },
+                "pageErrors": {
+                  "status": "pass",
+                  "detail": "0 pageerror(s)",
+                  "count": 0
+                }
+              },
+              "skips": {}
+            }
+          },
+          "overCap": "canon-followup"
+        }
+      },
+      "census": {
+        "file": "stardust/replica/variant-census-landing.json",
+        "at": "2026-09-21",
+        "budgeted": []
+      },
+      "motion": {
+        "observed": [
+          "hover .button-core \u2192 opacity .7",
+          "hover nav level-1 link \u2192 color #cfff05, transition color .3s ease-out",
+          "hover footer link \u2192 color #cfff05",
+          "USTA SITES button aria-expanded toggle \u2192 panel #list-id-8 (click)",
+          "360: hamburger aria-expanded toggle \u2192 #top-navigation-bar .top-navigation__top-bar--opened.top-to-bottom, nav + 2 imgs inline display mutations"
+        ],
+        "implemented": [
+          "css/canon.css :hover rules (button opacity, nav color+transition, footer color)",
+          "js/chrome.js dropdown + drawer state machines (same elements, same attrs/classes, inline display on nav + imgs)"
+        ],
+        "dead": [
+          "no entrance animations observed (0 families at 1440)",
+          "no header scroll morph (identity 195px rest = scrolled)",
+          "hover .v-lead-generation-form__terms-description a \u2192 no change (not implemented)"
+        ]
+      },
+      "approved": {
+        "at": "2026-09-21T07:39:48Z",
+        "approvedBy": "hands-off"
+      },
+      "prototype": "stardust/prototypes/index-proposed.html"
+    },
+    "program": {
+      "archetype": "en-home-play-html",
+      "chromeVariant": "default",
+      "siblings": [
+        "en-home-host-html"
+      ],
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "result": {
+            "regime": "prototype",
+            "pixelPct": 0.6,
+            "pixelPctUnmasked": 0.6,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/en/home/play.html",
+              "width": 360,
+              "capturedAt": "2026-09-21T07:46:29.890Z",
+              "sidecar": "stardust/replica/gates/en-home-play-html-360/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T07:51:37.711Z",
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "structuralSource": "gates/en-home-play-html-360/content-diff-iter1.txt",
+            "visualSource": "gates/en-home-play-html-360/visual-diff-iter1.txt"
+          },
+          "record": "stardust/replica/gates/en-home-play-html-360/gate-iter2.json"
+        },
+        "1440": {
+          "iterations": 2,
+          "result": {
+            "regime": "prototype",
+            "pixelPct": 0.09,
+            "pixelPctUnmasked": 0.09,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/en/home/play.html",
+              "width": 1440,
+              "capturedAt": "2026-09-21T07:45:07.771Z",
+              "sidecar": "stardust/replica/gates/en-home-play-html-1440/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T07:51:24.447Z",
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "structuralSource": "gates/en-home-play-html-1440/content-diff-iter1.txt",
+            "visualSource": "gates/en-home-play-html-1440/visual-diff-iter1.txt"
+          },
+          "record": "stardust/replica/gates/en-home-play-html-1440/gate-iter2.json",
+          "motion": {
+            "assert": {
+              "verdict": "pass",
+              "at": "2026-09-21T08:01:35.570Z",
+              "target": "http://127.0.0.1:8877/en-home-play-html-proposed.html",
+              "regime": "prototype",
+              "observe": "stardust/replica/motion/en-home-play-html.json",
+              "schema": 2,
+              "width": 1440,
+              "checks": {
+                "chrome": {
+                  "status": "n/a",
+                  "detail": "no header on either side",
+                  "target": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ]
+                },
+                "entrances": {
+                  "status": "n/a",
+                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "live": 0,
+                  "target": 0
+                },
+                "widgets": {
+                  "status": "n/a",
+                  "detail": "no widget pokes in the observe run",
+                  "rows": []
+                },
+                "stateMachines": {
+                  "status": "pass",
+                  "detail": "USTA SITES: ariaExpanded changed (live: aria-expanded)",
+                  "rows": [
+                    {
+                      "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+                      "attr": "aria-expanded",
+                      "status": "pass",
+                      "detail": "USTA SITES: ariaExpanded changed (live: aria-expanded)"
+                    }
+                  ]
+                },
+                "pageErrors": {
+                  "status": "pass",
+                  "detail": "0 pageerror(s)",
+                  "count": 0
+                }
+              },
+              "skips": {}
+            }
+          }
+        }
+      },
+      "census": {
+        "file": "stardust/replica/variant-census-program.json",
+        "at": "2026-09-21",
+        "budgeted": []
+      },
+      "prototype": "stardust/prototypes/en-home-play-html-proposed.html",
+      "siblingPrototypes": {
+        "en-home-host-html": "stardust/prototypes/en-home-host-html-proposed.html"
+      },
+      "variants": {
+        "en-home-host-html": [
+          "hero host (title + separator + two paragraphs, photo panel with transparent separator; mobile photo image)",
+          "tile-band host (two tiles, wild tile 340px image, note + large button, hidden GET EQUIPPED)",
+          "signup host (own title + copy, no outer padding)",
+          "hidden Helpful Links band mirrored hidden"
+        ]
+      },
+      "approved": {
+        "at": "2026-09-21T08:05:00Z",
+        "approvedBy": "hands-off"
+      },
+      "siblings_gates": {
+        "en-home-host-html": {
+          "1440": {
+            "record": "gates/en-home-host-html-1440/gate-iter1.json",
+            "result": "PASS 0.81 % \u0394h 0"
+          },
+          "360": {
+            "record": "gates/en-home-host-html-360/gate-iter1b.json",
+            "result": "PASS 3.37 % \u0394h 0 (iter1 re-run after ERR_NETWORK_CHANGED \u2014 no verdict, not counted)"
+          },
+          "motion": {
+            "observe": "motion/en-home-host-html.json",
+            "assert": "pass (motion/en-home-host-html-assert.log; not recorded by the instrument \u2014 sibling, no pageType archetype)"
+          },
+          "structural": "content-diff 0 \ud83d\udd34 at 1440 + 360 (17/17 editable texts); visual-diff none (hidden Helpful Links headings colour aligned after the first run)"
+        }
+      },
+      "motion": {
+        "observed": [
+          "USTA SITES dropdown aria-expanded toggle (same chrome as index)",
+          "hover nav link \u2192 #cfff05 + color .3s (1 transition)",
+          "hover .button-core \u2192 opacity .7",
+          "hover footer link \u2192 #cfff05"
+        ],
+        "implemented": [
+          "inherited from canon.css / js/chrome.js (gated on index)"
+        ],
+        "dead": [
+          "no entrance animations on play or host",
+          "no scroll morph"
+        ]
+      }
+    },
+    "unique": {
+      "archetype": "en-home-404-html",
+      "chromeVariant": "default",
+      "siblings": [],
+      "siblingNote": "en-home-confirmation-html is an off-site login redirect (decided-out, dynamics #28)",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "result": {
+            "regime": "prototype",
+            "pixelPct": 0.28,
+            "pixelPctUnmasked": 0.28,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/en/home/404.html",
+              "width": 360,
+              "capturedAt": "2026-09-21T06:55:30.426Z",
+              "sidecar": "stardust/replica/gates/en-home-404-html-360/live.png.json",
+              "instrument": "extract-capture",
+              "technique": "extract-capture",
+              "consent": {
+                "mode": "accept",
+                "via": "unknown"
+              }
+            },
+            "at": "2026-09-21T08:04:03.592Z",
+            "forced": true,
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "structuralSource": "gates/en-home-404-html-360/content-diff-iter1.txt",
+            "visualSource": "gates/en-home-404-html-360/visual-diff-iter1.txt"
+          },
+          "record": "stardust/replica/gates/en-home-404-html-360/gate-iter1.json",
+          "justified": [
+            {
+              "probe": "pixel",
+              "flag": "reference = extract capture (--live-from-capture)",
+              "why": "stitch-shot refuses the live 404 page (near-empty floor: 133 chars < 400, exit 3 no verdict); the extract screenshot of the same settled page at the same width is the shipped escape hatch; landmark table skipped by the instrument, geometry cross-checked against the diagnosis rect probe (main 1037.6 / 794.8 px both sides)"
+            }
+          ]
+        },
+        "1440": {
+          "motion": {
+            "assert": {
+              "verdict": "pass",
+              "at": "2026-09-21T08:01:42.301Z",
+              "target": "http://127.0.0.1:8877/en-home-404-html-proposed.html",
+              "regime": "prototype",
+              "observe": "stardust/replica/motion/en-home-404-html.json",
+              "schema": 2,
+              "width": 1440,
+              "checks": {
+                "chrome": {
+                  "status": "n/a",
+                  "detail": "no header on either side",
+                  "target": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ]
+                },
+                "entrances": {
+                  "status": "n/a",
+                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "live": 0,
+                  "target": 0
+                },
+                "widgets": {
+                  "status": "n/a",
+                  "detail": "no widget pokes in the observe run",
+                  "rows": []
+                },
+                "stateMachines": {
+                  "status": "pass",
+                  "detail": "USTA SITES: ariaExpanded changed (live: aria-expanded)",
+                  "rows": [
+                    {
+                      "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+                      "attr": "aria-expanded",
+                      "status": "pass",
+                      "detail": "USTA SITES: ariaExpanded changed (live: aria-expanded)"
+                    }
+                  ]
+                },
+                "pageErrors": {
+                  "status": "pass",
+                  "detail": "0 pageerror(s)",
+                  "count": 0
+                }
+              },
+              "skips": {}
+            }
+          },
+          "iterations": 1,
+          "result": {
+            "regime": "prototype",
+            "pixelPct": 0.11,
+            "pixelPctUnmasked": 0.11,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/en/home/404.html",
+              "width": 1440,
+              "capturedAt": "2026-09-21T06:55:28.342Z",
+              "sidecar": "stardust/replica/gates/en-home-404-html-1440/live.png.json",
+              "instrument": "extract-capture",
+              "technique": "extract-capture",
+              "consent": {
+                "mode": "accept",
+                "via": "unknown"
+              }
+            },
+            "at": "2026-09-21T08:03:57.812Z",
+            "forced": true,
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "structuralSource": "gates/en-home-404-html-1440/content-diff-iter1.txt",
+            "visualSource": "gates/en-home-404-html-1440/visual-diff-iter1.txt"
+          },
+          "record": "stardust/replica/gates/en-home-404-html-1440/gate-iter1.json",
+          "justified": [
+            {
+              "probe": "pixel",
+              "flag": "reference = extract capture (--live-from-capture)",
+              "why": "stitch-shot refuses the live 404 page (near-empty floor: 133 chars < 400, exit 3 no verdict); the extract screenshot of the same settled page at the same width is the shipped escape hatch; landmark table skipped by the instrument, geometry cross-checked against the diagnosis rect probe (main 1037.6 / 794.8 px both sides)"
+            }
+          ]
+        }
+      },
+      "prototype": "stardust/prototypes/en-home-404-html-proposed.html",
+      "liftNote": "lift.mjs exit 5 (INVALID CAPTURE: 133 chars < CAPTURE_FLOOR.emptyLen 400) \u2014 geometry from the diagnosis rect probe replica/capture/lift/en-home-404-html-{1440,360}.probe.json (named deviation, direction.md)",
+      "approved": {
+        "at": "2026-09-21T08:05:00Z",
+        "approvedBy": "hands-off"
+      },
+      "motion": {
+        "observed": [
+          "USTA SITES dropdown (chrome, same as index)"
+        ],
+        "implemented": [
+          "inherited canon chrome"
+        ],
+        "dead": [
+          "no page-level motion"
+        ]
+      }
+    }
+  },
+  "modules": [
+    {
+      "kind": "site-header",
+      "family": "header",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "site-footer",
+      "family": "footer",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "hero-split",
+      "family": "hero",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "racquet-cta-band",
+      "family": "cta-band",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "play-host-tiles",
+      "family": "tile-band",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "signup-band",
+      "family": "form-band",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "separator",
+      "family": "separator",
+      "firstSeen": "index",
+      "lifted": {
+        "360": "gates/index-360/gate-iter3.json",
+        "1440": "gates/index-1440/gate-iter2.json"
+      },
+      "emitter": null
+    },
+    {
+      "kind": "hero-program",
+      "family": "hero",
+      "firstSeen": "en-home-play-html",
+      "lifted": {
+        "360": "gates/en-home-play-html-360/gate-iter2.json",
+        "1440": "gates/en-home-play-html-1440/gate-iter2.json"
+      }
+    },
+    {
+      "kind": "video-embed",
+      "family": "embed",
+      "firstSeen": "en-home-play-html",
+      "lifted": {
+        "360": "gates/en-home-play-html-360/gate-iter2.json",
+        "1440": "gates/en-home-play-html-1440/gate-iter2.json"
+      }
+    },
+    {
+      "kind": "rules-band",
+      "family": "icon-text-columns",
+      "firstSeen": "en-home-play-html",
+      "lifted": {
+        "360": "gates/en-home-play-html-360/gate-iter2.json",
+        "1440": "gates/en-home-play-html-1440/gate-iter2.json"
+      }
+    },
+    {
+      "kind": "kit-band",
+      "family": "icon-grid + heading + cta",
+      "firstSeen": "en-home-play-html",
+      "lifted": {
+        "360": "gates/en-home-play-html-360/gate-iter2.json",
+        "1440": "gates/en-home-play-html-1440/gate-iter2.json"
+      }
+    }
+  ],
+  "chrome": {
+    "variants": [
+      {
+        "name": "default",
+        "pages": 8,
+        "archetype": "index",
+        "states": {
+          "rest": "gated",
+          "scrolled": "gated",
+          "menu:USTA SITES": "gated",
+          "search": "dead",
+          "language": "dead",
+          "drawer": "gated",
+          "drawer-drilled": "dead",
+          "footer-accordion": "dead"
+        },
+        "gates": {
+          "360": "gates/index-1440/chrome-states-iter2.json",
+          "1440": "gates/index-1440/chrome-states-iter2.json"
+        },
+        "evidence": "chrome-states-iter2.json exit 0 (menu:USTA SITES crop pass, drawer crop pass); chrome-parity 1440 iter3 + 360 iter3 exit 0; dead = observed absent on live (no search/language controls; drawer submenu toggle never opened on live: clickFailed in index-360.json)"
+      },
+      {
+        "name": "variant-5e2e",
+        "pages": 1,
+        "archetype": "en-home-confirmation-html",
+        "states": {
+          "rest": "unprobed:off-site login redirect (account.usta.com) \u2014 page decided-out (dynamics #28), never migrated"
+        },
+        "gates": {}
+      }
+    ]
+  },
+  "residualsLog": []
+}

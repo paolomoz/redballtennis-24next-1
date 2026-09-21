@@ -1,0 +1,431 @@
+{
+  "schema": 2,
+  "url": "https://www.redballtennis.com/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".navigation-menu__list-item-link--level-1",
+      "hovered": true,
+      "changed": [
+        "self.color",
+        "self.transition",
+        "self.transitionProperty",
+        "self.transitionDuration"
+      ],
+      "hoverRules": 6,
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 6
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(207, 255, 5)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "color 0.3s ease-out",
+          "transitionProperty": "color",
+          "transitionDuration": "0.3s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 6
+      }
+    },
+    {
+      "sel": ".button-core",
+      "hovered": true,
+      "changed": [
+        "self.opacity"
+      ],
+      "hoverRules": 4,
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 35, 150)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 4
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(10, 35, 150)",
+          "boxShadow": "none",
+          "opacity": "0.7",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 4
+      }
+    },
+    {
+      "sel": ".footer-links__sites a",
+      "hovered": true,
+      "changed": [
+        "self.color"
+      ],
+      "hoverRules": 3,
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 3
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(207, 255, 5)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 3
+      }
+    },
+    {
+      "sel": ".v-lead-generation-form__terms-description a",
+      "hovered": true,
+      "changed": [],
+      "hoverRules": 2,
+      "warn": "2 :hover rule(s) exist for this element but no computed change was measured — transition not settled, rule dead at runtime, or the styled descendant is outside the read set",
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(3, 87, 184)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 2
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(3, 87, 184)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "transition": "all",
+          "transitionProperty": "all",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s"
+        },
+        "subs": [],
+        "hoverRules": 2
+      }
+    }
+  ],
+  "triggers": [
+    {
+      "i": 0,
+      "sel": "div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+      "txt": "USTA SITES",
+      "controls": "list-id-8",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "flex",
+        "controlsHeight": 0,
+        "attrMutations": 0,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "after": {
+        "ariaExpanded": "true",
+        "open": null,
+        "controlsDisplay": "flex",
+        "controlsHeight": 263,
+        "attrMutations": 1,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "settled": "timeout",
+      "mutations": {
+        "attr": 1,
+        "childList": 0,
+        "class": 0
+      },
+      "restored": {
+        "ariaExpanded": "false",
+        "controlsDisplay": "flex"
+      }
+    },
+    {
+      "i": 1,
+      "sel": "nav.top-navigation.red-ball-colors > div.top-navigation__main-bar > div.top-navigation__logo > button.top-navigation__logo-hamburger",
+      "txt": "",
+      "controls": "top-navigation-bar",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "flex",
+        "controlsHeight": 60,
+        "attrMutations": 3,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1997.466999999997ms exceeded."
+    },
+    {
+      "i": 2,
+      "sel": "nav.top-navigation__navigation-menu.navigation-menu > ul.navigation-menu__list > li.navigation-menu__list-item--level-1.navigation-menu__dropdown-item > button.toggle-button",
+      "txt": "VISIT OUR OTHER SITES submenu",
+      "controls": "VISIT-OUR-OTHER-SITES-menu",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 0,
+        "attrMutations": 3,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1998.0640000000021ms exceeded."
+    },
+    {
+      "i": 3,
+      "sel": "div.ot-pc-scrollbar > section.ot-sdk-row.ot-cat-grp > div.ot-accordion-layout.ot-cat-item > button",
+      "txt": "",
+      "controls": "ot-desc-id-C0001",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 0,
+        "attrMutations": 3,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1998.2849999999999ms exceeded."
+    },
+    {
+      "i": 4,
+      "sel": "div.ot-pc-scrollbar > section.ot-sdk-row.ot-cat-grp > div.ot-accordion-layout.ot-cat-item > button",
+      "txt": "",
+      "controls": "ot-desc-id-C0004",
+      "before": {
+        "ariaExpanded": "false",
+        "open": null,
+        "controlsDisplay": "block",
+        "controlsHeight": 0,
+        "attrMutations": 3,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1994.5220000000008ms exceeded."
+    },
+    {
+      "i": 5,
+      "sel": "div > div.ot-lst-subhdr > div.ot-fltr-cntr > button",
+      "txt": "Filter Icon",
+      "controls": null,
+      "before": {
+        "ariaExpanded": null,
+        "open": null,
+        "controlsDisplay": null,
+        "controlsHeight": null,
+        "attrMutations": 3,
+        "childList": 0,
+        "classMutations": 0
+      },
+      "clickFailed": "locator.scrollIntoViewIfNeeded: Timeout 1995.1390000000029ms exceeded."
+    }
+  ],
+  "entrances": [],
+  "stateMachines": [
+    {
+      "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+      "attr": "aria-expanded",
+      "kind": "attribute",
+      "controls": "list-id-8",
+      "transitions": [
+        {
+          "from": "false",
+          "to": "true",
+          "y": 0,
+          "t": 17156,
+          "trigger": {
+            "el": "div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper > p.drop-down__label",
+            "txt": "USTA SITES",
+            "dtMs": 0
+          },
+          "controlsDisplay": {
+            "before": "flex",
+            "after": "flex"
+          }
+        },
+        {
+          "from": "true",
+          "to": "false",
+          "y": 0,
+          "t": 17802,
+          "trigger": {
+            "el": "div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper > p.drop-down__label",
+            "txt": "USTA SITES",
+            "dtMs": 0
+          },
+          "controlsDisplay": {
+            "before": "flex",
+            "after": "flex"
+          }
+        },
+        {
+          "from": "false",
+          "to": "false",
+          "y": 0,
+          "t": 18106,
+          "trigger": null,
+          "controlsDisplay": {
+            "before": "flex",
+            "after": "flex"
+          }
+        }
+      ],
+      "count": 3,
+      "triggered": 2
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "color",
+        "el": "ul.navigation-menu__list > li.navigation-menu__list-item--level-1 > div.level-1-content > div > a.navigation-menu__list-item-link--level-1",
+        "y": 0,
+        "dir": "rest",
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [],
+    "attrMutations": [
+      {
+        "attr": "aria-expanded",
+        "from": "false",
+        "to": "true",
+        "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+        "txt": "USTA SITES",
+        "y": 0,
+        "dir": "rest",
+        "t": 17156,
+        "trigger": {
+          "el": "div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper > p.drop-down__label",
+          "txt": "USTA SITES",
+          "dtMs": 0
+        },
+        "controls": "list-id-8",
+        "controlsDisplay": {
+          "before": "flex",
+          "after": "flex"
+        }
+      },
+      {
+        "attr": "aria-expanded",
+        "from": "true",
+        "to": "false",
+        "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+        "txt": "USTA SITES",
+        "y": 0,
+        "dir": "rest",
+        "t": 17802,
+        "trigger": {
+          "el": "div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper > p.drop-down__label",
+          "txt": "USTA SITES",
+          "dtMs": 0
+        },
+        "controls": "list-id-8",
+        "controlsDisplay": {
+          "before": "flex",
+          "after": "flex"
+        }
+      },
+      {
+        "attr": "aria-expanded",
+        "from": "false",
+        "to": "false",
+        "el": "div.top-navigation__top-bar-wrapper > div.dropdown > div.drop-down > div.drop-down__wrapper > button.drop-down__label-wrapper",
+        "txt": "USTA SITES",
+        "y": 0,
+        "dir": "rest",
+        "t": 18106,
+        "trigger": null,
+        "controls": "list-id-8",
+        "controlsDisplay": {
+          "before": "flex",
+          "after": "flex"
+        }
+      }
+    ],
+    "childList": [],
+    "styleMutatedElements": 0
+  }
+}

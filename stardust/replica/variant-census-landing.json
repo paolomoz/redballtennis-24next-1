@@ -1,0 +1,2285 @@
+{
+  "generatedAt": "2026-09-21T07:39:07.129Z",
+  "scope": "type landing",
+  "markers": [
+    "data-component",
+    "data-component-id",
+    "data-cmp"
+  ],
+  "css": [
+    "stardust/prototypes/css/*.css"
+  ],
+  "code": [
+    "stardust/prototypes/js/*.js"
+  ],
+  "allow": "stardust/replica/variant-census-allow.txt",
+  "minPages": 2,
+  "pages": 5,
+  "noSidecar": [],
+  "coverageChecked": true,
+  "components": [
+    {
+      "class": "cmp-breadcrumb",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": "cmp-breadcrumb__wrapper",
+      "modifiers": [
+        {
+          "class": "cmp-breadcrumb__wrapper",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "descendants": [
+        {
+          "class": "cmp-breadcrumb__navigation",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-breadcrumb__navigation-item--active",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-breadcrumb__navigation",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [
+        {
+          "class": "cmp-breadcrumb__navigation-item--active",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-breadcrumb__navigation-item--active",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-button",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": "button-core",
+      "modifiers": [
+        {
+          "class": "button-core",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "descendants": [
+        {
+          "class": "button-core__text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "button-core__text-content",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-button__text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-button__text",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": "button-core__text",
+      "modifiers": [
+        {
+          "class": "button-core__text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "descendants": [
+        {
+          "class": "button-core__text-content",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [
+        {
+          "class": "aem-Grid",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--7",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--4",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--7",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--mobile--10",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--mobile--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--mobile--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--mobile--7",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--mobile--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--4",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--8",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--tablet--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--10",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--11",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--2",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--4",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--7",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--hide",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--newline",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--10",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--11",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--7",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--hide",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--default--0",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--default--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--default--2",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--default--6",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--mobile--0",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--mobile--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--tablet--0",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--tablet--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--tablet--4",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--10",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--4",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--8",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--hide",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "align-items-center",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": null
+        },
+        {
+          "class": "breadcrumb",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "button",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "button-core",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "button-core--large",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "button-core--not-fixed-width",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-breadcrumb",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-breadcrumb__wrapper",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-button",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-embed",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-experiencefragment",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-experiencefragment--footer-xf",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-experiencefragment--header-xf",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-image",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-separator",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-text--alignment-center",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-text--colored",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "col-padding-none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "container",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "container--no-side-margins",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": null
+        },
+        {
+          "class": "embed",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "experiencefragment",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "footer",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "footer-links",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "full-width",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "full-width--root",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "full-width-limit",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "horizontal-bottom-red-stripe",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "image",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "image--align--center",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": null
+        },
+        {
+          "class": "inner_full-height",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": null
+        },
+        {
+          "class": "justify-content_space-around",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "leadgeneration",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "loadingDone",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-bottom-medium",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-bottom-none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-bottom-small",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-left-triple",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-right-triple",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-top-medium",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-top-none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "padding-top-small",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "phe--display-none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "red-ball-colors",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "responsivegrid",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "separator",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "separator--background--transparent",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "separator--border-color--transparent",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "separator--inner-margins--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "separator--vertical-margins--7px",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "simple-container--display-flex-wrap",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": null
+        },
+        {
+          "class": "text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "top-navigation",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "topnavigation",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "li:icon": 5,
+        "hasImg": 5,
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-embed",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [
+        {
+          "class": "optanon-category-C0004",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-experiencefragment",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": "cmp-experiencefragment--footer-xf",
+      "modifiers": [
+        {
+          "class": "cmp-experiencefragment--footer-xf",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-experiencefragment--header-xf",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "descendants": [
+        {
+          "class": "aem-Grid",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-Grid--default--12",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-container",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "xf-content-height",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "li:icon": 5,
+        "hasImg": 5,
+        "headings": 0,
+        "ctas": 2,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-image",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": true,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [
+        {
+          "class": "cmp-image__image",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-image__link",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "hasImg": 5,
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-image__image",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-image__link",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [
+        {
+          "class": "cmp-image__image",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "hasImg": 5,
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-separator",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [
+        {
+          "class": "cmp-separator__horizontal-rule",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-separator__horizontal-rule",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-text",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": "cmp-text--colored",
+      "modifiers": [
+        {
+          "class": "cmp-text--colored",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "phe--display-none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "descendants": [
+        {
+          "class": "cmp-text__icon",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-text__icon",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": null,
+      "modifiers": [],
+      "descendants": [],
+      "facts": {
+        "headings": 0,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    },
+    {
+      "class": "cmp-text--alignment-center",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ],
+      "referenced": false,
+      "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)",
+      "majority": "aem-GridColumn",
+      "modifiers": [
+        {
+          "class": "aem-GridColumn",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--11",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--default--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--9",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--mobile--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--default--0",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--default--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--mobile--0",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--offset--tablet--0",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--1",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--3",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--5",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "aem-GridColumn--tablet--none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": true,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "descendants": [
+        {
+          "class": "cmp-text",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-text__icon",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "cmp-text--colored",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "phe--display-none",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "phe-block",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        },
+        {
+          "class": "phe-block--s",
+          "pages": 5,
+          "examples": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html"
+          ],
+          "referenced": false,
+          "allowed": "AEM/USTA framework or utility class on the source — the replica re-authors with lifted values (clean block classes); not a source design variant (source unstyled or layout-plumbing)"
+        }
+      ],
+      "facts": {
+        "headings": 1,
+        "ctas": 0,
+        "columns": 1
+      },
+      "themes": null
+    }
+  ],
+  "unreferenced": [
+    {
+      "class": "align-items-center",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "container--no-side-margins",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "image--align--center",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "inner_full-height",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "simple-container--display-flex-wrap",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    }
+  ],
+  "budget": [
+    {
+      "class": "align-items-center",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "container--no-side-margins",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "image--align--center",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "inner_full-height",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    },
+    {
+      "class": "simple-container--display-flex-wrap",
+      "kind": "descendant",
+      "component": "cmp-container",
+      "pages": 5,
+      "examples": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html"
+      ]
+    }
+  ],
+  "exitCode": 2
+}

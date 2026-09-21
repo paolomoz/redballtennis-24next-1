@@ -30,3 +30,4 @@
 | index-registration | query index | before first index-backed row | D13 | default-applied | default | — |
 | fonts-public | may Graphik (Commercial Type, licence `verify`) be published to a public origin | — | licence obligation; self-hosted on preview with the licensing alert; live publish waits | owner-only-pending | — | `stardust/current/assets/_fonts-manifest.json` |
 | chrome-variant | variant-5e2e (en-home-confirmation-html) | decided-out — the page is an off-site login redirect; not a chrome of this site | chrome-variants.mjs bucketed account.usta.com's chrome | default-applied | replica | `stardust/dynamic-features.md` #28 |
+| locale | language layout (revised) | root serves home directly; `/en/home/*` for subpages; `/en/home` → `/` redirect | source parity: single locale, canonical root `/` is a 200 on the source | default-applied (revised) | replica | `stardust/eds-conversion-log.md` § Paths |

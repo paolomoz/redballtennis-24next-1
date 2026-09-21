@@ -1,0 +1,27 @@
+{
+  "autoBlocks": [
+    {
+      "fn": "buildWidgetAutoBlocks",
+      "trigger": "a[href*=\"/widgets/\"], a"
+    }
+  ],
+  "pipeline": {
+    "sectionMeta": "match",
+    "meta": "match",
+    "strip": "match",
+    "hoist": "match",
+    "picture": "match",
+    "emphPicture": "match",
+    "headingBr": "match",
+    "icon": "match",
+    "table": "match",
+    "whitespace": "match",
+    "multiValueStyle": "comma",
+    "spaceStyle": "hyphen-joined",
+    "zwspSurvives": true,
+    "residual": 38,
+    "probedAt": "2026-09-21T07:59:45.656Z",
+    "ref": "main",
+    "origin": "https://main--redballtennis-24next-1--paolomoz.aem.page"
+  }
+}

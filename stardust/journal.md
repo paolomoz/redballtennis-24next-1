@@ -41,3 +41,68 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** $stardust replica — Phase 3 RECREATE index (lift 1440/360/1920 → stardust/prototypes/index-proposed.html)
 
 ---
+
+## 2026-09-21T07:46:34Z — Phase 3–4: home archetype (index) recreated and gated at 1440 + 360
+
+**Prompt:** (same run) replica Phase 3 RECREATE + Phase 4 SOURCE-FIDELITY GATE for the landing archetype.
+
+**Decisions:**
+- Lift roots: the source has no `header`/`main`/`footer` elements — lifted with `--roots "[role=banner],#mainContent,.cmp-experiencefragment--footer-xf" --main "#mainContent"` at 1440, 360 and 1920 (fluid check); prototypes adopt `#mainContent` as content root and role-based `div`s for chrome so every instrument scopes both sides symmetrically.
+- Header breakpoint is 1369px (hamburger + mobile logo ≤1369; desktop nav ≥1370); content bands restack at ≤767px; the AEM grid's hidden variants (mobile eyebrow, hand-with-ball image, red separator band, footer hashtag + separators) are mirrored as hidden DOM.
+- Fonts: Graphik XXCondensed Bold / Semibold / Regular + USTA Sans self-hosted from the harvested woff2/otf for the prototype gate (licensing alert carried to deploy).
+- Chrome state machines mirrored from motion-observe evidence: USTA SITES dropdown (aria-expanded → sibling panel) and the ≤1369 drawer (hamburger aria-expanded → `#top-navigation-bar` gains `--opened top-to-bottom`, lives inside `.logo`, holds the re-parented nav, inline display toggles on nav + hamburger images). No entrance animations or scroll morph on live — none implemented. Hovers implemented only where they fired: buttons opacity .7, nav links #cfff05 + color .3s, footer links #cfff05.
+- Iteration record: 1440 iter1 PASS 0.28 % Δh −16 (footer separator padding) → iter2 PASS 0.12 % Δh 0; 360 iter1 FAIL 37.66 % Δh −127 (hero title/hand image stacked instead of flex row) → iter2 PASS 0.32 % Δh −16 (footer hashtag padding) → iter3 PASS 0.22 % Δh 0; canon-followup round 4 at both widths after the chrome fixes: 1440 0.13 %, 360 0.22 %, Δh 0.
+- Chrome: chrome-parity 0 deltas at both widths (with the real chrome roots); chrome-states replay: `menu:USTA SITES` and `drawer` cells within the 2 % bar (first replay: dropdown 7.9 % from a missing whitespace text node between bullet and link; drawer 206 vs 257 px from a wrong aria-controls + ul margin-bottom 10 px). Variant `variant-5e2e` = account.usta.com login chrome → decided-out.
+- Motion assert: 1440 pass; 360 advisory fail on the entrances heuristic (the live drawer's 3 inline display mutations are counted as entrances; the prototype mirrors them; no opacity/transform animation exists) — record present, justified in progress.json.
+- Approved `index` hands-off (`approvedBy: hands-off`) after every gate passed.
+
+**Artifacts touched:**
+- stardust/prototypes/index-proposed.html, css/canon.css, css/index.css, js/chrome.js, assets/** — created
+- stardust/replica/capture/lift/index-{1440,360,1920}.json, capture/css/* — created
+- stardust/replica/gates/index-{1440,360}/** — gate rounds, live/build captures, chrome-states, parity
+- stardust/replica/motion/index.json, index-360.json — created
+- stardust/replica/progress.json — landing breakpoints + chrome + modules + motion + approval
+- stardust/replica/variant-census-{program,landing}.json + allow list — created
+- stardust/state.json — index approved; other pages directed
+
+**Findings worth flagging:**
+- `lift.mjs` default roots (header/main/footer) lifted 0 elements on this AEM site — the roots must be passed explicitly.
+- `layout-cluster.mjs` and `variant-census.mjs` need `deploy/scripts/schema-checks.mjs` beside them: the project copy fails, the plugin-tree copy works (copy-set gap).
+- `motion-assert` counts inline `display` mutations as "entrances" (from/to opacity+transform null) — a false-fail class on drawer toggles.
+- `lift.mjs`/`stitch-shot.mjs` refuse the 404 page (133 chars < 400-char near-empty floor) — the unique type cannot be pixel-gated by the shipped instruments.
+
+**Open questions:** none blocking.
+
+**Next:** $stardust replica en-home-play-html (program archetype gate), then en-home-404-html
+
+---
+
+## 2026-09-21T08:05:00Z — Phase 3–4 complete: play (program), host (sibling), 404 (unique) gated; all four pages approved hands-off
+
+**Prompt:** (same run) continue replica Phases 3–4 for the remaining archetypes.
+
+**Decisions:**
+- Play lifted at 1440/360/1920 with the site roots; authored as the program archetype (video-embed band, HOW TO PLAY / HOW TO SCORE columns, kit band). Round 1: 1440 +76 px (iframe wrapper margin, one extra empty paragraph per rules column, doubled sign-up padding), 360 −75 px (title empty paragraphs collapsing, mobile p 16px rule); round 2 PASS 0.09 % / 0.6 %, Δh 0.
+- Host authored as the program sibling with its own hero and tile-band variants (own gate evidence): 1440 PASS 0.81 % iter 1; 360 iter 1 hit ERR_NETWORK_CHANGED (no verdict, not counted) → re-run PASS 3.37 %, Δh 0.
+- 404: lift.mjs and stitch-shot refuse the page (near-empty floor) — geometry from a diagnosis rect probe (named deviation in direction.md); pixel gate run with the shipped `--live-from-capture` escape against the extract captures: PASS 0.11 % / 0.28 %, Δh 0; content-diff 0 🔴, visual-diff clean, main height identical to the live probe at both widths.
+- Motion asserts: play pass, host pass (not ledger-recorded — sibling), 404 pass. Chrome identical on every page (variant `default`).
+- Global `p{font-size:18px}` / `≤767: 16px` lifted into canon.css (source rule).
+- Variant census (offline) run for landing and program with a framework-class allow list.
+- Locale decision revised for source parity: root serves home; `/en/home` and the AEM content path redirect to `/`.
+- EDS conversion model locked in `stardust/eds-conversion-log.md` (blocks: hero, cards, columns, signup, embed auto-block; section styles cta-band, kit-band, not-found; hidden-on-live bands dropped).
+
+**Artifacts touched:**
+- stardust/prototypes/{en-home-play-html,en-home-host-html,en-home-404-html}-proposed.html, css/{play,host,notfound}.css — created
+- stardust/replica/capture/lift/{en-home-play-html-*,en-home-host-html-*,en-home-404-html-*.probe}.json — created
+- stardust/replica/gates/{en-home-play-html,en-home-host-html,en-home-404-html}-{1440,360}/** — created
+- stardust/replica/motion/{en-home-play-html,en-home-host-html,en-home-404-html}.json — created
+- stardust/replica/progress.json, stardust/state.json — program/unique gates, approvals
+- stardust/eds-schema/*.json, stardust/runtime-contract.json, stardust/eds-conversion-log.md — created
+- stardust/learnings.md — created; stardust/direction.md — named deviation appended; stardust/decisions.md — locale row revised
+- fonts/*.woff2 (Graphik ×3 + USTA Sans converted from OTF), favicon.ico — replaced boilerplate
+
+**Open questions:** none blocking; owner rows unchanged (fonts-public, tags, sign-up endpoint).
+
+**Next:** $stardust deploy index (Phase 5 — foundation, chrome, blocks, content, preview on main)
+
+---

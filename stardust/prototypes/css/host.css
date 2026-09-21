@@ -1,0 +1,55 @@
+/* stardust:replica — en-home-host-html (program sibling of play; hero + tile-band variants). Lifted from en-home-host-html-{1440,360}.json */
+.band--hero-host{padding-bottom:8px}
+.hero-host{display:flex;flex-wrap:wrap;align-items:center}
+.hero-host__text-col{width:840px;max-width:100%}
+.hero-host__text-inner{padding:64px 30px 32px}
+.hero-host__grid{display:flex;flex-wrap:wrap;align-items:center}
+.hero-host__title{width:480px;margin:0 20px;padding:8px 0}
+.hero-host__title h1{font-size:100px;line-height:110px;color:var(--rbt-blue)}
+.hero-host__photo-mobile{display:none}
+.hero-host__hidden-pair{display:none}
+.hero-host__sep{width:100%;padding:4px 0}
+.hero-host__sep hr{margin:7px 0}
+.hero-host__lede{width:740px;margin:0 20px;padding:8px 0}
+.hero-host__lede p{font-size:32px;line-height:34px;color:#000}
+.hero-host__lede p.gap{font-size:18px;line-height:24px;min-height:24px}
+.hero-host__lede p.gap::before{content:"\00a0"}
+.hero-host__photo-col{width:600px;max-width:100%}
+.hero-host__photo{padding:224px 0;background-image:url("../assets/media/host-red-ball-1c13f503.jpg");background-size:cover;background-repeat:no-repeat;background-position:50%}
+.hero-host__photo .separator{margin:0 15px;padding:8px 0}
+.hero-host__photo hr{margin:20px 0;border-color:transparent}
+/* tile band variant: 2 tiles + note + large button */
+.band--tiles-host .tiles{align-items:center}
+.band--tiles-host .tile{width:480px;margin:0 30px}
+.band--tiles-host .tile__image{margin:0 75px;width:330px}
+.band--tiles-host .tile--wild .tile__image{margin:0 15px;width:450px}
+.band--tiles-host .tile--wild .tile__image .cmp-image{width:340px;margin:0 auto}
+.band--tiles-host .tile .text{width:450px;margin:0 15px}
+.band--tiles-host .tiles__sep{width:1050px;margin:0 15px;padding:8px 0}
+.band--tiles-host .tiles__sep hr{margin:20px 0;border-color:transparent}
+.band--tiles-host .tiles__note{width:1050px;margin:0 15px;padding:8px 0;text-align:center;color:#fff}
+.band--tiles-host .tiles__note p{font-size:18px;line-height:24px;color:#fff}
+.band--tiles-host .tiles__button{width:1050px;margin:0 15px;padding:8px 0}
+.band--tiles-host .tiles__button .btn{margin:0 auto;min-width:280px}
+.band--tiles-host .tiles__button--hidden{display:none}
+.band--links{display:none}
+.band--links .text{color:#000}
+.band--links h3{color:#000}
+.band--signup-host .band__pad{padding:0}
+.band--signup-host .band__inner{padding-bottom:0}
+@media (max-width:767px){
+  .hero-host__text-col{width:100%}
+  .hero-host__text-inner{padding:32px 8px 16px}
+  .hero-host__title{width:100%;margin:0 20px}
+  .hero-host__title h1{font-size:54px;line-height:59.4px}
+  .hero-host__photo-mobile{display:block;width:100%;margin:0 20px 20px;padding:8px 0;overflow:hidden}
+  .hero-host__photo-mobile img{display:block;width:100%;height:auto}
+  .hero-host__lede{width:100%;margin:0 20px}
+  .hero-host__photo-col{display:none}
+  .band--tiles-host .tile{width:300px;margin:0}
+  .band--tiles-host .tile__image,.band--tiles-host .tile--wild .tile__image{width:292px;margin:0 4px}
+  .band--tiles-host .tile--wild .tile__image .cmp-image{width:340px;margin:0 -48px 0 0}
+  .band--tiles-host .tile .text{width:292px;margin:0 4px}
+  .band--tiles-host .tiles__sep,.band--tiles-host .tiles__note,.band--tiles-host .tiles__button{width:292px;margin:0 4px}
+  .band--tiles-host .tiles__button .btn{width:100% !important;max-width:280px;min-width:0;margin:0 6px}
+}

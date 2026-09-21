@@ -1,0 +1,108 @@
+/* stardust:replica — en-home-play-html (program archetype). Lifted from en-home-play-html-{1440,360}.json */
+/* hero */
+.band--hero-play{padding-bottom:8px}
+.hero-play{display:flex;flex-wrap:wrap;align-items:center}
+.hero-play__text-col{width:960px;max-width:100%}
+.hero-play__text-inner{padding:64px 30px}
+.hero-play__grid{display:flex;flex-wrap:wrap;align-items:center}
+.hero-play__title-block{width:787.5px;max-width:100%}
+.hero-play__title{margin:0 20px;padding:0}
+.hero-play__title p{font-size:18px;line-height:24px;color:var(--rbt-blue);min-height:24px}
+.hero-play__title p:empty::before{content:"\00a0"}
+.hero-play__title h1{font-size:100px;line-height:110px;color:var(--rbt-blue)}
+.hero-play__title h1 .red{font-family:var(--font-display);color:rgb(200,15,46)}
+.hero-play__eyebrow{display:none}
+.hero-play__photo-mobile{display:none}
+.hero-play__lede{width:100%;margin:0 20px;padding:8px 0}
+.hero-play__lede p{font-size:32px;line-height:34px;color:#000}
+.hero-play__photo-col{width:480px;max-width:100%}
+.hero-play__photo{padding:224px 0;background-image:url("../assets/media/rbt-play-v1-50b374f3.jpg");background-size:cover;background-repeat:no-repeat;background-position:50%}
+.hero-play__photo-inner{margin:32px 0;padding:8px 0;height:16px}
+/* empty spacer container + youtube iframe embed (iframetext) */
+.band--spacer{padding:8px 0}
+.iframetext{padding:8px 0}
+.iframealignment{clear:both;padding:20px 0}
+.iframealignment .iframeEmbedded{margin-top:20px;text-align:center;font-size:16px;line-height:22.8571px}
+.iframealignment .iframe-center{text-align:center;margin:auto}
+.iframealignment .iframeEmbedded iframe{display:inline;width:1500px;height:900px;border:0;vertical-align:baseline}
+.iframealignment .iframe-bottom-spacer{height:30px}
+/* HOW TO PLAY / HOW TO SCORE band */
+.band--rules{padding-bottom:8px}
+.band--rules .band__inner{background-color:var(--rbt-blue);background-image:url("../assets/media/host-play-bg-004894bc.jpg");background-size:cover;background-repeat:no-repeat;background-position:50%}
+.band--rules .band__container{position:relative;max-width:1200px;margin:0 auto;padding-bottom:8px}
+.band--rules .band__container-inner{padding:64px 0}
+.rules{display:flex;flex-wrap:wrap}
+.rule-col{width:600px;max-width:100%;padding-bottom:8px}
+.rule-col__inner{padding:32px 0}
+.rule-col__grid{display:flex;flex-wrap:wrap;justify-content:space-around}
+.rule-col__icon-wrap{width:100%;padding:8px 0}
+.rule-col__icon{display:flex;justify-content:space-around}
+.rule-col__icon .image{width:120px;margin:0 240px;padding:8px 0;overflow:hidden}
+.rule-col__icon img{display:block;width:120px;height:120px}
+.rule-col .text{width:370px;margin:0 115px;padding:8px 0;color:#fff}
+.rule-col .text h2{font-size:76px;line-height:83.6px;text-align:center;color:#fff}
+.rule-col .text p{font-size:18px;line-height:24px;color:#fff;text-align:center;min-height:24px}
+.rule-col .text p:empty::before{content:"\00a0"}
+.rule-col .text b{font-weight:700}
+/* WHAT YOU NEED / WHERE TO PLAY band */
+.band--kit{padding-top:8px}
+.band--kit .band__inner{padding-bottom:32px}
+.band--kit .band__stripe{position:relative;padding:8px 0}
+.band--kit .band__container{position:relative;max-width:1200px;margin:0 auto;padding:8px 0}
+.band--kit .band__container-inner{padding:32px 0 64px}
+.kit{display:flex;flex-wrap:wrap;justify-content:space-around}
+.kit__heading{width:970px;margin:0 115px;padding:8px 0}
+.kit__heading h2{font-size:76px;line-height:83.6px;text-align:center;color:var(--rbt-red)}
+.kit__heading p{font-size:18px;line-height:24px;text-align:center;color:#000;min-height:24px}
+.kit__heading p:empty::before{content:"\00a0"}
+.kit__heading b{font-weight:700}
+.kit__item{width:500px;margin:0 50px}
+.kit__item-inner{padding:32px 0}
+.kit__item-grid{display:flex;flex-wrap:wrap;justify-content:space-around}
+.kit__icon{width:370px;margin:0 65px;padding:8px 0;overflow:hidden}
+.kit__icon .cmp-image{width:40%;margin:0 auto}
+.kit__icon img{display:block;width:100%;height:auto}
+.kit__text{width:470px;margin:0 15px;padding:8px 0;text-align:center;color:#000}
+.kit__text h3{font-size:56px;line-height:61.6px;text-align:center}
+.kit__text p{font-size:18px;line-height:24px}
+.kit__sep{width:1170px;margin:0 15px;padding:8px 0}
+.kit__sep hr{margin:0}
+.kit__button{width:1170px;margin:0 15px;padding:8px 0}
+.kit__button .btn{margin:0 auto;min-width:280px}
+.btn--red{background-color:rgb(200,15,46);color:#fff}
+.band--kit .leadgeneration{margin:0;padding:8px 0}
+.band--kit .signup-embed .band__inner{padding:0}
+
+@media (max-width:767px){
+  .hero-play__text-col{width:100%}
+  .hero-play__text-inner{padding:32px 8px}
+  .hero-play__title-block{width:100%}
+  .hero-play__title h1{font-size:54px;line-height:59.4px}
+  .hero-play__photo-mobile{display:block;width:100%;padding-top:112px;background-image:url("../assets/media/rbt-play-v1-50b374f3.jpg");background-size:cover;background-repeat:no-repeat;background-position:50%}
+  .hero-play__photo-mobile .separator{margin:0 20px;padding:8px 0}
+  .hero-play__photo-mobile hr{margin:20px 0;border-color:transparent}
+  .hero-play__photo-col{display:none}
+  .iframealignment .iframeEmbedded iframe{width:100%}
+  .band--rules .band__container{max-width:336px;margin:0 12px}
+  .band--rules .band__container-inner{padding:32px 0}
+  .rule-col{width:336px}
+  .rule-col__inner{padding:16px 0}
+  .rule-col__icon .image{width:104px;margin:0 116px}
+  .rule-col__icon img{width:104px;height:104px}
+  .rule-col .text{width:328px;margin:0 4px}
+  .rule-col .text h2{font-size:44px;line-height:48.4px}
+  .band--kit .band__inner{padding-bottom:16px}
+  .band--kit .band__container{max-width:336px;margin:0 12px}
+  .band--kit .band__container-inner{padding:16px 0 32px}
+  .kit__heading{width:328px;margin:0 4px}
+  .kit__heading h2{font-size:44px;line-height:48.4px}
+  .kit__item{width:168px;margin:0}
+  .kit__item-inner{padding:16px 0}
+  .kit__icon{width:104px;margin:0 32px}
+  .kit__text{width:160px;margin:0 4px}
+  .kit__text h3{font-size:36px;line-height:39.6px}
+  .kit__sep,.kit__button{width:328px;margin:0 4px}
+  .kit__button .btn{width:100% !important;max-width:280px;min-width:0}
+  .rule-col .text p,.kit__heading p,.kit__text p{font-size:16px}
+  .band--kit .leadgeneration{margin:0}
+}

@@ -66,11 +66,16 @@
       "url": "https://www.redballtennis.com/content/redballtennis/en/home.html",
       "title": "Home",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
         }
       ],
       "stale": false,
@@ -90,31 +95,55 @@
       "url": "https://www.redballtennis.com/en/home/404.html",
       "title": "404",
       "type": "unique",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-21T08:05:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-21T08:05:00Z",
+          "approvedBy": "hands-off",
+          "gates": {
+            "1440": "PASS 0.11 % \u0394h 0 (ref: extract capture)",
+            "360": "PASS 0.28 % \u0394h 0 (ref: extract capture)"
+          }
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-404-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/en-home-404-html-proposed.html",
       "migratedPath": null,
       "chromeVariant": "default",
-      "layoutCluster": "tail"
+      "layoutCluster": "tail",
+      "tier": "archetype"
     },
     {
       "slug": "en-home-confirmation-html",
       "url": "https://www.redballtennis.com/en/home/confirmation.html",
       "title": "Sign In",
       "type": "unique",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
         }
       ],
       "stale": false,
@@ -134,11 +163,16 @@
       "url": "https://www.redballtennis.com/en/home/free-racquet-pack.html",
       "title": "Home",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
         }
       ],
       "stale": false,
@@ -158,31 +192,60 @@
       "url": "https://www.redballtennis.com/en/home/host.html",
       "title": "Host",
       "type": "program",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-21T08:05:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-21T08:05:00Z",
+          "approvedBy": "hands-off",
+          "gates": {
+            "1440": "PASS 0.81 % \u0394h 0",
+            "360": "PASS 3.37 % \u0394h 0"
+          }
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-host-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/en-home-host-html-proposed.html",
       "migratedPath": null,
       "chromeVariant": "default",
-      "layoutCluster": "tail"
+      "layoutCluster": "tail",
+      "tier": "sibling",
+      "archetypeSource": "en-home-play-html",
+      "variants": [
+        "hero photo",
+        "cards tiles host"
+      ]
     },
     {
       "slug": "en-home-html",
       "url": "https://www.redballtennis.com/en/home.html",
       "title": "Home",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
         }
       ],
       "stale": false,
@@ -202,31 +265,55 @@
       "url": "https://www.redballtennis.com/en/home/play.html",
       "title": "Play",
       "type": "program",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-21T08:05:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-21T08:05:00Z",
+          "approvedBy": "hands-off",
+          "gates": {
+            "1440": "PASS 0.09 % \u0394h 0",
+            "360": "PASS 0.6 % \u0394h 0"
+          }
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/en-home-play-html-proposed.html",
       "migratedPath": null,
       "chromeVariant": "default",
-      "layoutCluster": "tail"
+      "layoutCluster": "tail",
+      "tier": "archetype"
     },
     {
       "slug": "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
       "url": "https://www.redballtennis.com/en/home/stay-current/national/USTA-awards-wheelchair-tennis-grants.html",
       "title": "Home",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
         }
       ],
       "stale": false,
@@ -246,20 +333,41 @@
       "url": "https://www.redballtennis.com/",
       "title": "Home",
       "type": "landing",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-09-21T06:58:52.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-21T07:39:48Z",
+          "by": "stardust:replica (preserve mode)"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-21T07:39:48Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-21T07:39:48Z",
+          "approvedBy": "hands-off",
+          "gates": {
+            "1440": "PASS 0.13 % \u0394h 0 (gates/index-1440/gate-iter4.json)",
+            "360": "PASS 0.22 % \u0394h 0 (gates/index-360/gate-iter4.json)",
+            "chrome": "menu:USTA SITES + drawer cells within bar (chrome-states-iter2.json)",
+            "motion": "1440 pass \u00b7 360 advisory fail (entrances heuristic)"
+          }
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/index-proposed.html",
       "migratedPath": null,
       "chromeVariant": "default",
-      "layoutCluster": "c1"
+      "layoutCluster": "c1",
+      "tier": "archetype"
     }
   ]
 }

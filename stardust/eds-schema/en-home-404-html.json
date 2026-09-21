@@ -1,0 +1,36 @@
+{
+ "source": "http://127.0.0.1:8877/en-home-404-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "not-found",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Sorry, we couldn't find that page"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "TAKE ME BACK TO THE HOMEPAGE",
+     "href": "/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "TAKE ME BACK TO THE HOMEPAGE",
+     "href": "/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [],
+   "structure": {
+    "interactive": [],
+    "columns": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+/* stardust:replica — en-home-404-html (unique). Geometry from the diagnosis rect probe
+   replica/capture/lift/en-home-404-html-{1440,360}.probe.json (lift.mjs refuses the page: 133 chars < 400-char near-empty floor). */
+.main-404{padding-top:64px}
+.nf{max-width:100%;width:960px;margin-left:240px}
+.nf__grid{display:flex;flex-wrap:wrap;justify-content:space-around;align-items:baseline}
+.nf__sep{width:100%;margin:0 15px;padding:4px 0}
+.nf__sep hr{margin:0;border-top:2px solid #fff}
+.nf__sep--7 hr{margin:7px 0}
+.nf__sep--20 hr{margin:20px 0}
+.nf__image{width:100%;margin:0 15px;padding:8px 0}
+.nf__image .cmp-image{width:238px;margin:0 auto}
+.nf__image img{display:block;width:238px;height:238px}
+.nf__text{width:100%;margin:0 15px;padding:8px 0;text-align:center;color:#000}
+.nf__text h2{font-size:76px;line-height:83.6px;text-align:center;color:#000}
+.nf__button{width:100%;margin:0 255px;padding:8px 0}
+.nf__button .btn{width:100%;min-width:0}
+.nf__button--small{display:none}
+.nf__tail{width:100%;padding:8px 0}
+.nf__tail-inner{padding:224px 0}
+@media (max-width:767px){
+  .main-404{padding-top:32px}
+  .nf{width:300px;margin-left:30px}
+  .nf__sep,.nf__image,.nf__text{margin:0 4px}
+  .nf__image .cmp-image{margin:0 27px}
+  .nf__text h2{font-size:44px;line-height:48.4px}
+  .nf__button{display:none}
+  .nf__button--small{display:block;width:100%;margin:0 4px;padding:8px 0}
+  .nf__button--small .btn{width:100% !important;max-width:none;min-width:0;font-size:14px}
+  .nf__tail-inner{padding:112px 0}
+}
