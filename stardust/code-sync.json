@@ -2,13 +2,13 @@
   "org": "paolomoz",
   "repo": "redballtennis-24next-1",
   "ref": "main",
-  "headSha": "08dd52d626dc43faa50ad52e79fcfd377113a8eb",
+  "headSha": "78fa6d653b3fca6567ddacfde2b41a166bba782f",
   "status": "pending",
-  "ts": "2026-09-21T08:43:56.369Z",
+  "ts": "2026-09-21T09:14:28.735Z",
   "paths": {
     "blocks/cards/cards.css": {
-      "sha": "939ba96e837d3fb6f3050cddbea16c249e1ae80e8a77bc6b4c42fa3cc63753e7",
-      "served": "939ba96e837d3fb6f3050cddbea16c249e1ae80e8a77bc6b4c42fa3cc63753e7",
+      "sha": "69a24a26c8fb542516c808f2afdc415e5f7c1b6027bf9e8d284689e226cf877a",
+      "served": "69a24a26c8fb542516c808f2afdc415e5f7c1b6027bf9e8d284689e226cf877a",
       "status": "ok"
     },
     "blocks/cards/cards.js": {
@@ -17,18 +17,18 @@
       "status": "ok"
     },
     "blocks/columns/columns.css": {
-      "sha": "5aef88c85a1d213aa30dc6ad251a0b0d69228a2bd7ac6c08f91396927cff0936",
-      "served": "5aef88c85a1d213aa30dc6ad251a0b0d69228a2bd7ac6c08f91396927cff0936",
+      "sha": "f1e1593e0987768e795279376661517de7745e1cbf6a66879dda10ebb7ae8756",
+      "served": "f1e1593e0987768e795279376661517de7745e1cbf6a66879dda10ebb7ae8756",
       "status": "ok"
     },
     "blocks/columns/columns.js": {
-      "sha": "83cfe7aa5e29e2e27c9853e63c28fe842f2d81aa65d9ae26141efcd4e8749c7b",
-      "served": "83cfe7aa5e29e2e27c9853e63c28fe842f2d81aa65d9ae26141efcd4e8749c7b",
+      "sha": "3b8f492ebb5000f950ecaf02b6ad07f4fb4c406d9a9e1f62af8716807d65a0e9",
+      "served": "3b8f492ebb5000f950ecaf02b6ad07f4fb4c406d9a9e1f62af8716807d65a0e9",
       "status": "ok"
     },
     "blocks/embed/embed.css": {
-      "sha": "97e9afccbba2987b8f71efb28c7567942b5181f77762e3595745c590e093db8f",
-      "served": "97e9afccbba2987b8f71efb28c7567942b5181f77762e3595745c590e093db8f",
+      "sha": "dcbdcac0f0385eb3180adc9fbdb1b05305d64abb98ab712b75a4bf5a5dcdac36",
+      "served": "dcbdcac0f0385eb3180adc9fbdb1b05305d64abb98ab712b75a4bf5a5dcdac36",
       "status": "ok"
     },
     "blocks/embed/embed.js": {
@@ -37,8 +37,8 @@
       "status": "ok"
     },
     "blocks/footer/footer.css": {
-      "sha": "4a2bacbbc3962eeff8fe46feb23ef0d17bdf2ba49c9d69ec34388cfa49766fd4",
-      "served": "4a2bacbbc3962eeff8fe46feb23ef0d17bdf2ba49c9d69ec34388cfa49766fd4",
+      "sha": "0469ad976791ad8171a56e633733044f1495fa30fdc975496d507c1a472e37fd",
+      "served": "0469ad976791ad8171a56e633733044f1495fa30fdc975496d507c1a472e37fd",
       "status": "ok"
     },
     "blocks/footer/footer.js": {
@@ -67,8 +67,8 @@
       "status": "ok"
     },
     "blocks/hero/hero.css": {
-      "sha": "ec3d6459c35d20e9d6c8fa7cda1a84c83a952b72bdde9b7fc67825840823bafb",
-      "served": "ec3d6459c35d20e9d6c8fa7cda1a84c83a952b72bdde9b7fc67825840823bafb",
+      "sha": "a2d3d21f64de147842e03449464d77ccf39d7688475ebb1d5c35b1902ff0291d",
+      "served": "a2d3d21f64de147842e03449464d77ccf39d7688475ebb1d5c35b1902ff0291d",
       "status": "ok"
     },
     "blocks/hero/hero.js": {
@@ -77,8 +77,8 @@
       "status": "ok"
     },
     "blocks/signup/signup.css": {
-      "sha": "71cc6ac0f50061768fd1c77d40305e70d601a606eaf7dedbb21b17499343fcb3",
-      "served": "71cc6ac0f50061768fd1c77d40305e70d601a606eaf7dedbb21b17499343fcb3",
+      "sha": "ffb7cbc6bba8de858fc38ab126daa39cae91d70721e7adbc8f5448bcdeb0b9e8",
+      "served": "ffb7cbc6bba8de858fc38ab126daa39cae91d70721e7adbc8f5448bcdeb0b9e8",
       "status": "ok"
     },
     "blocks/signup/signup.js": {
@@ -98,7 +98,7 @@
     },
     "head.html": {
       "sha": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
-      "served": "252318bf744897fc266c5ad18835d72d81d6924489171f32e7ce6826416201bd",
+      "served": "a8173ad491e47efcacb9c4a7641984063d1939c8824d1ad526667d166f7dd6f7",
       "status": "stale"
     },
     "scripts/aem.js": {
@@ -132,8 +132,8 @@
       "status": "ok"
     },
     "styles/styles.css": {
-      "sha": "ac7a26141dbd93637e370f30da6cda4a471700e2a95b3ecc0dff1bf8b953d227",
-      "served": "ac7a26141dbd93637e370f30da6cda4a471700e2a95b3ecc0dff1bf8b953d227",
+      "sha": "574f5d042406803c157e582dda00655b7df521a7f062d8c64c52b475f357c3e5",
+      "served": "574f5d042406803c157e582dda00655b7df521a7f062d8c64c52b475f357c3e5",
       "status": "ok"
     }
   }

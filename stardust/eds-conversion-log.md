@@ -15,7 +15,7 @@ Vanilla aem-boilerplate 1.3.0: `a.button` (+ `.primary/.secondary/.accent`) insi
 | `/` (= `/en/home.html`, `/content/redballtennis/en/home.html`) | `/index` (served `/`) | the source serves home at the root with a 200; `/en/home` and the AEM content path redirect to `/` (redirects sheet) |
 | `/en/home/play.html` | `/en/home/play` | |
 | `/en/home/host.html` | `/en/home/host` | |
-| `/en/home/404.html` | `/en/home/404` | content page (the source serves it 200); wiring the repo's `404.html` to it is an owner follow-up |
+| `/en/home/404.html` | `/en/home/404` | content page (the source serves it 200); the repo's `404.html` (the platform's not-found response) carries the same authored shape inline, so a missing path renders the replica 404 |
 | `/en/home/free-racquet-pack.html`, `/en/home/stay-current/national/USTA-awards-wheelchair-tennis-grants.html` | → `/` | redirects (source redirects) |
 | `/en/home/confirmation.html` | → `https://account.usta.com/u/login` | decided-out (dynamics #28), redirect |
 
@@ -51,3 +51,24 @@ Editorial images (logos, tile PNGs, hero photos, icons, badge, hand-with-ball, h
 - host: GET EQUIPPED button; Helpful Links band (Resource Library / Program Implementation / Marketing Materials + GO buttons); two hidden `man.png` images
 - 404: the mobile-only duplicate button (authored once; CSS variant)
 - header: `searchAndLocationPanelSwitch` (display:none inline), `user-section` (empty), bidtellect pixel (tags — dynamics #1)
+
+## Generator emitters (Step 9 — `prototype-to-content.mjs`, ledger `stardust/.work/deploy/transcribe.json`)
+| page | emitters (`--map`) | drops (hidden on live at every width, or prototype-only scaffolding) | patch (`stardust/patches/<slug>.json`) |
+|---|---|---|---|
+| index | hero=block:hero · racquet-cta-band=default · play-host-tiles=block:cards · signup-band=block:signup | `.hero__eyebrow--mobile` (duplicate of the desktop eyebrow) · `.band--events` · `.hero__red-band` / `.hero__separator` (CSS rhythm) · `.text-input` / `.v-lead-generation-form__buttons` / `.signup-notice` (form UI the block renders) | metadata rows (Title/Description/template=home); `assets/media/*` → source URLs; `.cards` → `cards tiles`; `.signup` → `signup` |
+| play | hero=block:hero · racquet-cta-band=default · spacer=drop · video-embed=default (auto-blocked `embed`) · rules-band=block:columns · kit-band=block:cards · signup-band=block:signup | `.hero-play__eyebrow` (empty rhythm paragraphs → CSS) · `.hero-play__photo-mobile` (CSS background → the hero's desktop panel `<img>` serves both widths) · `.kit__sep` · form UI | metadata (template=play); hero desktop panel `<img>` (rbt-play-v1.jpg) added to the hero row; `.cards` → `cards kit`; `.signup` → `signup play` |
+| host | hero=block:hero · racquet-cta-band=default · play-host-tiles=block:cards · helpful-links=drop · signup-band=block:signup | `.hero-host__hidden-pair` · `.hero-host__sep` (CSS) · `.band--events` · `.tiles__button--hidden` · `.tiles__sep` · `.hero-host__photo` (CSS background → authored `<img>`) · form UI | metadata (template=host); hero panel `<img>` (host-red-ball.jpg, rehosted); `.cards` → `cards tiles host`; `.signup` → `signup host` |
+| 404 | hand-authored (`stardust/.work/deploy/write-404.mjs`): badge `<img>`, `<h1>`, `<p><em><a>` CTA | mobile duplicate button | — |
+
+`davids-model-lint` PASS (0 🔴). Its 🟡 rows, justified: `hero` / `signup` / `cards` / `columns` are single-column blocks holding prose on purpose — each is a fixed bespoke composition (video/photo hero grid, JS-rendered form, icon+text tiles/kit units, two-column icon rules) whose layout cannot be a section style (D1 § bespoke widget); the SVG media references are pure-vector icons (verified: no raster data URIs; the 404 badge, which embeds raster, was rasterised to PNG on DA media); empty `alt` mirrors the source (decorative tiles) and is an owner content follow-up (D13).
+
+**Authoring shapes accepted by the decoders.** `hero`: one row, one cell (mobile picture, eyebrow, h1, lede, media link/picture) — `hero.js` slots by role. `cards kit`: one row per item, ONE cell (icon picture + h3 + p) — `cards.js` moves the first picture out of the cell. `columns`: one row × N cells, or N single-cell rows (the generator emits one row per repeat unit) — `columns.js` accepts both.
+
+**404 heading.** The live 404 titles the page with an `<h2>` and has no `<h1>`; the EDS page authors that title as the page's only `<h1>` at the h2 ramp (`body.not-found main .section h1`) — zero visual delta, one h1 per page (qa-gate contract, SEO). Recorded in `stardust/decisions.md`.
+
+**Round-trip mapping.** `block-roundtrip.mjs` counts live-hidden prototype nodes (`.band--events`, `.tiles__button--hidden`) as prototype text; the gate is run with `--map cards=<visible repeat wrapper>` (`.tiles` / `.tiles__cards` / `.kit__items`) — learnings L9.
+
+## Published-origin fidelity (Step 10)
+The harness/preview render matched the DA transform 1:1 (no pipeline reshape on this site), but the first published-origin round measured the EDS build against the gated prototypes for the first time: 203 px of section-height drift on home at 1440 (footer wrapper reset zeroing the lifted 32/64 padding, dropped hero separator rhythm, missing band-container 8 px paddings on tiles/rules/kit, the sign-up in-page-view 30 px, the kit icon at 100 % instead of 40 % of its column, the host title column 440 vs 480, the columns decoder rendering the second single-cell row raw, the play mobile cover photo). Every fix is a lifted value from the prototype CSS (`stardust/prototypes/css/*.css`), verified by box probes (`stardust/.work/deploy/{box,outline,style}-probe.mjs`) until every section height equalled the prototype at 1440 and 360 on all four pages; the published-origin gate rounds are recorded in `stardust/replica/progress.json` (`published.<bp>`) and listed in the hand-off gate table.
+
+CLS (deployed, woff2 + chrome fetches delayed 1.5 s): home 0.013 / 0.003 · play 0.003 / 0.001 · host 0.012 / 0.006 · 404 0.000 / 0.002 (1440 / 360) — all < 0.1.

@@ -49,8 +49,8 @@ footer .footer-sep-bottom hr {
 }
 
 footer .footer-logo {
-  width: 1200px;
-  margin: 0 0 20px 120px;
+  width: 83.3333%; /* 10/12 col, offset 1 */
+  margin: 0 auto 20px;
   overflow: hidden;
   line-height: 0;
 }
@@ -72,8 +72,8 @@ footer .footer-logo img {
 }
 
 footer .footer-links-col {
-  width: 1080px;
-  margin-left: 120px;
+  width: 75%; /* 9/12 col, offset 1 */
+  margin-left: 8.3333%;
 }
 
 footer .footer-links {

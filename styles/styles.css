@@ -416,13 +416,15 @@ main > .hero-container + .section .default-content-wrapper {
 }
 
 main > .hero-container + .section h2 {
-  margin: 0 75px;
+  width: calc(91.6667% - 30px); /* 11/12 col, 15px insets */
+  margin: 0 auto;
   text-align: center;
   color: var(--rbt-blue);
 }
 
 main > .hero-container + .section p {
-  margin: 0 75px;
+  width: calc(91.6667% - 30px);
+  margin: 0 auto;
   text-align: center;
   color: var(--rbt-blue);
 }
@@ -433,12 +435,13 @@ main > .hero-container + .section p strong {
 
 main > .hero-container + .section p.button-wrapper {
   justify-content: center;
+  width: 100%;
   margin: 25px 0 0;
   padding: 8px 0;
 }
 
 main > .hero-container + .section p.button-wrapper a.button {
-  width: 209.984px;
+  width: calc(16.6667% - 30px); /* 2/12 col, 15px insets */
 }
 
 @media (width <= 767px) {
@@ -469,9 +472,9 @@ body.not-found main .section {
 }
 
 body.not-found main .section > div {
-  width: 960px;
+  width: 66.6667%; /* 8/12 col, offset 2 */
   max-width: 100%;
-  margin: 0 0 0 240px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -504,7 +507,8 @@ body.not-found main .section h1 {
 
 body.not-found main .section p.button-wrapper {
   justify-content: center;
-  margin: 0 240px;
+  width: calc(50% - 15px); /* 4/12 of the viewport = half the 8/12 container (15px-inset wrapper) */
+  margin: 0 auto;
   padding: 8px 0 472px;
 }
 

@@ -11,7 +11,7 @@ main .cards-container {
 
 main .cards-container > div {
   max-width: none;
-  margin: 0 180px;
+  margin: 0 12.5%; /* the band container is 9/12 of the viewport */
   padding: 8px 0;
 }
 
@@ -22,15 +22,15 @@ main .cards-container .cards-wrapper {
 .cards .cards-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .cards .card {
-  width: 360px;
-  margin: 0 90px;
+  width: 33.3333%; /* 4 of the container's 12 cols, 1-col gutters */
+  margin: 0 8.3333%;
   padding: 8px 0;
 }
 
@@ -141,15 +141,17 @@ main .cards-container .cards-wrapper {
 }
 
 .cards.host .card {
-  width: 480px;
-  margin: 0 30px;
+  width: 44.4444%;
+  margin: 0 2.7778%;
 }
 
 .cards.host .card-image {
-  margin: 0 75px;
+  width: calc(75% - 30px);
+  margin: 0 auto;
 }
 
 .cards.host .card:nth-child(2) .card-image {
+  width: calc(100% - 30px);
   margin: 0 15px;
 }
 
@@ -177,7 +179,8 @@ body.host main .cards-container .cards-wrapper {
 }
 
 body.host main .cards-container .default-content-wrapper {
-  margin: 0 15px;
+  width: calc(75% - 30px);
+  margin: 0 auto;
   padding: 57px 0 72px;
   text-align: center;
   color: #fff;
@@ -309,6 +312,7 @@ body.play main .cards-container .default-content-wrapper p.button-wrapper a.butt
   .cards.host .card-image,
   .cards.host .card:nth-child(2) .card-image,
   .cards.host .card-text {
+    width: auto;
     margin: 0 4px;
   }
 

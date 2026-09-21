@@ -150,22 +150,50 @@
           "record": "stardust/replica/gates/index-1440/gate-iter6.json",
           "motion": {
             "assert": {
-              "verdict": "pass",
-              "at": "2026-09-21T07:38:07.043Z",
-              "target": "http://127.0.0.1:8877/index-proposed.html",
-              "regime": "prototype",
+              "verdict": "fail",
+              "at": "2026-09-21T09:24:48.510Z",
+              "target": "https://main--redballtennis-24next-1--paolomoz.aem.page/",
+              "regime": "published-origin",
               "observe": "stardust/replica/motion/index.json",
               "schema": 2,
               "width": 1440,
               "checks": {
                 "chrome": {
-                  "status": "n/a",
-                  "detail": "no header on either side",
+                  "status": "fail",
+                  "detail": "header absent live, present on the target",
                   "target": [
-                    null,
-                    null,
-                    null,
-                    null
+                    {
+                      "y": 0,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "down"
+                    },
+                    {
+                      "y": 1610,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "down"
+                    },
+                    {
+                      "y": 800,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "up"
+                    },
+                    {
+                      "y": 0,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "up"
+                    }
                   ]
                 },
                 "entrances": {
@@ -232,13 +260,40 @@
       },
       "prototype": "stardust/prototypes/index-proposed.html",
       "published": {
+        "360": {
+          "result": {
+            "regime": "published-origin",
+            "pixelPct": 1.57,
+            "pixelPctUnmasked": 1.57,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/",
+              "width": 360,
+              "capturedAt": "2026-09-21T07:27:48.106Z",
+              "sidecar": "stardust/replica/gates/index-360/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T09:21:37.121Z"
+          },
+          "url": "https://main--redballtennis-24next-1--paolomoz.aem.page/",
+          "artifacts": [
+            "stardust/replica/gates/index-360/gate-pub1.json"
+          ]
+        },
         "1440": {
           "result": {
             "regime": "published-origin",
-            "pixelPct": 21.68,
-            "pixelPctUnmasked": 21.68,
-            "heightDelta": 203,
-            "pass": false,
+            "pixelPct": 1.33,
+            "pixelPctUnmasked": 1.33,
+            "heightDelta": 0,
+            "pass": true,
             "masks": [],
             "ref": {
               "url": "https://www.redballtennis.com/",
@@ -252,11 +307,11 @@
                 "via": "#onetrust-accept-btn-handler"
               }
             },
-            "at": "2026-09-21T08:55:21.355Z"
+            "at": "2026-09-21T09:21:10.878Z"
           },
           "url": "https://main--redballtennis-24next-1--paolomoz.aem.page/",
           "artifacts": [
-            "stardust/replica/gates/index-1440/gate-pub1.json"
+            "stardust/replica/gates/index-1440/gate-pub2.json"
           ]
         }
       }
@@ -320,22 +375,50 @@
           "record": "stardust/replica/gates/en-home-play-html-1440/gate-iter4.json",
           "motion": {
             "assert": {
-              "verdict": "pass",
-              "at": "2026-09-21T08:01:35.570Z",
-              "target": "http://127.0.0.1:8877/en-home-play-html-proposed.html",
-              "regime": "prototype",
+              "verdict": "fail",
+              "at": "2026-09-21T09:24:52.585Z",
+              "target": "https://main--redballtennis-24next-1--paolomoz.aem.page/en/home/play",
+              "regime": "published-origin",
               "observe": "stardust/replica/motion/en-home-play-html.json",
               "schema": 2,
               "width": 1440,
               "checks": {
                 "chrome": {
-                  "status": "n/a",
-                  "detail": "no header on either side",
+                  "status": "fail",
+                  "detail": "header absent live, present on the target",
                   "target": [
-                    null,
-                    null,
-                    null,
-                    null
+                    {
+                      "y": 0,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "down"
+                    },
+                    {
+                      "y": 3489,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "down"
+                    },
+                    {
+                      "y": 800,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "up"
+                    },
+                    {
+                      "y": 0,
+                      "cls": "header-wrapper",
+                      "position": "static",
+                      "height": "195px",
+                      "transform": "none",
+                      "dir": "up"
+                    }
                   ]
                 },
                 "entrances": {
@@ -425,6 +508,62 @@
           "no entrance animations on play or host",
           "no scroll morph"
         ]
+      },
+      "published": {
+        "360": {
+          "result": {
+            "regime": "published-origin",
+            "pixelPct": 2.32,
+            "pixelPctUnmasked": 2.32,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/en/home/play.html",
+              "width": 360,
+              "capturedAt": "2026-09-21T07:46:29.890Z",
+              "sidecar": "stardust/replica/gates/en-home-play-html-360/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T09:22:31.420Z"
+          },
+          "url": "https://main--redballtennis-24next-1--paolomoz.aem.page/en/home/play",
+          "artifacts": [
+            "stardust/replica/gates/en-home-play-html-360/gate-pub1.json"
+          ]
+        },
+        "1440": {
+          "result": {
+            "regime": "published-origin",
+            "pixelPct": 4.69,
+            "pixelPctUnmasked": 4.69,
+            "heightDelta": 0,
+            "pass": true,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/en/home/play.html",
+              "width": 1440,
+              "capturedAt": "2026-09-21T07:45:07.771Z",
+              "sidecar": "stardust/replica/gates/en-home-play-html-1440/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T09:22:04.474Z"
+          },
+          "url": "https://main--redballtennis-24next-1--paolomoz.aem.page/en/home/play",
+          "artifacts": [
+            "stardust/replica/gates/en-home-play-html-1440/gate-pub1.json"
+          ]
+        }
       }
     },
     "unique": {

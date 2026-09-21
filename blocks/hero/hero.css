@@ -27,9 +27,9 @@ main .hero-container > div {
   align-items: center;
 }
 
-/* text column */
+/* text column — the source is a 12-col percentage grid (aem-GridColumn--default--N): 7/12 text, 5/12 media */
 .hero .hero-text {
-  width: 840px;
+  width: 58.3333%;
   max-width: 100%;
 }
 
@@ -79,7 +79,7 @@ main .hero-container > div {
 }
 
 .hero .hero-lede {
-  width: 100%;
+  width: calc(100% - 30px);
   margin: 0 15px;
   padding: 8px 0;
 }
@@ -101,7 +101,7 @@ main .hero-container > div {
 
 /* media column: video variant (home) */
 .hero .hero-media {
-  width: 600px;
+  width: 41.6667%;
   max-width: 100%;
 }
 
@@ -114,8 +114,9 @@ main .hero-container > div {
 }
 
 .hero .hero-embed {
+  width: calc(80% - 30px); /* the embed is 4/12 of (viewport − 90px), centred in the 5/12 column */
   height: 337.844px;
-  margin: 0 75px;
+  margin: 0 auto;
   padding: 8px 0;
   font-size: 16px;
   line-height: 22.8571px;
@@ -129,9 +130,9 @@ main .hero-container > div {
   border: 0;
 }
 
-/* media column: photo variant (play / host) */
+/* media column: photo variant (play / host) — play: 8/12 text, 4/12 photo */
 .hero.photo .hero-text {
-  width: 960px;
+  width: 66.6667%;
 }
 
 .hero.photo .hero-text-inner {
@@ -139,7 +140,7 @@ main .hero-container > div {
 }
 
 .hero.photo .hero-title-block {
-  width: 787.5px;
+  width: 87.5%; /* 7/12 of (viewport − 90px) = 7/8 of the padded text column */
   padding: 0;
 }
 
@@ -158,11 +159,12 @@ main .hero-container > div {
 }
 
 .hero.photo .hero-lede {
+  width: calc(100% - 40px);
   margin: 0 20px;
 }
 
 .hero.photo .hero-media {
-  width: 480px;
+  width: 33.3333%;
 }
 
 .hero.photo .hero-media-inner {
@@ -186,7 +188,7 @@ main .hero-container > div {
 
 /* host: two-paragraph lede with a separator gap, wider text column (lifted) */
 body.host .hero.photo .hero-text {
-  width: 840px;
+  width: 58.3333%;
 }
 
 body.host .hero.photo .hero-text-inner {
@@ -194,17 +196,17 @@ body.host .hero.photo .hero-text-inner {
 }
 
 body.host .hero.photo .hero-title-block {
-  width: 500px;
+  width: calc(66.6667% - 20px); /* the title is 8/12 of the 20px-inset grid */
 }
 
 body.host .hero.photo .hero-title {
-  width: 480px;
+  width: calc(100% - 20px);
   margin: 0 0 0 20px;
   padding: 8px 0;
 }
 
 body.host .hero.photo .hero-lede {
-  width: 740px;
+  width: calc(100% - 40px);
   padding: 8px 0;
 }
 
@@ -214,7 +216,7 @@ body.host .hero.photo .hero-lede::before {
   display: block;
   height: 1px;
   margin: 11px 0 11px -20px;
-  width: 780px;
+  width: calc(100% + 40px);
   background-color: #fff;
 }
 
@@ -223,7 +225,7 @@ body.host .hero.photo .hero-lede > * + * {
 }
 
 body.host .hero.photo .hero-media {
-  width: 600px;
+  width: 41.6667%;
 }
 
 body.host .hero.photo .hero-media-inner {
