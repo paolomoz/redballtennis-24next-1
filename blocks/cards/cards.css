@@ -16,7 +16,7 @@ main .cards-container > div {
 }
 
 main .cards-container .cards-wrapper {
-  padding: 64px 0;
+  padding: 72px 0;
 }
 
 .cards .cards-list {
@@ -89,16 +89,22 @@ main .cards-container .cards-wrapper {
 .cards.kit .card-image {
   width: 370px;
   margin: 0 65px;
+  overflow: hidden;
 }
 
-.cards.kit .card-image picture,
-.cards.kit .card-image img {
+/* lifted .kit__icon .cmp-image { width: 40%; margin: 0 auto } — the icon box is 40% of the 370 column */
+.cards.kit .card-image p {
+  display: block;
   width: 40%;
   margin: 0 auto;
 }
 
+.cards.kit .card-image picture,
 .cards.kit .card-image img {
+  display: block;
   width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 .cards.kit .card-title,
@@ -166,9 +172,13 @@ body.play main .cards-container .cards-wrapper {
   padding: 0;
 }
 
+body.host main .cards-container .cards-wrapper {
+  padding: 72px 0 0;
+}
+
 body.host main .cards-container .default-content-wrapper {
   margin: 0 15px;
-  padding: 57px 0 0;
+  padding: 57px 0 72px;
   text-align: center;
   color: #fff;
 }
@@ -180,7 +190,7 @@ body.host main .cards-container .default-content-wrapper p {
 
 body.host main .cards-container .default-content-wrapper p.button-wrapper {
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 0;
 }
 
 body.host main .cards-container .default-content-wrapper a.button {
@@ -192,7 +202,7 @@ body.host main .cards-container .default-content-wrapper a.button {
 /* kit band (play): the section's own default content — WHAT YOU NEED TO PLAY / WHERE TO PLAY + CTA */
 body.play main .cards-container {
   position: relative;
-  padding: 16px 0 32px;
+  padding: 56px 0 80px;
   background: none;
 }
 
@@ -201,7 +211,7 @@ body.play main .cards-container::after {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 24px;
+  bottom: 8px;
   width: 100%;
   height: var(--stripe);
   background-color: var(--rbt-red);
@@ -211,6 +221,10 @@ body.play main .cards-container .default-content-wrapper {
   padding: 0 115px;
   text-align: center;
   color: #000;
+}
+
+body.play main .cards-container .cards-wrapper + .default-content-wrapper {
+  padding-top: 17px;
 }
 
 body.play main .cards-container .default-content-wrapper h2 {
@@ -229,7 +243,7 @@ body.play main .cards-container .default-content-wrapper p strong {
 
 body.play main .cards-container .default-content-wrapper p.button-wrapper {
   justify-content: center;
-  padding: 25px 0 8px;
+  padding: 49px 0 8px;
 }
 
 body.play main .cards-container .default-content-wrapper p.button-wrapper a.button {
@@ -244,7 +258,15 @@ body.play main .cards-container .default-content-wrapper p.button-wrapper a.butt
   }
 
   main .cards-container .cards-wrapper {
-    padding: 32px 0;
+    padding: 40px 0;
+  }
+
+  body.host main .cards-container .cards-wrapper {
+    padding: 40px 0 0;
+  }
+
+  body.play main .cards-container {
+    padding: 40px 0 48px;
   }
 
   .cards .card {
@@ -290,13 +312,19 @@ body.play main .cards-container .default-content-wrapper p.button-wrapper a.butt
     margin: 0 4px;
   }
 
+  .cards.host .card:nth-child(2) .card-image {
+    overflow: hidden;
+  }
+
   .cards.host .card:nth-child(2) .card-image img {
     width: 340px;
+    max-width: none;
     margin: 0 -48px 0 0;
   }
 
   body.host main .cards-container .default-content-wrapper {
     margin: 0 4px;
+    padding: 57px 0 40px;
   }
 
   body.host main .cards-container .default-content-wrapper a.button {

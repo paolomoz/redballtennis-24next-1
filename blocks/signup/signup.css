@@ -30,17 +30,19 @@ body.play main .signup-container .signup-wrapper {
   padding-bottom: 0;
 }
 
-body.host main .signup-container,
 body.play main .signup-container {
-  padding: 8px 0 32px;
+  padding: 0 0 32px;
+}
+
+body.host main .signup-container {
+  padding: 0;
 }
 
 .signup {
   margin: 0 15px;
-  padding: 8px 30px;
+  padding: 38px 30px;
 }
 
-body.host main .signup,
 body.play main .signup {
   margin: 0;
 }
@@ -202,17 +204,19 @@ body.play main .signup {
     padding-bottom: 16px;
   }
 
-  body.host main .signup-container,
   body.play main .signup-container {
     padding-bottom: 16px;
   }
 
-  .signup {
-    margin: 0 4px;
-    padding: 8px 30px;
+  body.host main .signup-container {
+    padding-bottom: 0;
   }
 
-  body.host main .signup,
+  .signup {
+    margin: 0 4px;
+    padding: 38px 30px;
+  }
+
   body.play main .signup {
     margin: 0;
   }

@@ -230,7 +230,36 @@
         "at": "2026-09-21T07:39:48Z",
         "approvedBy": "hands-off"
       },
-      "prototype": "stardust/prototypes/index-proposed.html"
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "published": {
+        "1440": {
+          "result": {
+            "regime": "published-origin",
+            "pixelPct": 21.68,
+            "pixelPctUnmasked": 21.68,
+            "heightDelta": 203,
+            "pass": false,
+            "masks": [],
+            "ref": {
+              "url": "https://www.redballtennis.com/",
+              "width": 1440,
+              "capturedAt": "2026-09-21T07:22:29.151Z",
+              "sidecar": "stardust/replica/gates/index-1440/live.png.json",
+              "instrument": "stitch-shot",
+              "technique": "headless",
+              "consent": {
+                "mode": "accept",
+                "via": "#onetrust-accept-btn-handler"
+              }
+            },
+            "at": "2026-09-21T08:55:21.355Z"
+          },
+          "url": "https://main--redballtennis-24next-1--paolomoz.aem.page/",
+          "artifacts": [
+            "stardust/replica/gates/index-1440/gate-pub1.json"
+          ]
+        }
+      }
     },
     "program": {
       "archetype": "en-home-play-html",

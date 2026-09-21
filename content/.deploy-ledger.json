@@ -1,0 +1,62 @@
+{
+  "/en/home/404": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-09-21T08:47:30.359Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok",
+    "bodyHash": "640dc320f48348512f66b90170d5a7044fd52a3e",
+    "branch": "main"
+  },
+  "/en/home/host": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-09-21T08:47:30.359Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok",
+    "bodyHash": "0da25549e1ea1053dfb58d0370e901717ca0ef85",
+    "branch": "main"
+  },
+  "/en/home/play": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-09-21T08:47:30.359Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok",
+    "bodyHash": "b6f92ce5e88583eee3abdedf3b8b6c06ad3cc508",
+    "branch": "main"
+  },
+  "/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-09-21T08:47:30.359Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok",
+    "bodyHash": "9e6e5d796ca52b8fb07167734e9ee86d34612db0",
+    "branch": "main"
+  },
+  "/index": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-09-21T08:47:33.609Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok",
+    "bodyHash": "eb05446b1b358837b55b3dc7c8be2f77c3b63210",
+    "branch": "main"
+  },
+  "/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-09-21T08:47:33.799Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok",
+    "bodyHash": "eca6183503ce463a7e68cc684a3d6cdda1722a93",
+    "branch": "main"
+  }
+}

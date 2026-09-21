@@ -495,7 +495,7 @@ body.not-found main .section img {
 /* the live 404 has no h1 (its title is an h2) — EDS authors the page's only heading as h1
    at the h2 ramp so the render is identical and the page keeps one h1 (qa-gate contract) */
 body.not-found main .section h1 {
-  margin: 0 0 42px;
+  margin: 8px 0 66px;
   font-size: var(--heading-font-size-xl);
   line-height: var(--line-height-xl);
   text-align: center;

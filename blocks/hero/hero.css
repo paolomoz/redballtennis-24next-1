@@ -84,6 +84,15 @@ main .hero-container > div {
   padding: 8px 0;
 }
 
+/* separator between the title block and the lede (lifted .hero__separator: 8px pad + 7px hr margins) */
+.hero.video .hero-lede::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #fff;
+}
+
 .hero .hero-lede p {
   font-size: 32px;
   line-height: 34px;
@@ -185,16 +194,28 @@ body.host .hero.photo .hero-text-inner {
 }
 
 body.host .hero.photo .hero-title-block {
-  width: 480px;
+  width: 500px;
 }
 
 body.host .hero.photo .hero-title {
+  width: 480px;
+  margin: 0 0 0 20px;
   padding: 8px 0;
 }
 
 body.host .hero.photo .hero-lede {
   width: 740px;
-  padding: 31px 0 8px;
+  padding: 8px 0;
+}
+
+/* lifted .hero-host__sep: 4px pad + 7px hr margins + 1px line, spanning the 780 grid (x=30) */
+body.host .hero.photo .hero-lede::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 11px 0 11px -20px;
+  width: 780px;
+  background-color: #fff;
 }
 
 body.host .hero.photo .hero-lede > * + * {
@@ -272,6 +293,11 @@ body.host .hero.photo .hero-media-inner {
     background-position: 100% 50%;
   }
 
+  /* home: the hand image box is 50% of the 4px-inset column (lifted .hero__hand-image / .cmp-image) */
+  .hero .hero-mobile-media p {
+    margin: 0 4px;
+  }
+
   .hero .hero-mobile-media picture,
   .hero .hero-mobile-media img {
     display: block;
@@ -284,26 +310,47 @@ body.host .hero.photo .hero-media-inner {
     width: 100%;
   }
 
+  /* play: the mobile photo is a cover background across the 344px grid, 340px tall (112 pad + 4 × 57) */
   .hero.photo .hero-mobile-media {
+    position: relative;
     width: 100%;
-    margin: 0 20px;
-    padding: 112px 0 0;
+    height: 340px;
+    margin: 0;
+    padding: 0;
     background: none;
+  }
+
+  .hero.photo .hero-mobile-media p,
+  .hero.photo .hero-mobile-media picture {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    margin: 0;
   }
 
   .hero.photo .hero-mobile-media img {
     width: 100%;
-    height: 228px;
+    height: 100%;
     object-fit: cover;
+    object-position: 50% 50%;
   }
 
+  /* host: a real inline photo (lifted .hero-host__photo-mobile) */
   body.host .hero.photo .hero-mobile-media {
+    position: static;
+    height: auto;
     margin: 0 20px 20px;
     padding: 8px 0;
   }
 
+  body.host .hero.photo .hero-mobile-media p,
+  body.host .hero.photo .hero-mobile-media picture {
+    position: static;
+  }
+
   body.host .hero.photo .hero-mobile-media img {
     height: auto;
+    object-fit: fill;
   }
 
   .hero .hero-media {
@@ -325,5 +372,40 @@ body.host .hero.photo .hero-media-inner {
 
   .hero.photo .hero-media {
     display: none;
+  }
+
+  /* home (video): separator hidden on mobile (lifted); the 17px red-band gap before the media column */
+  .hero.video .hero-lede::before {
+    display: none;
+  }
+
+  .hero.video .hero-media {
+    margin-top: 17px;
+  }
+
+  /* play: the title carries two empty rhythm paragraphs (24px each) below the h1 */
+  body.play .hero.photo .hero-title {
+    padding-bottom: 48px;
+  }
+
+  /* host: title/lede/separator fit the 344 grid */
+  body.host .hero.photo .hero-title-block {
+    width: 100%;
+  }
+
+  body.host .hero.photo .hero-title {
+    width: auto;
+    margin: 0 20px;
+  }
+
+  body.host .hero.photo .hero-lede {
+    width: auto;
+    margin: 0 20px;
+    padding: 8px 0;
+  }
+
+  body.host .hero.photo .hero-lede::before {
+    width: auto;
+    margin: 11px -20px;
   }
 }

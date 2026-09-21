@@ -1,0 +1,140 @@
+{
+  "org": "paolomoz",
+  "repo": "redballtennis-24next-1",
+  "ref": "main",
+  "headSha": "08dd52d626dc43faa50ad52e79fcfd377113a8eb",
+  "status": "pending",
+  "ts": "2026-09-21T08:43:56.369Z",
+  "paths": {
+    "blocks/cards/cards.css": {
+      "sha": "939ba96e837d3fb6f3050cddbea16c249e1ae80e8a77bc6b4c42fa3cc63753e7",
+      "served": "939ba96e837d3fb6f3050cddbea16c249e1ae80e8a77bc6b4c42fa3cc63753e7",
+      "status": "ok"
+    },
+    "blocks/cards/cards.js": {
+      "sha": "2ebd3a8e7a89db7e9b99a3b76b8add789056ef863c080f4c182e5eacf794cc6d",
+      "served": "2ebd3a8e7a89db7e9b99a3b76b8add789056ef863c080f4c182e5eacf794cc6d",
+      "status": "ok"
+    },
+    "blocks/columns/columns.css": {
+      "sha": "5aef88c85a1d213aa30dc6ad251a0b0d69228a2bd7ac6c08f91396927cff0936",
+      "served": "5aef88c85a1d213aa30dc6ad251a0b0d69228a2bd7ac6c08f91396927cff0936",
+      "status": "ok"
+    },
+    "blocks/columns/columns.js": {
+      "sha": "83cfe7aa5e29e2e27c9853e63c28fe842f2d81aa65d9ae26141efcd4e8749c7b",
+      "served": "83cfe7aa5e29e2e27c9853e63c28fe842f2d81aa65d9ae26141efcd4e8749c7b",
+      "status": "ok"
+    },
+    "blocks/embed/embed.css": {
+      "sha": "97e9afccbba2987b8f71efb28c7567942b5181f77762e3595745c590e093db8f",
+      "served": "97e9afccbba2987b8f71efb28c7567942b5181f77762e3595745c590e093db8f",
+      "status": "ok"
+    },
+    "blocks/embed/embed.js": {
+      "sha": "7e6e0a5b9baae82479669bb8ef8ea83aea6932b36bb266d53f8e99b952553c10",
+      "served": "7e6e0a5b9baae82479669bb8ef8ea83aea6932b36bb266d53f8e99b952553c10",
+      "status": "ok"
+    },
+    "blocks/footer/footer.css": {
+      "sha": "4a2bacbbc3962eeff8fe46feb23ef0d17bdf2ba49c9d69ec34388cfa49766fd4",
+      "served": "4a2bacbbc3962eeff8fe46feb23ef0d17bdf2ba49c9d69ec34388cfa49766fd4",
+      "status": "ok"
+    },
+    "blocks/footer/footer.js": {
+      "sha": "9859761831d96c06487bd7debc308aab9504c6cdf7ef9b1ad9487d9557164e0b",
+      "served": "9859761831d96c06487bd7debc308aab9504c6cdf7ef9b1ad9487d9557164e0b",
+      "status": "ok"
+    },
+    "blocks/fragment/fragment.css": {
+      "sha": "02b48e1c58fd9b30e35f7128d8b1cb905958105b80edf473661f0b5cbdc3afa3",
+      "served": "02b48e1c58fd9b30e35f7128d8b1cb905958105b80edf473661f0b5cbdc3afa3",
+      "status": "ok"
+    },
+    "blocks/fragment/fragment.js": {
+      "sha": "80b5b780bdc3f9aebc940d1cddcc56770db2e8331a1eea2f40012f82a50d1b63",
+      "served": "80b5b780bdc3f9aebc940d1cddcc56770db2e8331a1eea2f40012f82a50d1b63",
+      "status": "ok"
+    },
+    "blocks/header/header.css": {
+      "sha": "47c8491a09a9f67c213f342d2cdb96d8401337efaf4d89db84c5467fdfc39162",
+      "served": "47c8491a09a9f67c213f342d2cdb96d8401337efaf4d89db84c5467fdfc39162",
+      "status": "ok"
+    },
+    "blocks/header/header.js": {
+      "sha": "95a4badf5569eb73ebb9cbf3bd1000f4ad0f7b72e25f2a80ca98f30757c5290e",
+      "served": "95a4badf5569eb73ebb9cbf3bd1000f4ad0f7b72e25f2a80ca98f30757c5290e",
+      "status": "ok"
+    },
+    "blocks/hero/hero.css": {
+      "sha": "ec3d6459c35d20e9d6c8fa7cda1a84c83a952b72bdde9b7fc67825840823bafb",
+      "served": "ec3d6459c35d20e9d6c8fa7cda1a84c83a952b72bdde9b7fc67825840823bafb",
+      "status": "ok"
+    },
+    "blocks/hero/hero.js": {
+      "sha": "c7bbe2be0aef0d4423bfad38df4975b4fc57232da344ebac64d7f571daf009d7",
+      "served": "c7bbe2be0aef0d4423bfad38df4975b4fc57232da344ebac64d7f571daf009d7",
+      "status": "ok"
+    },
+    "blocks/signup/signup.css": {
+      "sha": "71cc6ac0f50061768fd1c77d40305e70d601a606eaf7dedbb21b17499343fcb3",
+      "served": "71cc6ac0f50061768fd1c77d40305e70d601a606eaf7dedbb21b17499343fcb3",
+      "status": "ok"
+    },
+    "blocks/signup/signup.js": {
+      "sha": "4657368961e1d02bf7ea74d4fc6c1a14e0fd4657e8d2443f7ba8d44e060ada95",
+      "served": "4657368961e1d02bf7ea74d4fc6c1a14e0fd4657e8d2443f7ba8d44e060ada95",
+      "status": "ok"
+    },
+    "blocks/widget/widget.css": {
+      "sha": "385379a6122b82177e5d22a8fe74cfcd138252dcfdd77c44305603f18d6448bc",
+      "served": "385379a6122b82177e5d22a8fe74cfcd138252dcfdd77c44305603f18d6448bc",
+      "status": "ok"
+    },
+    "blocks/widget/widget.js": {
+      "sha": "1d45aabd4cf157587d830949c67b48d46b1a5086b4011de2dd2d07a352279df8",
+      "served": "1d45aabd4cf157587d830949c67b48d46b1a5086b4011de2dd2d07a352279df8",
+      "status": "ok"
+    },
+    "head.html": {
+      "sha": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+      "served": "252318bf744897fc266c5ad18835d72d81d6924489171f32e7ce6826416201bd",
+      "status": "stale"
+    },
+    "scripts/aem.js": {
+      "sha": "014479db98bd56d25c248ff45aa705752d871a9eff0484c5620f00cf58b42ae6",
+      "served": "014479db98bd56d25c248ff45aa705752d871a9eff0484c5620f00cf58b42ae6",
+      "status": "ok"
+    },
+    "scripts/consent-check.js": {
+      "sha": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+      "served": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+      "status": "ok"
+    },
+    "scripts/consented.js": {
+      "sha": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+      "served": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+      "status": "ok"
+    },
+    "scripts/scripts.js": {
+      "sha": "754d8fab482ab548aaa8092b136b001c639c2fc013ada557e83384e72c25925c",
+      "served": "754d8fab482ab548aaa8092b136b001c639c2fc013ada557e83384e72c25925c",
+      "status": "ok"
+    },
+    "styles/fonts.css": {
+      "sha": "2fce6e9fd4baa56d0f307edad6783676bab360561214a0c05a7332f2f850b4d5",
+      "served": "2fce6e9fd4baa56d0f307edad6783676bab360561214a0c05a7332f2f850b4d5",
+      "status": "ok"
+    },
+    "styles/lazy-styles.css": {
+      "sha": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+      "served": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+      "status": "ok"
+    },
+    "styles/styles.css": {
+      "sha": "ac7a26141dbd93637e370f30da6cda4a471700e2a95b3ecc0dff1bf8b953d227",
+      "served": "ac7a26141dbd93637e370f30da6cda4a471700e2a95b3ecc0dff1bf8b953d227",
+      "status": "ok"
+    }
+  }
+}

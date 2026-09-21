@@ -1,0 +1,7 @@
+{"t":"2026-09-21T08:47:30.003Z","step":"instrument","instrument":"code-sync-verify","skipped":"head.html is service-transformed on the code bus (served 300 B rewrite); the other 25 code paths verified served == tree"}
+{"t":"2026-09-21T08:47:33.608Z","path":"/en/home/404","step":"verify","ok":true,"ms":3249}
+{"t":"2026-09-21T08:47:33.798Z","path":"/en/home/host","step":"verify","ok":true,"ms":3439}
+{"t":"2026-09-21T08:47:33.937Z","path":"/en/home/play","step":"verify","ok":true,"ms":3578}
+{"t":"2026-09-21T08:47:33.982Z","path":"/footer","step":"verify","ok":true,"ms":3623}
+{"t":"2026-09-21T08:47:37.352Z","path":"/index","step":"verify","ok":true,"ms":3743}
+{"t":"2026-09-21T08:47:37.691Z","path":"/nav","step":"verify","ok":true,"ms":3892}

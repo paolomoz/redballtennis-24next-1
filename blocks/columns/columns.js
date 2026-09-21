@@ -2,7 +2,8 @@
  * columns — HOW TO PLAY / HOW TO SCORE (Block Collection `columns` model, variant `rules`).
  * Schema: stardust/eds-schema/en-home-play-html.json § rules-band (2 repeat units).
  *
- * Authoring: one row, one cell per column; each cell: <picture> icon, <h2> title,
+ * Authoring: one row, one cell per column (or one single-cell row per column);
+ *   each cell: <picture> icon, <h2> title,
  *   <p><strong>…</strong></p> lines (the source's empty spacer paragraphs are CSS rhythm).
  * Every authored node is MOVED (EW1); no words added (#100).
  */
@@ -17,7 +18,9 @@ function wrapNode(node, className) {
 export default function decorate(block) {
   const rows = [...block.children];
   if (!rows.length) return;
-  const cols = [...rows[0].children];
+  // one row of N cells = N columns; N single-cell rows (one repeat unit per row) = N columns too
+  const singleCellRows = rows.length > 1 && rows.every((r) => r.children.length === 1);
+  const cols = singleCellRows ? rows.map((r) => r.firstElementChild) : [...rows[0].children];
   block.classList.add(`columns-${cols.length}-cols`);
   const grid = document.createElement('div');
   grid.className = 'columns-grid';
@@ -36,6 +39,6 @@ export default function decorate(block) {
     grid.append(col);
   });
   // further rows (none on this site) degrade to visible default styling
-  rows.slice(1).forEach((r) => grid.append(r));
+  if (!singleCellRows) rows.slice(1).forEach((r) => grid.append(r));
   block.replaceChildren(grid);
 }
