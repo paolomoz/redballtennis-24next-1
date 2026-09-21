@@ -4,18 +4,18 @@
 Every inventory row placed once. Phases run after the static replica is delivered to preview (rollout D2 / deploy pilot Phases 4–5).
 
 ## Phase A — chrome interactions (self, ships with the header block)
-- #12 USTA SITES dropdown — deliverable: header block toggle mirroring the observed aria-haspopup state machine; verify: chrome-states cell `usta-sites` ≤ 2 % at 1440; effort S.
-- #30 mobile MAIN MENU drawer — deliverable: header block drawer at ≤ 1024; verify: chrome-states `drawer` cell at 360; effort S.
+- #12 USTA SITES dropdown — deliverable: header block toggle mirroring the observed aria-haspopup state machine; verify: chrome-states cell `usta-sites` ≤ 2 % at 1440; effort S. **Delivered on preview 2026-09-21** (`blocks/header/header.js`; motion-assert published-origin: stateMachines pass).
+- #30 mobile MAIN MENU drawer — deliverable: header block drawer at ≤ 1024; verify: chrome-states `drawer` cell at 360; effort S. **Delivered on preview 2026-09-21** (hamburger ≤ 1369 as observed; header crop gate 360 ≤ 1.6 %).
 
 ## Phase B — media embeds (self)
-- #27 YouTube brand film — deliverable: `embed` block (video) with the public player id; authoring: a bare YouTube link in the hero's media cell; verify: iframe present, plays on click at 1440 and 360; effort S.
+- #27 YouTube brand film — deliverable: `embed` block (video) with the public player id; authoring: a bare YouTube link in the hero's media cell; verify: iframe present, plays on click at 1440 and 360; effort S. **Delivered on preview 2026-09-21** (home hero `video` variant iframe; play `embed` auto-block from the bare link).
 - #26 consent-gated iframe (data-src) — folded into #27 (same player); the OneTrust gate belongs to Phase D.
 - #5 jnn-pa.googleapis.com — part of the player, no work.
 - #6 www.gstatic.com — part of the player, no work.
 - #23 yt3.ggpht.com — part of the player, no work.
 
 ## Phase C — sign-up widget (rebuild UI now; backend = owner)
-- #29 JOIN THE FUN sign-up — deliverable: `signup` form block (email, ZIP, submit, disclaimer richtext, required markers, aria-describedby error slots) with submission blocked + "no backend connected" message; authoring contract: block rows heading / disclaimer, config sheet for the endpoint once named; verify: fields render, required validation fires, submit shows the message; owner decision: USTA marketing endpoint; effort M.
+- #29 JOIN THE FUN sign-up — deliverable: `signup` form block (email, ZIP, submit, disclaimer richtext, required markers, aria-describedby error slots) with submission blocked + "no backend connected" message; authoring contract: block rows heading / disclaimer, config sheet for the endpoint once named; verify: fields render, required validation fires, submit shows the message; owner decision: USTA marketing endpoint; effort M. **UI delivered on preview 2026-09-21** (`blocks/signup`, labels from `/placeholders.json`; submission blocked with the no-backend status — owner: USTA marketing endpoint).
 - #7 Vue runtime — no deliverable (the block replaces the runtime).
 
 ## Phase D — tags, host-gated (owner ids)

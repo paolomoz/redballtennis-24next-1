@@ -1,0 +1,139 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-21T09:40:28.073Z",
+    "readArtifacts": [
+      "content",
+      "stardust/state.json",
+      "content",
+      "stardust/redirects.tsv"
+    ],
+    "stardustVersion": "0.24.0-next.4"
+  },
+  "generatedAt": "2026-09-21T09:44:15.162Z",
+  "templates": [
+    {
+      "id": "en/home/404",
+      "representativeSlug": "en/home/404",
+      "pages": [
+        "en/home/404"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en/home/host",
+      "representativeSlug": "en/home/host",
+      "pages": [
+        "en/home/host"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en/home/play",
+      "representativeSlug": "en/home/play",
+      "pages": [
+        "en/home/play"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "footer",
+      "representativeSlug": "footer",
+      "pages": [
+        "footer"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "content-redballtennis-en-home-html",
+      "pages": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html",
+        "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html"
+      ],
+      "pageCount": 4,
+      "blocks": [],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "nav",
+      "representativeSlug": "nav",
+      "pages": [
+        "nav"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "unique",
+      "representativeSlug": "en-home-confirmation-html",
+      "pages": [
+        "en-home-confirmation-html"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 1
+      }
+    }
+  ]
+}

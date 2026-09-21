@@ -2,13 +2,13 @@
   "org": "paolomoz",
   "repo": "redballtennis-24next-1",
   "ref": "main",
-  "headSha": "78fa6d653b3fca6567ddacfde2b41a166bba782f",
+  "headSha": "5639136276e432f641679e46ca0413b48a995687",
   "status": "pending",
-  "ts": "2026-09-21T09:14:28.735Z",
+  "ts": "2026-09-21T09:35:37.049Z",
   "paths": {
     "blocks/cards/cards.css": {
-      "sha": "69a24a26c8fb542516c808f2afdc415e5f7c1b6027bf9e8d284689e226cf877a",
-      "served": "69a24a26c8fb542516c808f2afdc415e5f7c1b6027bf9e8d284689e226cf877a",
+      "sha": "f5154b4ba44a7c81ca22e8aee2859bf7e3bccf6f3f4bd5b3638469f6a8ea7071",
+      "served": "f5154b4ba44a7c81ca22e8aee2859bf7e3bccf6f3f4bd5b3638469f6a8ea7071",
       "status": "ok"
     },
     "blocks/cards/cards.js": {
@@ -17,8 +17,8 @@
       "status": "ok"
     },
     "blocks/columns/columns.css": {
-      "sha": "f1e1593e0987768e795279376661517de7745e1cbf6a66879dda10ebb7ae8756",
-      "served": "f1e1593e0987768e795279376661517de7745e1cbf6a66879dda10ebb7ae8756",
+      "sha": "531ab0add08aa86ffecfdd940dd4a9d611e0fa0dd325138a0479ceba5bd4d0d4",
+      "served": "531ab0add08aa86ffecfdd940dd4a9d611e0fa0dd325138a0479ceba5bd4d0d4",
       "status": "ok"
     },
     "blocks/columns/columns.js": {
@@ -37,8 +37,8 @@
       "status": "ok"
     },
     "blocks/footer/footer.css": {
-      "sha": "0469ad976791ad8171a56e633733044f1495fa30fdc975496d507c1a472e37fd",
-      "served": "0469ad976791ad8171a56e633733044f1495fa30fdc975496d507c1a472e37fd",
+      "sha": "e5a3a4c9a2758dfb66952e7f334a143803b4bd3df229cb4b9664d8510206acaa",
+      "served": "e5a3a4c9a2758dfb66952e7f334a143803b4bd3df229cb4b9664d8510206acaa",
       "status": "ok"
     },
     "blocks/footer/footer.js": {
@@ -67,8 +67,8 @@
       "status": "ok"
     },
     "blocks/hero/hero.css": {
-      "sha": "a2d3d21f64de147842e03449464d77ccf39d7688475ebb1d5c35b1902ff0291d",
-      "served": "a2d3d21f64de147842e03449464d77ccf39d7688475ebb1d5c35b1902ff0291d",
+      "sha": "b03f002ef43911345dd045f4afc82b4fd9534268857b9da65addaf22f70250cf",
+      "served": "b03f002ef43911345dd045f4afc82b4fd9534268857b9da65addaf22f70250cf",
       "status": "ok"
     },
     "blocks/hero/hero.js": {
@@ -98,7 +98,7 @@
     },
     "head.html": {
       "sha": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
-      "served": "a8173ad491e47efcacb9c4a7641984063d1939c8824d1ad526667d166f7dd6f7",
+      "served": "44590fa0ae99078507eb6168fe69da263caadbb855753eadae2677fa62ebdbe1",
       "status": "stale"
     },
     "scripts/aem.js": {
@@ -132,8 +132,8 @@
       "status": "ok"
     },
     "styles/styles.css": {
-      "sha": "574f5d042406803c157e582dda00655b7df521a7f062d8c64c52b475f357c3e5",
-      "served": "574f5d042406803c157e582dda00655b7df521a7f062d8c64c52b475f357c3e5",
+      "sha": "ef7ac77f851c55afed2a27aeaa9b1eb929b5484f1bc7ce424155e55f9859ea5d",
+      "served": "ef7ac77f851c55afed2a27aeaa9b1eb929b5484f1bc7ce424155e55f9859ea5d",
       "status": "ok"
     }
   }

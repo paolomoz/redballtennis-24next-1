@@ -1,0 +1,330 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-21T09:40:28.073Z",
+    "readArtifacts": [
+      "content",
+      "stardust/state.json",
+      "content",
+      "stardust/redirects.tsv"
+    ],
+    "stardustVersion": "0.24.0-next.4"
+  },
+  "generatedAt": "2026-09-21T09:44:15.162Z",
+  "pages": [
+    {
+      "slug": "chrome-footer",
+      "path": "/footer",
+      "title": "chrome-footer",
+      "templateId": null,
+      "source": {
+        "contentFile": "content/footer.html",
+        "sourceHash": "sha256:28e543c243b7e818b663b274d8e683dc2ce4a1bdf23416a2ca37c5126a492238",
+        "missing": false
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "type": "fragment",
+        "pendingLinks": [
+          "/"
+        ]
+      }
+    },
+    {
+      "slug": "chrome-nav",
+      "path": "/nav",
+      "title": "chrome-nav",
+      "templateId": null,
+      "source": {
+        "contentFile": "content/nav.html",
+        "sourceHash": "sha256:2f3fc6c38f6bc00a3704d4526ebfb7370fd35492766ca0643e8f7a3f634457af",
+        "missing": false
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "type": "fragment",
+        "pendingLinks": [
+          "/",
+          "/en/home/play",
+          "/en/home/host"
+        ]
+      }
+    },
+    {
+      "slug": "content-redballtennis-en-home-html",
+      "path": "/content/redballtennis/en/home",
+      "title": "Home",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3d077b2262bb7256228425a4d34a4489077289e17922e961f06708bc51ffc480",
+        "currentStatePath": "stardust/current/pages/content-redballtennis-en-home-html.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "deployedPath": "/",
+        "pendingLinks": [
+          "/en/home/play",
+          "/en/home/host"
+        ]
+      }
+    },
+    {
+      "slug": "en-home-confirmation-html",
+      "path": "/en/home/confirmation",
+      "title": "Sign In",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2b5388d6cce55d117188e4867568340c0cd6da21b0f8960f90cd3b5fe4909d59",
+        "currentStatePath": "stardust/current/pages/en-home-confirmation-html.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "failed",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": "fetch error: fetch failed",
+        "deployedPath": "https://account.usta.com/u/login"
+      }
+    },
+    {
+      "slug": "en-home-free-racquet-pack-html",
+      "path": "/en/home/free-racquet-pack",
+      "title": "Home",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bc07e84e8d2c8d2c0d57e5650670f5aef96aec55964a0ee0c356ad74334b755e",
+        "currentStatePath": "stardust/current/pages/en-home-free-racquet-pack-html.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "deployedPath": "/",
+        "pendingLinks": [
+          "/en/home/play",
+          "/en/home/host"
+        ]
+      }
+    },
+    {
+      "slug": "en-home-html",
+      "path": "/en/home",
+      "title": "Home",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1b2821defc20436c4972676c95cfbf9df00d0d7db10a74015d9222e50f149afe",
+        "currentStatePath": "stardust/current/pages/en-home-html.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "deployedPath": "/",
+        "pendingLinks": [
+          "/en/home/play",
+          "/en/home/host"
+        ]
+      }
+    },
+    {
+      "slug": "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+      "path": "/en/home/stay-current/national/USTA-awards-wheelchair-tennis-grants",
+      "title": "Home",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d4c81b5182a56f900c8d03f48118f3223a940a2382ab74d2633557bf1c48eaea",
+        "currentStatePath": "stardust/current/pages/en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "deployedPath": "/",
+        "pendingLinks": [
+          "/en/home/play",
+          "/en/home/host"
+        ]
+      }
+    },
+    {
+      "slug": "en/home/404",
+      "path": "/en/home/404",
+      "title": "en/home/404",
+      "templateId": "en/home/404",
+      "source": {
+        "migratedHtml": "content/en/home/404.html",
+        "metaJson": null,
+        "sourceHash": "sha256:b18e2eb0a12fca8c0a6f906e72dd01d089886cc532afb95688cc76ac28f64b68"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "pendingLinks": [
+          "/"
+        ]
+      }
+    },
+    {
+      "slug": "en/home/host",
+      "path": "/en/home/host",
+      "title": "en/home/host",
+      "templateId": "en/home/host",
+      "source": {
+        "migratedHtml": "content/en/home/host.html",
+        "metaJson": null,
+        "sourceHash": "sha256:b9b969af98196c1fef2f3e0ecef932f8abe695f3373dd2d40b029ab57b78227b"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "en/home/play",
+      "path": "/en/home/play",
+      "title": "en/home/play",
+      "templateId": "en/home/play",
+      "source": {
+        "migratedHtml": "content/en/home/play.html",
+        "metaJson": null,
+        "sourceHash": "sha256:8a16c355072b53a59bd98712fe0834f2ccd6bbeac734ed7e6762cf08468a4861"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "footer",
+      "path": "/footer",
+      "title": "footer",
+      "templateId": "footer",
+      "source": {
+        "migratedHtml": "content/footer.html",
+        "metaJson": null,
+        "sourceHash": "sha256:28e543c243b7e818b663b274d8e683dc2ce4a1bdf23416a2ca37c5126a492238"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "pendingLinks": [
+          "/"
+        ]
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "index",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "content/index.html",
+        "metaJson": null,
+        "sourceHash": "sha256:387cc28512e0b0510bf9165475e6e3b7a3bf821ff0c030a33ea479a516612965"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "index-placeholders",
+      "path": "/placeholders.json",
+      "title": "index-placeholders",
+      "templateId": null,
+      "source": {
+        "contentFile": "content/placeholders.json",
+        "sourceHash": "sha256:002d1fd884154d60a972c6a1a09ba003b19a2cfdba5878eeadcbb002ef2467ea",
+        "missing": false
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null,
+        "type": "index"
+      }
+    },
+    {
+      "slug": "nav",
+      "path": "/nav",
+      "title": "nav",
+      "templateId": "nav",
+      "source": {
+        "migratedHtml": "content/nav.html",
+        "metaJson": null,
+        "sourceHash": "sha256:2f3fc6c38f6bc00a3704d4526ebfb7370fd35492766ca0643e8f7a3f634457af"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-09-21T09:44:15.162Z",
+        "error": null
+      }
+    }
+  ]
+}

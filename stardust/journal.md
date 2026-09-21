@@ -106,3 +106,21 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** $stardust deploy index (Phase 5 — foundation, chrome, blocks, content, preview on main)
 
 ---
+
+## 2026-09-21T09:45:00Z — Phase 5 complete: EDS build, DA preview, published-origin gate, rollout (preview only)
+
+**Delivered (preview origin `https://main--redballtennis-24next-1--paolomoz.aem.page`, code `main` @ 5639136):**
+- `/` ← https://www.redballtennis.com/ · `/en/home/play` ← /en/home/play.html · `/en/home/host` ← /en/home/host.html · `/en/home/404` ← /en/home/404.html (root `404.html` mirrors it) · `/nav`, `/footer` · sheets `/placeholders.json`, `/redirects.json` (22 rows; `/en/home`, `.html` forms, the AEM content path → `/`; `/en/home/confirmation.html` → account.usta.com login — 301s verified).
+- Blocks: header, footer, hero (video | photo), cards (tiles | kit | tiles host), columns (rules), signup (form rendered by JS, no backend), embed (auto-block). Gates before the first PUT: code-sync-verify --lint 0 · block-lint 0 🔴 · davids-model-lint 0 🔴 · block-roundtrip closed on all pages · ew-editability 100 % (0 dead, 0 drift) · qa-gate PASS ×4.
+
+**Published-origin gate (live www.redballtennis.com vs preview):** index 1.33 % / 2.31 % · play 4.69 % / 3.24 % · host 7.75 % / 5.51 % (1440 / 360, Δh 0, all PASS, `progress.json` `published.<bp>`). 404: **no verdict** — `stitch-shot` classes the preview host as live and refuses the near-empty page (L10); substitute evidence: harness DOM == deployed DOM, section heights equal to the gated prototype (1475 / 1188), qa-gate PASS, CLS 0.000 / 0.002. Chrome crop gate header/footer ≤ 1.6 % on every cell. CLS (fonts + chrome delayed) ≤ 0.014 everywhere.
+- Round 1 (index 1440) measured 21.7 % / Δh 203: the EDS build had never been measured against the prototypes (the harness is for the automated gates). Every fix was a lifted value (footer 32/64 padding zeroed by the wrapper reset, hero separator rhythm, band-container 8 px paddings, sign-up 30 px in-page-view, kit icon 40 %, host title 480, play mobile cover photo, columns decoder for single-cell rows, 404 rhythm) — box-probed until every section height equalled the prototype at both widths, then re-gated.
+- Step 10 #116 (≥1920 box check) exposed the frozen sizing model: the source is a 12-col percentage grid (`aem-GridColumn--default--N`); the prototypes and the lifted CSS carried the 1440 px values. Re-lifted as percentages (hero 7/12 + 5/12, play 8/12 + 4/12, tiles band 9/12 with 4/12 tiles, host tiles 4/12, rules 10/12 max 1200 with 6/12 columns, CTA pill 2/12, 404 8/12 + 4/12 pill, footer 10/12). 1920 geometry now equals live on all pages; 1440 / 360 unchanged; re-gated (index 1440 = round 3, `--over-cap canon-followup`).
+- Motion (published-origin replay): USTA SITES state machine pass, 0 page errors; `chrome` row 🟡 "header absent live, present on the target" — the live site has no `<header>` element (role=banner div); the boilerplate `<header>` trips the tag heuristic. Named residual, class `instrument-heuristic` (same class as the 360 entrance row of Phase 4).
+- Advisory content-diff proto → deployed: home/host 🔴 MISSING CTA rows are the live-hidden events band / GET EQUIPPED pill (L9 — hidden prototype nodes counted); play 0 🔴.
+
+**Decisions this phase:** `404-heading` (h2 → single h1 at the h2 ramp) · lockdown **blocked → owner** (public repo; the row says surface before flipping) · publish **held** (preview only, D1/D16) · `fonts-public` still owner-only (Graphik licence) · sign-up endpoint owner.
+
+**Instrument gaps:** L7 (`code-sync-verify` never converges on `head.html`), L8 (`pipeline-mimic --self-test` idempotence warning), L9 (`block-roundtrip` counts hidden prototype nodes), L10 (404 published-origin cell has no shipped path), L11 (lift/prototype froze the sizing model).
+
+**Files:** blocks/**, styles/**, fonts/**, icons/**, media/**, scripts/scripts.js, 404.html, content/** (incl. placeholders.json), stardust/{eds-conversion-log.md, decisions.md, dynamic-features-plan.md, learnings.md, redirects.tsv, da-media.json, code-sync.json, rollout/**, replica/progress.json, replica/gates/*/gate-pub*.json, .work/deploy/*-probe.mjs}.

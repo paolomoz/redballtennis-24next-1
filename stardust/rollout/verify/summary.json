@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-09-21T09:44:15.162Z",
+  "source": "https://main--redballtennis-24next-1--paolomoz.aem.page",
+  "mode": "http",
+  "outsideInventory": "fail",
+  "total": 14,
+  "checked": 14,
+  "verified": 13,
+  "failed": 1,
+  "skipped": 0,
+  "undelivered": 14,
+  "unverified": 0,
+  "pendingTargetPages": 8,
+  "outsideWarnPages": 0,
+  "hotlinkedPages": 0,
+  "gateReport": null,
+  "heldByGate": 0,
+  "aiReadability": null,
+  "classes": [
+    {
+      "class": "pending-target link",
+      "count": 8,
+      "severity": "info",
+      "worstExample": "chrome-footer — links to undelivered coverage rows: /",
+      "pointer": "stardust/rollout/verify/summary.md#pending-target-link-8"
+    },
+    {
+      "class": "fetch error",
+      "count": 1,
+      "severity": "error",
+      "worstExample": "en-home-confirmation-html — fetch error: fetch failed",
+      "pointer": "stardust/rollout/verify/summary.md#fetch-error-1"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "chrome-footer",
+      "path": "/footer",
+      "type": "fragment",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "chrome-nav",
+      "path": "/nav",
+      "type": "fragment",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /, /en/home/play, /en/home/host",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /, /en/home/play, /en/home/host",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "content-redballtennis-en-home-html",
+      "path": "/",
+      "type": "page",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "en-home-confirmation-html",
+      "path": "https://account.usta.com/u/login",
+      "type": "page",
+      "status": "failed",
+      "class": "fetch error",
+      "reason": "fetch error: fetch failed",
+      "severity": "error",
+      "advisories": []
+    },
+    {
+      "slug": "en-home-free-racquet-pack-html",
+      "path": "/",
+      "type": "page",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "en-home-html",
+      "path": "/",
+      "type": "page",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+      "path": "/",
+      "type": "page",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /en/home/play, /en/home/host",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "en/home/404",
+      "path": "/en/home/404",
+      "type": "page",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "en/home/host",
+      "path": "/en/home/host",
+      "type": "page",
+      "status": "verified",
+      "class": null,
+      "reason": null,
+      "severity": null,
+      "advisories": []
+    },
+    {
+      "slug": "en/home/play",
+      "path": "/en/home/play",
+      "type": "page",
+      "status": "verified",
+      "class": null,
+      "reason": null,
+      "severity": null,
+      "advisories": []
+    },
+    {
+      "slug": "footer",
+      "path": "/footer",
+      "type": "fragment",
+      "status": "verified",
+      "class": "pending-target link",
+      "reason": "links to undelivered coverage rows: /",
+      "severity": "info",
+      "advisories": [
+        {
+          "class": "pending-target link",
+          "reason": "links to undelivered coverage rows: /",
+          "severity": "info"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "type": "page",
+      "status": "verified",
+      "class": null,
+      "reason": null,
+      "severity": null,
+      "advisories": []
+    },
+    {
+      "slug": "index-placeholders",
+      "path": "/placeholders.json",
+      "type": "index",
+      "status": "verified",
+      "class": null,
+      "reason": null,
+      "severity": null,
+      "advisories": []
+    },
+    {
+      "slug": "nav",
+      "path": "/nav",
+      "type": "fragment",
+      "status": "verified",
+      "class": null,
+      "reason": null,
+      "severity": null,
+      "advisories": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "total": 22,
+  "offset": 0,
+  "limit": 22,
+  "data": [
+    {
+      "Source": "/en/home",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home.html",
+      "Destination": "/"
+    },
+    {
+      "Source": "/content/redballtennis/en/home",
+      "Destination": "/"
+    },
+    {
+      "Source": "/content/redballtennis/en/home/",
+      "Destination": "/"
+    },
+    {
+      "Source": "/content/redballtennis/en/home.html",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/free-racquet-pack",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/free-racquet-pack/",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/free-racquet-pack.html",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/stay-current/national/usta-awards-wheelchair-tennis-grants",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/stay-current/national/usta-awards-wheelchair-tennis-grants/",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/stay-current/national/usta-awards-wheelchair-tennis-grants.html",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/stay-current/national/USTA-awards-wheelchair-tennis-grants.html",
+      "Destination": "/"
+    },
+    {
+      "Source": "/en/home/confirmation",
+      "Destination": "https://account.usta.com/u/login"
+    },
+    {
+      "Source": "/en/home/confirmation/",
+      "Destination": "https://account.usta.com/u/login"
+    },
+    {
+      "Source": "/en/home/confirmation.html",
+      "Destination": "https://account.usta.com/u/login"
+    },
+    {
+      "Source": "/en/home/play/",
+      "Destination": "/en/home/play"
+    },
+    {
+      "Source": "/en/home/play.html",
+      "Destination": "/en/home/play"
+    },
+    {
+      "Source": "/en/home/host/",
+      "Destination": "/en/home/host"
+    },
+    {
+      "Source": "/en/home/host.html",
+      "Destination": "/en/home/host"
+    },
+    {
+      "Source": "/en/home/404/",
+      "Destination": "/en/home/404"
+    },
+    {
+      "Source": "/en/home/404.html",
+      "Destination": "/en/home/404"
+    }
+  ],
+  ":type": "sheet"
+}

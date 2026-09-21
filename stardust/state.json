@@ -7,7 +7,7 @@
   },
   "site": {
     "originUrl": "https://www.redballtennis.com",
-    "deployUrl": null,
+    "deployUrl": "https://main--redballtennis-24next-1--paolomoz.aem.page",
     "eds": {
       "org": "paolomoz",
       "site": "redballtennis-24next-1",
@@ -95,7 +95,7 @@
       "url": "https://www.redballtennis.com/en/home/404.html",
       "title": "404",
       "type": "unique",
-      "status": "approved",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -127,7 +127,13 @@
       "migratedPath": null,
       "chromeVariant": "default",
       "layoutCluster": "tail",
-      "tier": "archetype"
+      "tier": "archetype",
+      "deployed": {
+        "path": "/en/home/404",
+        "origin": "preview",
+        "at": "2026-09-21T09:44:16Z",
+        "publish": "held (preview only \u2014 D1/D16)"
+      }
     },
     {
       "slug": "en-home-confirmation-html",
@@ -192,7 +198,7 @@
       "url": "https://www.redballtennis.com/en/home/host.html",
       "title": "Host",
       "type": "program",
-      "status": "approved",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -229,7 +235,13 @@
       "variants": [
         "hero photo",
         "cards tiles host"
-      ]
+      ],
+      "deployed": {
+        "path": "/en/home/host",
+        "origin": "preview",
+        "at": "2026-09-21T09:44:16Z",
+        "publish": "held (preview only \u2014 D1/D16)"
+      }
     },
     {
       "slug": "en-home-html",
@@ -265,7 +277,7 @@
       "url": "https://www.redballtennis.com/en/home/play.html",
       "title": "Play",
       "type": "program",
-      "status": "approved",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -297,7 +309,13 @@
       "migratedPath": null,
       "chromeVariant": "default",
       "layoutCluster": "tail",
-      "tier": "archetype"
+      "tier": "archetype",
+      "deployed": {
+        "path": "/en/home/play",
+        "origin": "preview",
+        "at": "2026-09-21T09:44:16Z",
+        "publish": "held (preview only \u2014 D1/D16)"
+      }
     },
     {
       "slug": "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
@@ -333,7 +351,7 @@
       "url": "https://www.redballtennis.com/",
       "title": "Home",
       "type": "landing",
-      "status": "approved",
+      "status": "deployed",
       "history": [
         {
           "status": "extracted",
@@ -367,7 +385,26 @@
       "migratedPath": null,
       "chromeVariant": "default",
       "layoutCluster": "c1",
-      "tier": "archetype"
+      "tier": "archetype",
+      "deployed": {
+        "path": "/",
+        "origin": "preview",
+        "at": "2026-09-21T09:44:16Z",
+        "publish": "held (preview only \u2014 D1/D16)"
+      }
     }
-  ]
+  ],
+  "deploy": {
+    "origin": "preview",
+    "host": "https://main--redballtennis-24next-1--paolomoz.aem.page",
+    "pages": 6,
+    "sheets": [
+      "/placeholders.json",
+      "/redirects.json"
+    ],
+    "codeSha": "5639136",
+    "at": "2026-09-21T09:44:16Z",
+    "lockdown": "blocked \u2014 public repo; owner decision (decisions.md row lockdown)",
+    "publish": "held"
+  }
 }

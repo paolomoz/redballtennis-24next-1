@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-09-21T09:44:16.058Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.redballtennis.com",
+    "liveHost": null
+  },
+  "stageCount": {
+    "identified": 17,
+    "prototyped": 17,
+    "deployed": 13,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 4,
+    "deployed": 13,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "content-redballtennis-en-home-html",
+      "path": "/content/redballtennis/en/home",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-html",
+      "path": "/en/home",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en/home/404",
+      "path": "/en/home/404",
+      "stage": "deployed",
+      "templateId": "en/home/404",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-404-html",
+      "path": "/en/home/404.html",
+      "stage": "prototyped",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-confirmation-html",
+      "path": "/en/home/confirmation",
+      "stage": "prototyped",
+      "templateId": "unique",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-free-racquet-pack-html",
+      "path": "/en/home/free-racquet-pack",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en/home/host",
+      "path": "/en/home/host",
+      "stage": "deployed",
+      "templateId": "en/home/host",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-host-html",
+      "path": "/en/home/host.html",
+      "stage": "prototyped",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en/home/play",
+      "path": "/en/home/play",
+      "stage": "deployed",
+      "templateId": "en/home/play",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-play-html",
+      "path": "/en/home/play.html",
+      "stage": "prototyped",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+      "path": "/en/home/stay-current/national/USTA-awards-wheelchair-tennis-grants",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "chrome-footer",
+      "path": "/footer",
+      "stage": "deployed",
+      "templateId": null,
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "footer",
+      "path": "/footer",
+      "stage": "deployed",
+      "templateId": "footer",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "chrome-nav",
+      "path": "/nav",
+      "stage": "deployed",
+      "templateId": null,
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "nav",
+      "path": "/nav",
+      "stage": "deployed",
+      "templateId": "nav",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "index-placeholders",
+      "path": "/placeholders.json",
+      "stage": "deployed",
+      "templateId": null,
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "en/home/404",
+      "archetype": "en/home/404",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en/home/host",
+      "archetype": "en/home/host",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en/home/play",
+      "archetype": "en/home/play",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "footer",
+      "archetype": "footer",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "content-redballtennis-en-home-html",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 4,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "nav",
+      "archetype": "nav",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "unique",
+      "archetype": "en-home-confirmation-html",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 2,
+        "deployed": 0,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 0,
+    "converted": 0,
+    "pending": 0,
+    "verified": 0,
+    "ungated": [
+      "en/home/404 archetype en/home/404@1440",
+      "en/home/404 archetype en/home/404@360",
+      "en/home/host archetype en/home/host@1440",
+      "en/home/host archetype en/home/host@360",
+      "en/home/play archetype en/home/play@1440",
+      "en/home/play archetype en/home/play@360",
+      "footer archetype footer@1440",
+      "footer archetype footer@360",
+      "index archetype index@1440",
+      "index archetype index@360",
+      "landing archetype content-redballtennis-en-home-html@1440",
+      "landing archetype content-redballtennis-en-home-html@360",
+      "nav archetype nav@1440",
+      "nav archetype nav@360",
+      "unique archetype en-home-confirmation-html@1440",
+      "unique archetype en-home-confirmation-html@360"
+    ],
+    "ewFail": 0
+  },
+  "gates": null,
+  "quality": null,
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

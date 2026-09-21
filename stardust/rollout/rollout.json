@@ -1,0 +1,38 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-21T09:40:28.073Z",
+    "stardustVersion": "0.24.0-next.4"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.redballtennis.com",
+    "da": {
+      "org": "",
+      "site": "",
+      "ref": "main"
+    },
+    "liveHost": null
+  },
+  "links": {
+    "outsideInventory": "fail"
+  },
+  "lastRun": {
+    "at": "2026-09-21T09:44:15.162Z",
+    "pages": {
+      "total": 14,
+      "verified": 13,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 1
+    },
+    "blocks": {
+      "total": 0,
+      "converted": 0,
+      "pending": 0
+    },
+    "verifyFailures": 1
+  }
+}
