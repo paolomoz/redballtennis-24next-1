@@ -1,0 +1,54 @@
+[
+ {
+  "selector": ".metadata",
+  "op": "replace",
+  "value": "\n    <div>\n      <div>Title</div>\n      <div>Play</div>\n    </div>\n    <div>\n      <div>Description</div>\n      <div>Play</div>\n    </div>\n    <div>\n      <div>template</div>\n      <div>play</div>\n    </div>\n    "
+ },
+ {
+  "selector": "img[src=\"assets/media/hit-to-be-fit-86ff29ae.svg\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_515547975/container/container/container_copy/image.coreimg.svg/1749564664073/hit-to-be-fit.svg"
+ },
+ {
+  "selector": "img[src=\"assets/media/icon-resources-5-add3e399.svg\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_1191986846/container_1562986204/container_2049039780/container_copy/image_1321456131.coreimg.svg/1698248370717/icon-resources-5.svg"
+ },
+ {
+  "selector": "img[src=\"assets/media/icon-resources-6-36c07bc0.svg\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_1191986846/container_1562986204/container_2049039780_1534277395/container_copy/image_1512977821.coreimg.svg/1698248365984/icon-resources-6.svg"
+ },
+ {
+  "selector": "img[src=\"assets/media/rbt-favicon-180x180-c40ea186.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/content/dam/redballtennis/icons/rbt-favicon-180x180.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/red-tennis-ball-670f9b0d.svg\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_515547975/container/container/container/image.coreimg.svg/1749564670116/red-tennis-ball.svg"
+ },
+ {
+  "selector": ".hero > div > div",
+  "op": "replace",
+  "value": "<h1>Tennis <em>Red</em>esigned For You</h1>\n    <p>Get ready to experience tennis like never before. With slower balls, a smaller court, and no strict rules, you&rsquo;ll be playing Red Ball with your friends in no time. So what are you waiting for? Let&rsquo;s rally!</p>\n    <img src=\"https://www.redballtennis.com/content/dam/redballtennis/play/rbt-play-v1.jpg\" alt=\"\">"
+ },
+ {
+  "selector": ".cards",
+  "op": "attr",
+  "name": "class",
+  "value": "cards kit"
+ },
+ {
+  "selector": ".signup",
+  "op": "attr",
+  "name": "class",
+  "value": "signup play"
+ }
+]

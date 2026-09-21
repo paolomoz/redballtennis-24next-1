@@ -1,0 +1,43 @@
+[
+ {
+  "selector": ".metadata",
+  "op": "replace",
+  "value": "\n    <div>\n      <div>Title</div>\n      <div>Home</div>\n    </div>\n    <div>\n      <div>Description</div>\n      <div>Red Ball Tennis dials up the fun of the tennis game you love, making it easy for starting or returning players to experience a racquet sport.</div>\n    </div>\n    <div>\n      <div>template</div>\n      <div>home</div>\n    </div>\n    "
+ },
+ {
+  "selector": "img[src=\"assets/media/hand-with-ball-b3cd6e29.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/_jcr_content/root/content/container_1439545819/container_2024798835/container_1344158430/image.coreimg.90.1024.png/1747721329069/hand-with-ball.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/host-homepage-4b9afeec.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/_jcr_content/root/content/container_423199029/Copy%20of%20container/container_1076444753/image.coreimg.90.512.png/1747721328564/host-homepage.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/play-homepage-1f10b320.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/_jcr_content/root/content/container_423199029/Copy%20of%20container/container/image.coreimg.90.512.png/1747721329193/play-homepage.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/rbt-favicon-180x180-c40ea186.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/content/dam/redballtennis/icons/rbt-favicon-180x180.png"
+ },
+ {
+  "selector": ".cards",
+  "op": "attr",
+  "name": "class",
+  "value": "cards tiles"
+ },
+ {
+  "selector": ".signup",
+  "op": "attr",
+  "name": "class",
+  "value": "signup"
+ }
+]

@@ -30,7 +30,8 @@
    "structure": {
     "interactive": [],
     "columns": 1
-   }
+   },
+   "defaultContent": true
   }
  ]
 }

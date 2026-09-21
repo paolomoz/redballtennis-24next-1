@@ -54,7 +54,7 @@ input{font-family:var(--font-regular)}
 .text--center{text-align:center}
 
 /* ---- buttons (button-core) ---- */
-.btn{display:flex;align-items:center;justify-content:center;width:max-content;min-width:max-content;height:56px;padding:14px;border:2px solid;border-radius:9999px;font-family:var(--font-semibold);font-size:18px;font-weight:normal;line-height:20px;letter-spacing:1px;text-transform:uppercase;text-align:center;vertical-align:middle;overflow:hidden;cursor:pointer;outline:0}
+.btn{display:flex;align-items:center;justify-content:center;width:max-content;min-width:max-content;height:56px;padding:14px;border:2px solid;border-radius:9999px;font-family:var(--font-semibold);font-size:18px;font-weight:normal;line-height:20px;letter-spacing:0;text-transform:uppercase;text-align:center;vertical-align:middle;overflow:hidden;cursor:pointer;outline:0}
 .btn span{font-family:var(--font-semibold);text-transform:uppercase;font-weight:normal}
 .btn__text{display:inline-flex;position:relative;align-items:center;vertical-align:middle;text-overflow:ellipsis;white-space:nowrap}
 .btn__label{display:block;letter-spacing:0}
@@ -67,6 +67,7 @@ input{font-family:var(--font-regular)}
 @media (min-width:768px){.btn{min-width:120px}}
 @media (max-width:767px){.btn{width:100% !important;max-width:280px}}
 
+em.red{font-style:normal}
 /* ---- band shell ---- */
 .band{position:relative;max-width:100%}
 .band--stripe{position:relative}

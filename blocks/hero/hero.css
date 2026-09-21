@@ -1,37 +1,329 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
+/* hero — lifted from stardust/prototypes/css/index.css, play.css, host.css (replica/capture/lift) */
+main .hero-container {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+main .hero-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  width: 100%;
+  height: var(--stripe);
+  background-color: var(--rbt-red);
+}
+
+main .hero-container > div {
+  max-width: none;
+  margin: 0;
   padding: 0;
 }
 
-.hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+.hero .hero-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+/* text column */
+.hero .hero-text {
+  width: 840px;
+  max-width: 100%;
 }
 
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+.hero .hero-text-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 32px 30px 64px;
 }
 
-.hero img {
-  object-fit: cover;
+.hero .hero-title-block {
+  width: 100%;
+  padding: 8px 0;
+}
+
+.hero .hero-title {
+  margin: 0 15px;
+  padding: 8px 0;
+}
+
+.hero .hero-title :is(h1, h2) {
+  color: var(--rbt-red);
+}
+
+.hero .hero-eyebrow {
+  margin: 0 15px;
+  padding: 8px 0;
+}
+
+.hero .hero-eyebrow p {
+  font-size: 36px;
+  line-height: 24px;
+  color: var(--rbt-blue);
+}
+
+.hero .hero-eyebrow strong {
+  font-weight: 700;
+}
+
+.hero .hero-eyebrow em {
+  font-style: normal;
+  color: rgb(200 15 47);
+}
+
+.hero .hero-mobile-media {
+  display: none;
+}
+
+.hero .hero-lede {
+  width: 100%;
+  margin: 0 15px;
+  padding: 8px 0;
+}
+
+.hero .hero-lede p {
+  font-size: 32px;
+  line-height: 34px;
+  color: #000;
+}
+
+/* media column: video variant (home) */
+.hero .hero-media {
+  width: 600px;
+  max-width: 100%;
+}
+
+.hero.video .hero-media-inner {
+  padding: 64px 0;
+  background-image: url("/media/redballtennis/vector-background-red.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.hero .hero-embed {
+  height: 337.844px;
+  margin: 0 75px;
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 22.8571px;
+}
+
+.hero .hero-embed iframe {
+  display: inline;
+  width: 450px;
+  max-width: 100%;
+  height: 315px;
+  border: 0;
+}
+
+/* media column: photo variant (play / host) */
+.hero.photo .hero-text {
+  width: 960px;
+}
+
+.hero.photo .hero-text-inner {
+  padding: 64px 30px;
+}
+
+.hero.photo .hero-title-block {
+  width: 787.5px;
+  padding: 0;
+}
+
+.hero.photo .hero-title {
+  margin: 0 20px;
+  padding: 0;
+}
+
+.hero.photo .hero-title :is(h1, h2) {
+  color: var(--rbt-blue);
+}
+
+.hero.photo .hero-title h1 em {
+  font-style: normal;
+  color: rgb(200 15 46);
+}
+
+.hero.photo .hero-lede {
+  margin: 0 20px;
+}
+
+.hero.photo .hero-media {
+  width: 480px;
+}
+
+.hero.photo .hero-media-inner {
+  height: 528px;
+  overflow: hidden;
+}
+
+.hero.photo .hero-panel-media,
+.hero.photo .hero-panel-media picture,
+.hero.photo .hero-panel-media img {
   width: 100%;
   height: 100%;
+  margin: 0;
+  line-height: 0;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero.photo .hero-panel-media img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* host: two-paragraph lede with a separator gap, wider text column (lifted) */
+body.host .hero.photo .hero-text {
+  width: 840px;
+}
+
+body.host .hero.photo .hero-text-inner {
+  padding: 64px 30px 32px;
+}
+
+body.host .hero.photo .hero-title-block {
+  width: 480px;
+}
+
+body.host .hero.photo .hero-title {
+  padding: 8px 0;
+}
+
+body.host .hero.photo .hero-lede {
+  width: 740px;
+  padding: 31px 0 8px;
+}
+
+body.host .hero.photo .hero-lede > * + * {
+  margin-top: 24px;
+}
+
+body.host .hero.photo .hero-media {
+  width: 600px;
+}
+
+body.host .hero.photo .hero-media-inner {
+  height: 505px;
+}
+
+@media (width <= 767px) {
+  .hero .hero-text,
+  .hero.photo .hero-text,
+  body.host .hero.photo .hero-text {
+    width: 100%;
+  }
+
+  .hero .hero-text-inner {
+    padding: 16px 8px 32px;
+  }
+
+  .hero.photo .hero-text-inner {
+    padding: 32px 8px;
+  }
+
+  body.host .hero.photo .hero-text-inner {
+    padding: 32px 8px 16px;
+  }
+
+  .hero .hero-title-block {
+    width: 58.3333%;
+  }
+
+  .hero.photo .hero-title-block,
+  body.host .hero.photo .hero-title-block {
+    width: 100%;
+  }
+
+  .hero .hero-title,
+  .hero .hero-eyebrow {
+    margin: 0 4px;
+  }
+
+  .hero .hero-lede {
+    width: 100%;
+    margin: 0 4px;
+  }
+
+  .hero.photo .hero-title,
+  .hero.photo .hero-lede,
+  body.host .hero.photo .hero-lede {
+    margin: 0 20px;
+  }
+
+  .hero .hero-eyebrow p {
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .hero .hero-eyebrow em {
+    color: red;
+    font-style: italic;
+  }
+
+  .hero .hero-mobile-media {
+    display: block;
+    width: 41.6667%;
+    background-image: url("/media/redballtennis/vector-background-red.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  }
+
+  .hero .hero-mobile-media picture,
+  .hero .hero-mobile-media img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 0;
+  }
+
+  .hero .hero-mobile-media img {
+    width: 100%;
+  }
+
+  .hero.photo .hero-mobile-media {
+    width: 100%;
+    margin: 0 20px;
+    padding: 112px 0 0;
+    background: none;
+  }
+
+  .hero.photo .hero-mobile-media img {
+    width: 100%;
+    height: 228px;
+    object-fit: cover;
+  }
+
+  body.host .hero.photo .hero-mobile-media {
+    margin: 0 20px 20px;
+    padding: 8px 0;
+  }
+
+  body.host .hero.photo .hero-mobile-media img {
+    height: auto;
+  }
+
+  .hero .hero-media {
+    width: 100%;
+  }
+
+  .hero.video .hero-media-inner {
+    padding: 32px 0;
+  }
+
+  .hero .hero-embed {
+    width: 322px;
+    margin: 0 19px;
+  }
+
+  .hero .hero-embed iframe {
+    width: 322px;
+  }
+
+  .hero.photo .hero-media {
+    display: none;
   }
 }

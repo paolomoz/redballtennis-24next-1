@@ -1,0 +1,48 @@
+[
+ {
+  "selector": ".metadata",
+  "op": "replace",
+  "value": "\n    <div>\n      <div>Title</div>\n      <div>Host</div>\n    </div>\n    <div>\n      <div>Description</div>\n      <div>Host</div>\n    </div>\n    <div>\n      <div>template</div>\n      <div>host</div>\n    </div>\n    "
+ },
+ {
+  "selector": "img[src=\"assets/media/in-the-wild-text-and-image-8d2a8254.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_423199029_/Copy%20of%20container/container_1076444753/image.coreimg.90.512.png/1753814480151/in-the-wild-text-and-image.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/on-the-court-b787d670.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_423199029_/Copy%20of%20container/container/image.coreimg.90.512.png/1747756140360/on-the-court.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/rbt-favicon-180x180-c40ea186.png\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/content/dam/redballtennis/icons/rbt-favicon-180x180.png"
+ },
+ {
+  "selector": "img[src=\"assets/media/rbt-host-v1-ad58bc9b.jpg\"]",
+  "op": "attr",
+  "name": "src",
+  "value": "https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_1439545819/container_2024798835/container_378522279/container/copy_of_image_copy_c.coreimg.90.1024.jpeg/1753807353688/rbt-host-v1.jpeg"
+ },
+ {
+  "selector": ".hero > div > div",
+  "op": "replace",
+  "value": "<h1>This Is Your Game</h1>\n    <img src=\"https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_1439545819/container_2024798835/container_378522279/container/copy_of_image_copy_c.coreimg.90.1024.jpeg/1753807353688/rbt-host-v1.jpeg\" alt=\"man\" width=\"512\" height=\"388\">\n    <p>And it's a game best served for all. Tennis experience or not, everyone you know can step in the lines and have the time of their lives.</p>\n    <p>You can organize a league at the local brewery, build team morale at the office, and add a program to the tennis facility. No limits. Just Red Ball Tennis.</p>\n    <img src=\"https://www.redballtennis.com/content/dam/redballtennis/host/host-red-ball.jpg\" alt=\"\">"
+ },
+ {
+  "selector": ".cards",
+  "op": "attr",
+  "name": "class",
+  "value": "cards tiles host"
+ },
+ {
+  "selector": ".signup",
+  "op": "attr",
+  "name": "class",
+  "value": "signup host"
+ }
+]

@@ -1,0 +1,40 @@
+/* embed — lifted from stardust/prototypes/css/play.css (.iframetext) */
+main .embed-container {
+  margin-top: 16px;
+  padding: 8px 0;
+}
+
+main .embed-container > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.embed {
+  padding: 20px 0;
+}
+
+.embed .embed-frame {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22.8571px;
+}
+
+.embed .embed-frame iframe {
+  display: inline;
+  width: 1500px;
+  max-width: none;
+  height: 900px;
+  border: 0;
+}
+
+.embed .embed-spacer {
+  height: 30px;
+}
+
+@media (width <= 768px) {
+  .embed .embed-frame iframe {
+    width: 100%;
+  }
+}

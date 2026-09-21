@@ -10,7 +10,7 @@
 .hero__eyebrow{width:100%;margin:0 15px;padding:8px 0}
 .hero__eyebrow p{font-size:36px;line-height:24px;color:var(--rbt-blue)}
 .hero__eyebrow b{font-weight:700}
-.hero__eyebrow .red{color:rgb(200,15,47)}
+.hero__eyebrow .red{color:rgb(200,15,47);font-style:normal}
 .hero__eyebrow--mobile{display:none}
 .hero__separator{margin:0 15px;padding:8px 0}
 .hero__separator hr{margin:7px 0}
@@ -36,7 +36,7 @@
   .hero__eyebrow--mobile p{font-size:22px;line-height:24px;color:var(--rbt-blue)}
   .hero__eyebrow--mobile b{font-weight:700}
   .hero__eyebrow--mobile i{font-style:italic}
-  .hero__eyebrow--mobile .red{color:red}
+  .hero__eyebrow--mobile .red{color:red;font-style:italic}
   .hero__separator{display:none}
   .hero__hand{display:block;width:41.6667%;max-width:100%}
   .hero__hand-inner{display:flex;justify-content:space-around;align-items:center;background-image:url("../assets/media/vector-background-red-e46ef88a.svg");background-size:cover;background-repeat:no-repeat;background-position:100% 50%}

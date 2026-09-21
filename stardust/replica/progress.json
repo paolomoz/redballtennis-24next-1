@@ -30,10 +30,10 @@
         "en-home-free-racquet-pack-html",
         "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html"
       ],
-      "siblingNote": "all four are aliases/redirects of index (state.json.pages[].redirect) \u2014 delivered as redirects, never as pages",
+      "siblingNote": "all four are aliases/redirects of index (state.json.pages[].redirect) — delivered as redirects, never as pages",
       "breakpoints": {
         "360": {
-          "iterations": 4,
+          "iterations": 6,
           "result": {
             "regime": "prototype",
             "pixelPct": 0.22,
@@ -53,13 +53,9 @@
                 "via": "#onetrust-accept-btn-handler"
               }
             },
-            "at": "2026-09-21T07:38:49.973Z",
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "structuralSource": "gates/index-360/content-diff-iter1.txt",
-            "visualSource": "gates/index-360/visual-diff-iter1.txt"
+            "at": "2026-09-21T08:23:06.944Z"
           },
-          "record": "stardust/replica/gates/index-360/gate-iter4.json",
+          "record": "stardust/replica/gates/index-360/gate-iter6.json",
           "motion": {
             "assert": {
               "verdict": "fail",
@@ -82,7 +78,7 @@
                 },
                 "entrances": {
                   "status": "fail",
-                  "detail": "live 3 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "detail": "live 3 element(s) with inline opacity/transform entrances, target 0 (± 10 %)",
                   "live": 3,
                   "target": 0
                 },
@@ -123,13 +119,13 @@
             {
               "probe": "motion-assert",
               "flag": "entrances fail (live 3, target 0)",
-              "why": "the three live \"entrances\" are inline display toggles on the nav and hamburger images during the drawer state machine (from/to opacity+transform null in index-360.json); the prototype mirrors the same inline display mutations (js/chrome.js setDrawer); no opacity/transform animation exists on live to reproduce \u2014 advisory verdict per D15, record present",
+              "why": "the three live \"entrances\" are inline display toggles on the nav and hamburger images during the drawer state machine (from/to opacity+transform null in index-360.json); the prototype mirrors the same inline display mutations (js/chrome.js setDrawer); no opacity/transform animation exists on live to reproduce — advisory verdict per D15, record present",
               "permanent": true
             }
           ]
         },
         "1440": {
-          "iterations": 4,
+          "iterations": 6,
           "result": {
             "regime": "prototype",
             "pixelPct": 0.13,
@@ -149,13 +145,9 @@
                 "via": "#onetrust-accept-btn-handler"
               }
             },
-            "at": "2026-09-21T07:38:37.331Z",
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "structuralSource": "gates/index-1440/content-diff-iter4.txt",
-            "visualSource": "gates/index-1440/visual-diff-iter1.txt"
+            "at": "2026-09-21T08:22:24.222Z"
           },
-          "record": "stardust/replica/gates/index-1440/gate-iter4.json",
+          "record": "stardust/replica/gates/index-1440/gate-iter6.json",
           "motion": {
             "assert": {
               "verdict": "pass",
@@ -178,7 +170,7 @@
                 },
                 "entrances": {
                   "status": "n/a",
-                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (± 10 %)",
                   "live": 0,
                   "target": 0
                 },
@@ -218,11 +210,11 @@
       },
       "motion": {
         "observed": [
-          "hover .button-core \u2192 opacity .7",
-          "hover nav level-1 link \u2192 color #cfff05, transition color .3s ease-out",
-          "hover footer link \u2192 color #cfff05",
-          "USTA SITES button aria-expanded toggle \u2192 panel #list-id-8 (click)",
-          "360: hamburger aria-expanded toggle \u2192 #top-navigation-bar .top-navigation__top-bar--opened.top-to-bottom, nav + 2 imgs inline display mutations"
+          "hover .button-core → opacity .7",
+          "hover nav level-1 link → color #cfff05, transition color .3s ease-out",
+          "hover footer link → color #cfff05",
+          "USTA SITES button aria-expanded toggle → panel #list-id-8 (click)",
+          "360: hamburger aria-expanded toggle → #top-navigation-bar .top-navigation__top-bar--opened.top-to-bottom, nav + 2 imgs inline display mutations"
         ],
         "implemented": [
           "css/canon.css :hover rules (button opacity, nav color+transition, footer color)",
@@ -231,7 +223,7 @@
         "dead": [
           "no entrance animations observed (0 families at 1440)",
           "no header scroll morph (identity 195px rest = scrolled)",
-          "hover .v-lead-generation-form__terms-description a \u2192 no change (not implemented)"
+          "hover .v-lead-generation-form__terms-description a → no change (not implemented)"
         ]
       },
       "approved": {
@@ -248,7 +240,7 @@
       ],
       "breakpoints": {
         "360": {
-          "iterations": 2,
+          "iterations": 4,
           "result": {
             "regime": "prototype",
             "pixelPct": 0.6,
@@ -268,16 +260,13 @@
                 "via": "#onetrust-accept-btn-handler"
               }
             },
-            "at": "2026-09-21T07:51:37.711Z",
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "structuralSource": "gates/en-home-play-html-360/content-diff-iter1.txt",
-            "visualSource": "gates/en-home-play-html-360/visual-diff-iter1.txt"
+            "at": "2026-09-21T08:23:19.882Z"
           },
-          "record": "stardust/replica/gates/en-home-play-html-360/gate-iter2.json"
+          "record": "stardust/replica/gates/en-home-play-html-360/gate-iter4.json",
+          "overCap": "canon-followup"
         },
         "1440": {
-          "iterations": 2,
+          "iterations": 4,
           "result": {
             "regime": "prototype",
             "pixelPct": 0.09,
@@ -297,13 +286,9 @@
                 "via": "#onetrust-accept-btn-handler"
               }
             },
-            "at": "2026-09-21T07:51:24.447Z",
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "structuralSource": "gates/en-home-play-html-1440/content-diff-iter1.txt",
-            "visualSource": "gates/en-home-play-html-1440/visual-diff-iter1.txt"
+            "at": "2026-09-21T08:22:37.341Z"
           },
-          "record": "stardust/replica/gates/en-home-play-html-1440/gate-iter2.json",
+          "record": "stardust/replica/gates/en-home-play-html-1440/gate-iter4.json",
           "motion": {
             "assert": {
               "verdict": "pass",
@@ -326,7 +311,7 @@
                 },
                 "entrances": {
                   "status": "n/a",
-                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (± 10 %)",
                   "live": 0,
                   "target": 0
                 },
@@ -355,7 +340,8 @@
               },
               "skips": {}
             }
-          }
+          },
+          "overCap": "canon-followup"
         }
       },
       "census": {
@@ -381,27 +367,27 @@
       },
       "siblings_gates": {
         "en-home-host-html": {
-          "1440": {
-            "record": "gates/en-home-host-html-1440/gate-iter1.json",
-            "result": "PASS 0.81 % \u0394h 0"
-          },
           "360": {
             "record": "gates/en-home-host-html-360/gate-iter1b.json",
-            "result": "PASS 3.37 % \u0394h 0 (iter1 re-run after ERR_NETWORK_CHANGED \u2014 no verdict, not counted)"
+            "result": "PASS 3.37 % Δh 0 (iter1 re-run after ERR_NETWORK_CHANGED — no verdict, not counted)"
+          },
+          "1440": {
+            "record": "gates/en-home-host-html-1440/gate-iter1.json",
+            "result": "PASS 0.81 % Δh 0"
           },
           "motion": {
             "observe": "motion/en-home-host-html.json",
-            "assert": "pass (motion/en-home-host-html-assert.log; not recorded by the instrument \u2014 sibling, no pageType archetype)"
+            "assert": "pass (motion/en-home-host-html-assert.log; not recorded by the instrument — sibling, no pageType archetype)"
           },
-          "structural": "content-diff 0 \ud83d\udd34 at 1440 + 360 (17/17 editable texts); visual-diff none (hidden Helpful Links headings colour aligned after the first run)"
+          "structural": "content-diff 0 🔴 at 1440 + 360 (17/17 editable texts); visual-diff none (hidden Helpful Links headings colour aligned after the first run)"
         }
       },
       "motion": {
         "observed": [
           "USTA SITES dropdown aria-expanded toggle (same chrome as index)",
-          "hover nav link \u2192 #cfff05 + color .3s (1 transition)",
-          "hover .button-core \u2192 opacity .7",
-          "hover footer link \u2192 #cfff05"
+          "hover nav link → #cfff05 + color .3s (1 transition)",
+          "hover .button-core → opacity .7",
+          "hover footer link → #cfff05"
         ],
         "implemented": [
           "inherited from canon.css / js/chrome.js (gated on index)"
@@ -419,7 +405,7 @@
       "siblingNote": "en-home-confirmation-html is an off-site login redirect (decided-out, dynamics #28)",
       "breakpoints": {
         "360": {
-          "iterations": 1,
+          "iterations": 3,
           "result": {
             "regime": "prototype",
             "pixelPct": 0.28,
@@ -439,14 +425,10 @@
                 "via": "unknown"
               }
             },
-            "at": "2026-09-21T08:04:03.592Z",
-            "forced": true,
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "structuralSource": "gates/en-home-404-html-360/content-diff-iter1.txt",
-            "visualSource": "gates/en-home-404-html-360/visual-diff-iter1.txt"
+            "at": "2026-09-21T08:23:37.354Z",
+            "forced": true
           },
-          "record": "stardust/replica/gates/en-home-404-html-360/gate-iter1.json",
+          "record": "stardust/replica/gates/en-home-404-html-360/gate-iter3.json",
           "justified": [
             {
               "probe": "pixel",
@@ -478,7 +460,7 @@
                 },
                 "entrances": {
                   "status": "n/a",
-                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (\u00b1 10 %)",
+                  "detail": "live 0 element(s) with inline opacity/transform entrances, target 0 (± 10 %)",
                   "live": 0,
                   "target": 0
                 },
@@ -508,7 +490,7 @@
               "skips": {}
             }
           },
-          "iterations": 1,
+          "iterations": 3,
           "result": {
             "regime": "prototype",
             "pixelPct": 0.11,
@@ -528,14 +510,10 @@
                 "via": "unknown"
               }
             },
-            "at": "2026-09-21T08:03:57.812Z",
-            "forced": true,
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "structuralSource": "gates/en-home-404-html-1440/content-diff-iter1.txt",
-            "visualSource": "gates/en-home-404-html-1440/visual-diff-iter1.txt"
+            "at": "2026-09-21T08:22:54.277Z",
+            "forced": true
           },
-          "record": "stardust/replica/gates/en-home-404-html-1440/gate-iter1.json",
+          "record": "stardust/replica/gates/en-home-404-html-1440/gate-iter3.json",
           "justified": [
             {
               "probe": "pixel",
@@ -546,7 +524,7 @@
         }
       },
       "prototype": "stardust/prototypes/en-home-404-html-proposed.html",
-      "liftNote": "lift.mjs exit 5 (INVALID CAPTURE: 133 chars < CAPTURE_FLOOR.emptyLen 400) \u2014 geometry from the diagnosis rect probe replica/capture/lift/en-home-404-html-{1440,360}.probe.json (named deviation, direction.md)",
+      "liftNote": "lift.mjs exit 5 (INVALID CAPTURE: 133 chars < CAPTURE_FLOOR.emptyLen 400) — geometry from the diagnosis rect probe replica/capture/lift/en-home-404-html-{1440,360}.probe.json (named deviation, direction.md)",
       "approved": {
         "at": "2026-09-21T08:05:00Z",
         "approvedBy": "hands-off"
@@ -699,7 +677,7 @@
         "pages": 1,
         "archetype": "en-home-confirmation-html",
         "states": {
-          "rest": "unprobed:off-site login redirect (account.usta.com) \u2014 page decided-out (dynamics #28), never migrated"
+          "rest": "unprobed:off-site login redirect (account.usta.com) — page decided-out (dynamics #28), never migrated"
         },
         "gates": {}
       }

@@ -10,7 +10,7 @@
 .hero-play__title p{font-size:18px;line-height:24px;color:var(--rbt-blue);min-height:24px}
 .hero-play__title p:empty::before{content:"\00a0"}
 .hero-play__title h1{font-size:100px;line-height:110px;color:var(--rbt-blue)}
-.hero-play__title h1 .red{font-family:var(--font-display);color:rgb(200,15,46)}
+.hero-play__title h1 .red{font-family:var(--font-display);color:rgb(200,15,46);font-style:normal}
 .hero-play__eyebrow{display:none}
 .hero-play__photo-mobile{display:none}
 .hero-play__lede{width:100%;margin:0 20px;padding:8px 0}
@@ -46,7 +46,7 @@
 .rule-col .text b{font-weight:700}
 /* WHAT YOU NEED / WHERE TO PLAY band */
 .band--kit{padding-top:8px}
-.band--kit .band__inner{padding-bottom:32px}
+.band--kit .band__inner{padding-bottom:0}
 .band--kit .band__stripe{position:relative;padding:8px 0}
 .band--kit .band__container{position:relative;max-width:1200px;margin:0 auto;padding:8px 0}
 .band--kit .band__container-inner{padding:32px 0 64px}
@@ -70,8 +70,9 @@
 .kit__button{width:1170px;margin:0 15px;padding:8px 0}
 .kit__button .btn{margin:0 auto;min-width:280px}
 .btn--red{background-color:rgb(200,15,46);color:#fff}
-.band--kit .leadgeneration{margin:0;padding:8px 0}
-.band--kit .signup-embed .band__inner{padding:0}
+.band--signup-play .band__pad{padding:0 0 32px}
+.band--signup-play .band__inner{padding-bottom:0}
+.band--signup-play .leadgeneration{margin:0}
 
 @media (max-width:767px){
   .hero-play__text-col{width:100%}
@@ -91,7 +92,7 @@
   .rule-col__icon img{width:104px;height:104px}
   .rule-col .text{width:328px;margin:0 4px}
   .rule-col .text h2{font-size:44px;line-height:48.4px}
-  .band--kit .band__inner{padding-bottom:16px}
+  .band--kit .band__inner{padding-bottom:0}
   .band--kit .band__container{max-width:336px;margin:0 12px}
   .band--kit .band__container-inner{padding:16px 0 32px}
   .kit__heading{width:328px;margin:0 4px}
@@ -104,5 +105,7 @@
   .kit__sep,.kit__button{width:328px;margin:0 4px}
   .kit__button .btn{width:100% !important;max-width:280px;min-width:0}
   .rule-col .text p,.kit__heading p,.kit__text p{font-size:16px}
-  .band--kit .leadgeneration{margin:0}
+  .band--signup-play .band__pad{padding:0 0 16px}
 }
+
+.kit__items{display:contents}

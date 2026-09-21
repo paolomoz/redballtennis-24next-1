@@ -24,7 +24,7 @@
     {
      "role": "body",
      "order": 3,
-     "text": "Get ready to experience tennis like never before. With slower balls, a smaller court, and no strict rules, you’ll be playing Red Ball with your friends in no time. So what are you waiting for? Let’s rally!"
+     "text": "Get ready to experience tennis like never before. With slower balls, a smaller court, and no strict rules, you\u2019ll be playing Red Ball with your friends in no time. So what are you waiting for? Let\u2019s rally!"
     }
    ],
    "imgCount": 0,
@@ -34,7 +34,8 @@
     "interactive": [],
     "columns": 1
    },
-   "hasH1": true
+   "hasH1": true,
+   "decodeTier": "template-slotted"
   },
   {
    "section": "racquet-cta-band",
@@ -57,12 +58,13 @@
     }
    ],
    "imgCount": 0,
-   "editableTexts": 2,
+   "editableTexts": 3,
    "repeats": [],
    "structure": {
     "interactive": [],
     "columns": 1
-   }
+   },
+   "defaultContent": true
   },
   {
    "section": "spacer",
@@ -73,18 +75,30 @@
    "structure": {
     "interactive": [],
     "columns": 0
+   },
+   "defaultContent": {
+    "reason": "empty 16px spacer container \u2014 carried by the embed section top margin (spacer ladder rung 1)",
+    "dynamicsRow": null
    }
   },
   {
    "section": "video-embed",
-   "items": [],
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "https://www.youtube.com/watch?v=MHolYiYJjgM",
+     "href": "https://www.youtube.com/watch?v=MHolYiYJjgM"
+    }
+   ],
    "imgCount": 0,
    "editableTexts": 0,
    "repeats": [],
    "structure": {
     "interactive": [],
     "columns": 0
-   }
+   },
+   "decodeTier": "auto-block embed"
   },
   {
    "section": "rules-band",
@@ -196,81 +210,18 @@
     {
      "role": "body",
      "order": 6,
-     "text": "Your local tennis court, a pickleball court, a brewery, a parking lot, your driveway—the opportunities to play Red Ball are endless. Just pop up a net on any hard surface and get playing!"
+     "text": "Your local tennis court, a pickleball court, a brewery, a parking lot, your driveway\u2014the opportunities to play Red Ball are endless. Just pop up a net on any hard surface and get playing!"
     },
     {
      "role": "cta",
      "order": 7,
      "text": "FIND A COURT",
      "href": "https://www.usta.com/en/home/play/facility-listing.html"
-    },
-    {
-     "role": "heading",
-     "order": 8,
-     "text": "RED IS IN. ARE YOU?"
-    },
-    {
-     "role": "body",
-     "order": 9,
-     "text": "SIGN UP FOR RED BALL TENNIS NEWS, EVENTS, AND A FEW SURPRISES."
-    },
-    {
-     "role": "eyebrow",
-     "order": 10,
-     "text": "EMAIL"
-    },
-    {
-     "role": "eyebrow",
-     "order": 11,
-     "text": "*"
-    },
-    {
-     "role": "eyebrow",
-     "order": 12,
-     "text": "ZIP/POSTAL CODE"
-    },
-    {
-     "role": "eyebrow",
-     "order": 13,
-     "text": "*"
-    },
-    {
-     "role": "eyebrow",
-     "order": 14,
-     "text": "*JOIN THE FUN"
-    },
-    {
-     "role": "body",
-     "order": 15,
-     "text": "*By clicking JOIN THE FUN, you are signing up to receive email communications from USTA and its affiliates about Red Ball Tennis play opportunities, programs and other promotional communications. You agree to and understand that personal information you provide will be used as described in . You must be 13 years of age or older to subscribe to these communications."
-    },
-    {
-     "role": "cta",
-     "order": 16,
-     "text": "USTA's Terms of Use",
-     "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-terms-of-use.html"
-    },
-    {
-     "role": "cta",
-     "order": 17,
-     "text": "USTA's Privacy Policy",
-     "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy.html"
     }
    ],
-   "imgCount": 3,
-   "editableTexts": 10,
+   "imgCount": 2,
+   "editableTexts": 8,
    "repeats": [
-    {
-     "unitSelector": "DIV.kit__heading",
-     "count": 2,
-     "unit": {
-      "headings": 1,
-      "ctas": 0,
-      "imgs": 0,
-      "textRuns": 1
-     },
-     "uniform": false
-    },
     {
      "unitSelector": "DIV.kit__item",
      "count": 2,
@@ -284,12 +235,93 @@
     }
    ],
    "structure": {
+    "interactive": [],
+    "columns": 2
+   },
+   "repeatsCurated": {
+    "removed": [
+     {
+      "unitSelector": "DIV.kit__heading",
+      "count": 2,
+      "unit": {
+       "headings": 1,
+       "ctas": 0,
+       "imgs": 0,
+       "textRuns": 1
+      },
+      "uniform": false
+     }
+    ],
+    "why": "hidden bands / heading pairs / eyebrow breakpoint variants are not repeat units \u2014 only the image tiles/items repeat"
+   }
+  },
+  {
+   "section": "signup-band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "RED IS IN. ARE YOU?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SIGN UP FOR RED BALL TENNIS NEWS, EVENTS, AND A FEW SURPRISES."
+    },
+    {
+     "role": "eyebrow",
+     "order": 2,
+     "text": "EMAIL"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "*"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "ZIP/POSTAL CODE"
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "*"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "*JOIN THE FUN"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "*By clicking JOIN THE FUN, you are signing up to receive email communications from USTA and its affiliates about Red Ball Tennis play opportunities, programs and other promotional communications. You agree to and understand that personal information you provide will be used as described in . You must be 13 years of age or older to subscribe to these communications."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "USTA's Terms of Use",
+     "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-terms-of-use.html"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "USTA's Privacy Policy",
+     "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [],
+   "structure": {
     "interactive": [
      "button",
      "input"
     ],
     "columns": 2
-   }
+   },
+   "decodeTier": "template-slotted"
   }
  ]
 }

@@ -34,29 +34,40 @@
     {
      "role": "body",
      "order": 5,
-     "text": "Red Ball Tennis drops the pressure and dials up the fun of the classic game we all love. Whether you’re new to the game, coming back after a break, or just looking to get active, Red Ball makes it easy to jump in. No formal courts, no strict rules, just high-energy play whenever and wherever you want."
+     "text": "Red Ball Tennis drops the pressure and dials up the fun of the classic game we all love. Whether you\u2019re new to the game, coming back after a break, or just looking to get active, Red Ball makes it easy to jump in. No formal courts, no strict rules, just high-energy play whenever and wherever you want."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "https://www.youtube.com/watch?v=0d6ahBtLavQ",
+     "href": "https://www.youtube.com/watch?v=0d6ahBtLavQ"
     }
    ],
    "imgCount": 1,
    "editableTexts": 4,
-   "repeats": [
-    {
-     "unitSelector": "DIV.hero__eyebrow",
-     "count": 2,
-     "unit": {
-      "headings": 0,
-      "ctas": 0,
-      "imgs": 0,
-      "textRuns": 2
-     },
-     "uniform": true
-    }
-   ],
+   "repeats": [],
    "structure": {
     "interactive": [],
     "columns": 1
    },
-   "hasH1": true
+   "hasH1": true,
+   "decodeTier": "template-slotted",
+   "repeatsCurated": {
+    "removed": [
+     {
+      "unitSelector": "DIV.hero__eyebrow",
+      "count": 2,
+      "unit": {
+       "headings": 0,
+       "ctas": 0,
+       "imgs": 0,
+       "textRuns": 2
+      },
+      "uniform": true
+     }
+    ],
+    "why": "breakpoint variants of one eyebrow / hidden images \u2014 fixed composition"
+   }
   },
   {
    "section": "racquet-cta-band",
@@ -79,12 +90,13 @@
     }
    ],
    "imgCount": 0,
-   "editableTexts": 2,
+   "editableTexts": 3,
    "repeats": [],
    "structure": {
     "interactive": [],
     "columns": 1
-   }
+   },
+   "defaultContent": true
   },
   {
    "section": "play-host-tiles",
@@ -135,19 +147,8 @@
     }
    ],
    "imgCount": 2,
-   "editableTexts": 4,
+   "editableTexts": 8,
    "repeats": [
-    {
-     "unitSelector": "DIV.tile",
-     "count": 2,
-     "unit": {
-      "headings": 1,
-      "ctas": 1,
-      "imgs": 0,
-      "textRuns": 2
-     },
-     "uniform": true
-    },
     {
      "unitSelector": "DIV.tile",
      "count": 2,
@@ -163,6 +164,22 @@
    "structure": {
     "interactive": [],
     "columns": 1
+   },
+   "repeatsCurated": {
+    "removed": [
+     {
+      "unitSelector": "DIV.tile",
+      "count": 2,
+      "unit": {
+       "headings": 1,
+       "ctas": 1,
+       "imgs": 0,
+       "textRuns": 2
+      },
+      "uniform": true
+     }
+    ],
+    "why": "hidden bands / heading pairs / eyebrow breakpoint variants are not repeat units \u2014 only the image tiles/items repeat"
    }
   },
   {
@@ -230,7 +247,9 @@
      "input"
     ],
     "columns": 2
-   }
+   },
+   "defaultContent": null,
+   "decodeTier": "template-slotted"
   }
  ]
 }

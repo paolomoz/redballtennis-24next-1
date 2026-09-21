@@ -74,6 +74,26 @@ function buildWidgetAutoBlocks(main) {
 }
 
 /**
+ * Builds `embed` blocks from a YouTube / Vimeo link that is the only content of its section
+ * (D1: embed URLs ride a plain link, never an authored block table).
+ * @param {Element} main The container element
+ */
+function buildEmbedBlocks(main) {
+  main.querySelectorAll('a[href*="youtube.com"], a[href*="youtu.be"], a[href*="vimeo.com"]').forEach((a) => {
+    if (a.closest('.embed, .hero, .block')) return;
+    const p = a.closest('p');
+    const section = a.closest('main > div');
+    if (!p || !section) return;
+    if (p.textContent.trim() !== a.textContent.trim()) return;
+    const onlyChild = [...section.children].filter((c) => c.textContent.trim() || c.querySelector('picture, img')).length === 1;
+    if (!onlyChild) return;
+    const block = buildBlock('embed', [[p.cloneNode(true)]]);
+    block.querySelectorAll('[data-prose-index]').forEach((n) => n.removeAttribute('data-prose-index'));
+    p.replaceWith(block);
+  });
+}
+
+/**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
@@ -97,6 +117,7 @@ function buildAutoBlocks(main) {
       });
     }
     buildWidgetAutoBlocks(main);
+    buildEmbedBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);

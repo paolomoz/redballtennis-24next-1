@@ -1,0 +1,12 @@
+{
+  "total": 4,
+  "offset": 0,
+  "limit": 4,
+  "data": [
+    { "Key": "signupEmail", "Text": "EMAIL" },
+    { "Key": "signupZip", "Text": "ZIP/POSTAL CODE" },
+    { "Key": "signupSubmit", "Text": "*JOIN THE FUN" },
+    { "Key": "signupNoBackend", "Text": "Sign-up is not connected yet — no backend configured for this preview." }
+  ],
+  ":type": "sheet"
+}

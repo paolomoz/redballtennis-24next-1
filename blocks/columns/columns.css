@@ -1,33 +1,103 @@
-.columns > div {
+/* columns — lifted from stardust/prototypes/css/play.css (.band--rules) */
+main .columns-container {
+  margin-top: 16px;
+  padding-bottom: 8px;
+  background-color: var(--rbt-blue);
+  background-image: url("/media/redballtennis/host-play-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+main .columns-container > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 8px;
+}
+
+main .columns-container .columns-wrapper {
+  padding: 64px 0;
+}
+
+.columns .columns-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.columns img {
-  width: 100%;
+.columns .column {
+  width: 600px;
+  max-width: 100%;
+  padding: 32px 0 40px;
 }
 
-.columns > div > div {
-  order: 1;
+.columns .column-icon {
+  padding: 8px 0;
 }
 
-.columns > div > .columns-img-col {
-  order: 0;
-}
-
-.columns > div > .columns-img-col img {
+.columns .column-icon picture,
+.columns .column-icon img {
   display: block;
+  width: 120px;
+  height: 120px;
+  margin: 8px auto;
+  line-height: 0;
 }
 
-@media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+.columns .column-text {
+  width: 370px;
+  margin: 0 115px;
+  padding: 8px 0;
+  color: #fff;
+}
+
+.columns .column-text h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.columns .column-text p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.columns .column-text > * + * {
+  margin-top: 24px;
+}
+
+.columns .column-text p strong {
+  font-weight: 700;
+}
+
+@media (width <= 767px) {
+  main .columns-container > div {
+    max-width: 336px;
+    margin: 0 12px;
   }
 
-  .columns > div > div {
-    flex: 1;
-    order: unset;
+  main .columns-container .columns-wrapper {
+    padding: 32px 0;
+  }
+
+  .columns .column {
+    width: 336px;
+    padding: 16px 0 24px;
+  }
+
+  .columns .column-icon picture,
+  .columns .column-icon img {
+    width: 104px;
+    height: 104px;
+  }
+
+  .columns .column-text {
+    width: 328px;
+    margin: 0 4px;
+  }
+
+  .columns .column-text p {
+    font-size: 16px;
   }
 }

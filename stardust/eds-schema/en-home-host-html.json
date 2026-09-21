@@ -24,24 +24,29 @@
    ],
    "imgCount": 3,
    "editableTexts": 3,
-   "repeats": [
-    {
-     "unitSelector": "DIV.image",
-     "count": 2,
-     "unit": {
-      "headings": 0,
-      "ctas": 0,
-      "imgs": 1,
-      "textRuns": 0
-     },
-     "uniform": true
-    }
-   ],
+   "repeats": [],
    "structure": {
     "interactive": [],
     "columns": 1
    },
-   "hasH1": true
+   "hasH1": true,
+   "repeatsCurated": {
+    "removed": [
+     {
+      "unitSelector": "DIV.image",
+      "count": 2,
+      "unit": {
+       "headings": 0,
+       "ctas": 0,
+       "imgs": 1,
+       "textRuns": 0
+      },
+      "uniform": true
+     }
+    ],
+    "why": "hidden breakpoint variants (mobile eyebrow / hidden man images) \u2014 not repeat units; the hero is a fixed composition (template-slotted)"
+   },
+   "decodeTier": "template-slotted"
   },
   {
    "section": "racquet-cta-band",
@@ -69,7 +74,8 @@
    "structure": {
     "interactive": [],
     "columns": 1
-   }
+   },
+   "defaultContent": true
   },
   {
    "section": "play-host-tiles",
@@ -131,31 +137,9 @@
      "unitSelector": "DIV.tile",
      "count": 2,
      "unit": {
-      "headings": 1,
-      "ctas": 1,
-      "imgs": 0,
-      "textRuns": 2
-     },
-     "uniform": true
-    },
-    {
-     "unitSelector": "DIV.tile",
-     "count": 2,
-     "unit": {
       "headings": 0,
       "ctas": 0,
       "imgs": 1,
-      "textRuns": 1
-     },
-     "uniform": true
-    },
-    {
-     "unitSelector": "DIV.tiles__button",
-     "count": 2,
-     "unit": {
-      "headings": 0,
-      "ctas": 1,
-      "imgs": 0,
       "textRuns": 1
      },
      "uniform": true
@@ -164,6 +148,33 @@
    "structure": {
     "interactive": [],
     "columns": 1
+   },
+   "repeatsCurated": {
+    "removed": [
+     {
+      "unitSelector": "DIV.tile",
+      "count": 2,
+      "unit": {
+       "headings": 1,
+       "ctas": 1,
+       "imgs": 0,
+       "textRuns": 2
+      },
+      "uniform": true
+     },
+     {
+      "unitSelector": "DIV.tiles__button",
+      "count": 2,
+      "unit": {
+       "headings": 0,
+       "ctas": 1,
+       "imgs": 0,
+       "textRuns": 1
+      },
+      "uniform": true
+     }
+    ],
+    "why": "hidden bands / heading pairs / eyebrow breakpoint variants are not repeat units \u2014 only the image tiles/items repeat"
    }
   },
   {
@@ -238,7 +249,7 @@
     {
      "role": "body",
      "order": 1,
-     "text": "Drop your information below, and we’ll be in touch with details on how to bring Red Ball Tennis to your community."
+     "text": "Drop your information below, and we\u2019ll be in touch with details on how to bring Red Ball Tennis to your community."
     },
     {
      "role": "eyebrow",
@@ -292,7 +303,9 @@
      "input"
     ],
     "columns": 2
-   }
+   },
+   "decodeTier": "template-slotted",
+   "defaultContent": null
   }
  ]
 }

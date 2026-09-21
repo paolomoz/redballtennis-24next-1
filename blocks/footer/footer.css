@@ -1,20 +1,165 @@
+/* footer — lifted from stardust/prototypes/css/canon.css (.site-footer) */
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background-color: var(--rbt-footer-blue);
+}
+
+footer .footer {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
-}
-
-footer .footer p {
+  max-width: none;
   margin: 0;
+  padding: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .site-footer-inner {
+  padding: 32px 0 64px;
+  background-color: var(--rbt-footer-blue);
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.4286;
+}
+
+footer .footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer .footer-sep {
+  width: 100%;
+}
+
+footer .footer-sep hr {
+  border-color: transparent;
+}
+
+footer .footer-sep-mobile {
+  display: none;
+}
+
+footer .footer-sep-mobile hr {
+  margin: 7px 0;
+}
+
+footer .footer-sep-bottom hr {
+  margin: 20px 0;
+}
+
+footer .footer-logo {
+  width: 1200px;
+  margin: 0 0 20px 120px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+footer .footer-logo p {
+  margin: 0;
+  line-height: 0;
+}
+
+footer .footer-logo a {
+  display: inline;
+}
+
+footer .footer-logo picture,
+footer .footer-logo img {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+footer .footer-links-col {
+  width: 1080px;
+  margin-left: 120px;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-links-sites ul {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .footer-links-sites li a:any-link {
+  font-family: var(--font-semibold);
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+footer .footer-links-sites li a:hover {
+  color: var(--rbt-lime);
+}
+
+footer .footer-links-social {
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .footer-hashtag {
+  display: none;
+  width: 1200px;
+  margin-left: 120px;
+}
+
+footer .footer-hashtag p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+footer .footer-hashtag strong {
+  font-weight: 700;
+}
+
+@media (width <= 767px) {
+  footer .site-footer-inner {
+    padding: 16px 0 32px;
+  }
+
+  footer .footer-sep-mobile {
+    display: block;
+  }
+
+  footer .footer-logo {
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  footer .footer-links-col {
+    width: 270px;
+    margin-left: 30px;
+  }
+
+  footer .footer-links {
+    flex-direction: column;
+    gap: 32px;
+    align-items: start;
+  }
+
+  footer .footer-links-sites ul {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  footer .footer-hashtag {
+    display: block;
+    width: 300px;
+    margin-left: 30px;
   }
 }

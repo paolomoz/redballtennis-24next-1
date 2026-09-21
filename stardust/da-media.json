@@ -1,0 +1,153 @@
+{
+  "https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_1439545819/container_2024798835/container_378522279/container/copy_of_image_copy_c.coreimg.90.1024.jpeg/1753807353688/rbt-host-v1.jpeg": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/jpeg",
+    "bytes": 269013,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:26.949Z"
+  },
+  "https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_423199029_/Copy%20of%20container/container/image.coreimg.90.512.png/1747756140360/on-the-court.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 392532,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.113Z"
+  },
+  "https://www.redballtennis.com/en/home/host/_jcr_content/root/content/container_423199029_/Copy%20of%20container/container_1076444753/image.coreimg.90.512.png/1753814480151/in-the-wild-text-and-image.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 298015,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.424Z"
+  },
+  "https://www.redballtennis.com/content/dam/redballtennis/icons/rbt-favicon-180x180.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 13717,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.444Z"
+  },
+  "https://www.redballtennis.com/content/dam/redballtennis/play/rbt-play-v1.jpg": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/jpeg",
+    "bytes": 653722,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.527Z"
+  },
+  "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_1191986846/container_1562986204/container_2049039780_1534277395/container_copy/image_1512977821.coreimg.svg/1698248365984/icon-resources-6.svg": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/svg+xml",
+    "bytes": 3885,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.549Z"
+  },
+  "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_1191986846/container_1562986204/container_2049039780/container_copy/image_1321456131.coreimg.svg/1698248370717/icon-resources-5.svg": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/svg+xml",
+    "bytes": 4511,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.568Z"
+  },
+  "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_515547975/container/container/container_copy/image.coreimg.svg/1749564664073/hit-to-be-fit.svg": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/svg+xml",
+    "bytes": 7400,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.591Z"
+  },
+  "https://www.redballtennis.com/en/home/play/_jcr_content/root/content/container_515547975/container/container/container/image.coreimg.svg/1749564670116/red-tennis-ball.svg": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/svg+xml",
+    "bytes": 626,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.610Z"
+  },
+  "https://www.redballtennis.com/content/experience-fragments/redballtennis/footer-xf/master/_jcr_content/root/container/image.coreimg.90.128.png/1747721327696/red-ball-tennis-wbg.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 12068,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.630Z"
+  },
+  "https://www.redballtennis.com/en/home/_jcr_content/root/content/container_1439545819/container_2024798835/container_1344158430/image.coreimg.90.1024.png/1747721329069/hand-with-ball.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 616025,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.700Z"
+  },
+  "https://www.redballtennis.com/en/home/_jcr_content/root/content/container_423199029/Copy%20of%20container/container/image.coreimg.90.512.png/1747721329193/play-homepage.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 375934,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.750Z"
+  },
+  "https://www.redballtennis.com/en/home/_jcr_content/root/content/container_423199029/Copy%20of%20container/container_1076444753/image.coreimg.90.512.png/1747721328564/host-homepage.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 367457,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.798Z"
+  },
+  "https://www.redballtennis.com/content/dam/redballtennis/logos/red-ball-tennis-wbg.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 54006,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.819Z"
+  },
+  "https://www.redballtennis.com/content/dam/redballtennis/logos/red-ball-logo-mob.png": {
+    "status": "kept",
+    "http": 200,
+    "type": "image/png",
+    "bytes": 6868,
+    "policy": "rehost-blocked",
+    "only": "oversize",
+    "at": "2026-09-21T08:35:27.836Z"
+  },
+  "https://www.redballtennis.com/content/dam/redballtennis/host/host-red-ball.jpg": {
+    "status": "rehosted",
+    "da": "https://admin.da.live/source/paolomoz/redballtennis-24next-1/media/redballtennis/host-red-ball-e309b805.jpg",
+    "url": "https://content.da.live/paolomoz/redballtennis-24next-1/media/redballtennis/host-red-ball-e309b805.jpg",
+    "sha1": "cd26907f8090f8a63cb451045a9456652a9aa57d",
+    "bytes": 732121,
+    "type": "image/jpeg",
+    "width": 2000,
+    "height": 1334,
+    "source": "plain",
+    "reasons": [
+      "oversize"
+    ],
+    "via": "resize",
+    "at": "2026-09-21T08:35:26.838Z"
+  }
+}

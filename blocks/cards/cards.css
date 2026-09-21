@@ -1,27 +1,319 @@
-.cards > ul {
-  list-style: none;
+/* cards — lifted from stardust/prototypes/css/canon.css (.band--tiles), host.css, play.css (.kit) */
+
+/* the band: blue tennis-ball photo (fixed brand asset → CSS), lifted paddings */
+main .cards-container {
+  padding: 8px 0;
+  background-image: url("/media/redballtennis/host-play-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+main .cards-container > div {
+  max-width: none;
+  margin: 0 180px;
+  padding: 8px 0;
+}
+
+main .cards-container .cards-wrapper {
+  padding: 64px 0;
+}
+
+.cards .cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  list-style: none;
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+.cards .card {
+  width: 360px;
+  margin: 0 90px;
+  padding: 8px 0;
 }
 
-.cards .cards-card-body {
-  margin: 16px;
-}
-
-.cards .cards-card-image {
+.cards .card-image {
+  margin: 0 15px;
+  padding: 8px 0;
+  overflow: hidden;
   line-height: 0;
 }
 
-.cards > ul > li img {
+.cards .card-image img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: auto;
+}
+
+.cards .card-text {
+  margin: 0 15px;
+  padding: 8px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.cards .card-text p {
+  font-family: var(--font-semibold);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cards .card-actions {
+  margin: 0 15px;
+  padding: 8px 0;
+}
+
+.cards .card-actions p.button-wrapper {
+  padding: 0;
+}
+
+.cards .card-actions a.button {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  background-color: #fff;
+  color: #000;
+}
+
+/* kit variant (play): icon + h3 + p on white, inside the kit band */
+.cards.kit .card {
+  width: 500px;
+  margin: 0 50px;
+  padding: 32px 0;
+}
+
+.cards.kit .card-image {
+  width: 370px;
+  margin: 0 65px;
+}
+
+.cards.kit .card-image picture,
+.cards.kit .card-image img {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.cards.kit .card-image img {
+  width: 100%;
+}
+
+.cards.kit .card-title,
+.cards.kit .card-text {
+  width: 470px;
+  margin: 0 15px;
+  text-align: center;
+  color: #000;
+}
+
+.cards.kit .card-title {
+  padding: 8px 0 0;
+}
+
+.cards.kit .card-title h3 {
+  text-align: center;
+  color: #000;
+}
+
+.cards.kit .card-text {
+  padding: 0 0 8px;
+}
+
+.cards.kit .card-text p {
+  font-family: var(--font-regular);
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* host variant: two tiles 480 wide, the "wild" tile carries a 340px image; note + large CTA follow as default content */
+.cards.host .cards-list {
+  align-items: center;
+}
+
+.cards.host .card {
+  width: 480px;
+  margin: 0 30px;
+}
+
+.cards.host .card-image {
+  margin: 0 75px;
+}
+
+.cards.host .card:nth-child(2) .card-image {
+  margin: 0 15px;
+}
+
+.cards.host .card:nth-child(2) .card-image img {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.cards.host .card-text {
+  margin: 0 15px;
+}
+
+body.play main .cards-container > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body.play main .cards-container .cards-wrapper {
+  padding: 0;
+}
+
+body.host main .cards-container .default-content-wrapper {
+  margin: 0 15px;
+  padding: 57px 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+body.host main .cards-container .default-content-wrapper p {
+  padding: 8px 0;
+  color: #fff;
+}
+
+body.host main .cards-container .default-content-wrapper p.button-wrapper {
+  justify-content: center;
+  margin-top: 8px;
+}
+
+body.host main .cards-container .default-content-wrapper a.button {
+  min-width: 280px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* kit band (play): the section's own default content — WHAT YOU NEED TO PLAY / WHERE TO PLAY + CTA */
+body.play main .cards-container {
+  position: relative;
+  padding: 16px 0 32px;
+  background: none;
+}
+
+body.play main .cards-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 24px;
+  width: 100%;
+  height: var(--stripe);
+  background-color: var(--rbt-red);
+}
+
+body.play main .cards-container .default-content-wrapper {
+  padding: 0 115px;
+  text-align: center;
+  color: #000;
+}
+
+body.play main .cards-container .default-content-wrapper h2 {
+  padding: 8px 0;
+  text-align: center;
+  color: var(--rbt-red);
+}
+
+body.play main .cards-container .default-content-wrapper p {
+  text-align: center;
+}
+
+body.play main .cards-container .default-content-wrapper p strong {
+  font-weight: 700;
+}
+
+body.play main .cards-container .default-content-wrapper p.button-wrapper {
+  justify-content: center;
+  padding: 25px 0 8px;
+}
+
+body.play main .cards-container .default-content-wrapper p.button-wrapper a.button {
+  min-width: 280px;
+  background-color: var(--rbt-red-3);
+  color: #fff;
+}
+
+@media (width <= 767px) {
+  main .cards-container > div {
+    margin: 0 30px;
+  }
+
+  main .cards-container .cards-wrapper {
+    padding: 32px 0;
+  }
+
+  .cards .card {
+    width: 300px;
+    margin: 0;
+  }
+
+  .cards .card-image,
+  .cards .card-text,
+  .cards .card-actions {
+    margin: 0 4px;
+  }
+
+  .cards.kit .card {
+    width: 168px;
+    margin: 0;
+    padding: 16px 0;
+  }
+
+  .cards.kit .card-image {
+    width: 104px;
+    margin: 0 32px;
+  }
+
+  .cards.kit .card-title,
+  .cards.kit .card-text {
+    width: 160px;
+    margin: 0 4px;
+  }
+
+  .cards.kit .card-text p {
+    font-size: 16px;
+  }
+
+  .cards.host .card {
+    width: 300px;
+    margin: 0;
+  }
+
+  .cards.host .card-image,
+  .cards.host .card:nth-child(2) .card-image,
+  .cards.host .card-text {
+    margin: 0 4px;
+  }
+
+  .cards.host .card:nth-child(2) .card-image img {
+    width: 340px;
+    margin: 0 -48px 0 0;
+  }
+
+  body.host main .cards-container .default-content-wrapper {
+    margin: 0 4px;
+  }
+
+  body.host main .cards-container .default-content-wrapper a.button {
+    width: 100%;
+    min-width: 0;
+    max-width: 280px;
+    margin: 0 6px;
+  }
+}
+
+@media (width <= 767px) {
+  body.play main .cards-container > div {
+    max-width: 336px;
+    margin: 0 12px;
+  }
+
+  body.play main .cards-container .default-content-wrapper {
+    padding: 0 4px;
+  }
 }

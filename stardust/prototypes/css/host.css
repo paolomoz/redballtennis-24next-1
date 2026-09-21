@@ -53,3 +53,5 @@
   .band--tiles-host .tiles__sep,.band--tiles-host .tiles__note,.band--tiles-host .tiles__button{width:292px;margin:0 4px}
   .band--tiles-host .tiles__button .btn{width:100% !important;max-width:280px;min-width:0;margin:0 6px}
 }
+
+.tiles__cards{display:contents}
