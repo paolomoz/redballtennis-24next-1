@@ -1,0 +1,108 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [
+      "stardust/current/**",
+      "stardust/prototypes/**",
+      "stardust/canon/**"
+    ],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "#ffffff",
+        "createdAt": "2026-09-21T07:03:54.477Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#0a2396",
+        "createdAt": "2026-09-21T07:03:54.489Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#000000",
+        "createdAt": "2026-09-21T07:03:54.498Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#c80f2f",
+        "createdAt": "2026-09-21T07:03:54.507Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#0357b8",
+        "createdAt": "2026-09-21T07:03:54.516Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#333333",
+        "createdAt": "2026-09-21T07:03:54.525Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#1e212a",
+        "createdAt": "2026-09-21T07:03:54.534Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#ebebf0",
+        "createdAt": "2026-09-21T07:03:54.544Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "100px",
+        "createdAt": "2026-09-21T07:03:54.553Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "76px",
+        "createdAt": "2026-09-21T07:03:54.561Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "56px",
+        "createdAt": "2026-09-21T07:03:54.570Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "overused-font",
+        "value": "graphik xxcond bold",
+        "createdAt": "2026-09-21T07:03:54.579Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "overused-font",
+        "value": "graphik semibold",
+        "createdAt": "2026-09-21T07:03:54.588Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "overused-font",
+        "value": "graphik regular",
+        "createdAt": "2026-09-21T07:03:54.597Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "overused-font",
+        "value": "usta sans",
+        "createdAt": "2026-09-21T07:03:54.606Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      },
+      {
+        "rule": "overused-font",
+        "value": "ulp custom",
+        "createdAt": "2026-09-21T07:03:54.615Z",
+        "reason": "replica: lifted from https://www.redballtennis.com on 2026-09-21"
+      }
+    ]
+  }
+}

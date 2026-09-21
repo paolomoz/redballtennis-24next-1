@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-09-21T07:03:17.234Z",
+  "root": "stardust",
+  "minCluster": null,
+  "k": 0,
+  "breakpoints": [
+    1440,
+    360
+  ],
+  "types": [
+    {
+      "type": "landing",
+      "pages": 5,
+      "minCluster": 5,
+      "k": 0,
+      "archetype": null,
+      "archetypeCluster": "c1",
+      "clusters": [
+        {
+          "id": "c1",
+          "signature": [
+            "root|g:2xcit+4xhit|i|c2",
+            "bidtellect"
+          ],
+          "variants": [],
+          "count": 5,
+          "pages": [
+            "content-redballtennis-en-home-html",
+            "en-home-free-racquet-pack-html",
+            "en-home-html",
+            "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+            "index"
+          ],
+          "exemplar": "en-home-html",
+          "exemplarSource": "median",
+          "gated": {
+            "360": "ungated",
+            "1440": "ungated"
+          },
+          "diffVsArchetype": []
+        }
+      ],
+      "tail": [],
+      "unclustered": [],
+      "ungated": [
+        "c1"
+      ],
+      "minClusterSource": "default"
+    },
+    {
+      "type": "unique",
+      "pages": 2,
+      "minCluster": 5,
+      "k": 0,
+      "archetype": null,
+      "archetypeCluster": null,
+      "clusters": [],
+      "tail": [
+        {
+          "id": "c1",
+          "signature": [
+            "c88701731|g:2x+2xct+2xt+3xt|i"
+          ],
+          "variants": [],
+          "count": 1,
+          "pages": [
+            "en-home-confirmation-html"
+          ],
+          "exemplar": "en-home-confirmation-html",
+          "exemplarSource": "median",
+          "gated": {
+            "360": "ungated",
+            "1440": "ungated"
+          },
+          "diffVsArchetype": []
+        },
+        {
+          "id": "c2",
+          "signature": [
+            "root|g:2xcit+2xct|i|c2",
+            "bidtellect"
+          ],
+          "variants": [],
+          "count": 1,
+          "pages": [
+            "en-home-404-html"
+          ],
+          "exemplar": "en-home-404-html",
+          "exemplarSource": "median",
+          "gated": {
+            "360": "ungated",
+            "1440": "ungated"
+          },
+          "diffVsArchetype": []
+        }
+      ],
+      "unclustered": [],
+      "ungated": [],
+      "minClusterSource": "default"
+    },
+    {
+      "type": "program",
+      "pages": 2,
+      "minCluster": 5,
+      "k": 0,
+      "archetype": null,
+      "archetypeCluster": null,
+      "clusters": [],
+      "tail": [
+        {
+          "id": "c1",
+          "signature": [
+            "root|g:2xcit+5xhit|i|c2",
+            "bidtellect"
+          ],
+          "variants": [],
+          "count": 1,
+          "pages": [
+            "en-home-host-html"
+          ],
+          "exemplar": "en-home-host-html",
+          "exemplarSource": "median",
+          "gated": {
+            "360": "ungated",
+            "1440": "ungated"
+          },
+          "diffVsArchetype": []
+        },
+        {
+          "id": "c2",
+          "signature": [
+            "root|g:2xcit+5xht|i|c2",
+            "bidtellect"
+          ],
+          "variants": [],
+          "count": 1,
+          "pages": [
+            "en-home-play-html"
+          ],
+          "exemplar": "en-home-play-html",
+          "exemplarSource": "median",
+          "gated": {
+            "360": "ungated",
+            "1440": "ungated"
+          },
+          "diffVsArchetype": []
+        }
+      ],
+      "unclustered": [],
+      "ungated": [],
+      "minClusterSource": "default"
+    }
+  ]
+}

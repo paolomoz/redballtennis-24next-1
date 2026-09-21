@@ -1,0 +1,841 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-21T06:56:59.517Z",
+    "script": "brand-surface.mjs",
+    "readArtifacts": [
+      "stardust/current/pages/content-redballtennis-en-home-html.json",
+      "stardust/current/pages/en-home-404-html.json",
+      "stardust/current/pages/en-home-confirmation-html.json",
+      "stardust/current/pages/en-home-free-racquet-pack-html.json",
+      "stardust/current/pages/en-home-host-html.json",
+      "stardust/current/pages/en-home-html.json",
+      "stardust/current/pages/en-home-play-html.json",
+      "stardust/current/pages/en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html.json",
+      "stardust/current/pages/index.json",
+      "stardust/current/pages/content-redballtennis-en-home-html.html",
+      "stardust/current/pages/en-home-404-html.html",
+      "stardust/current/pages/en-home-confirmation-html.html",
+      "stardust/current/pages/en-home-free-racquet-pack-html.html",
+      "stardust/current/pages/en-home-host-html.html",
+      "stardust/current/pages/en-home-html.html",
+      "stardust/current/pages/en-home-play-html.html",
+      "stardust/current/pages/en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html.html",
+      "stardust/current/pages/index.html",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/assets/_fonts-manifest.json"
+    ],
+    "synthesizedInputs": [],
+    "mode": "full",
+    "pagesAggregated": 9,
+    "notes": [
+      "palette capped at 8; dropped: #a8a8a8 (20)",
+      "spacing: no 4/8 rhythm detected across section paddings/gaps — scale = []",
+      "componentStyle.inputs: input styles are not in the schema 2 record — null"
+    ]
+  },
+  "site": {
+    "name": "Home",
+    "tagline": "Red Ball Tennis dials up the fun of the tennis game you love, making it easy for starting or returning players to experience a racquet sport.",
+    "originUrl": "https://www.redballtennis.com"
+  },
+  "origins": [
+    {
+      "origin": "https://www.redballtennis.com",
+      "role": "primary",
+      "pagesCaptured": 9,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "step": "1b",
+    "sourceSelector": "img[src=\"https://www.redballtennis.com/content/dam/redballtennis/logos/red-ball-tennis-wbg.png\"]",
+    "url": "https://www.redballtennis.com/content/dam/redballtennis/logos/red-ball-tennis-wbg.png",
+    "localPath": "assets/media/red-ball-tennis-wbg-78def4d8.png",
+    "format": "png",
+    "intrinsicWidth": 528,
+    "intrinsicHeight": 331,
+    "renderedWidth": 138,
+    "renderedHeight": 87,
+    "alt": "USTA Logo Home",
+    "synthesized": false,
+    "synthesizedBasis": null
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 2952,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sourceSelectors": [
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(3)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(1)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(4)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(6)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.iframetext:nth-child(4)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(5)"
+      ],
+      "sources": [
+        "en-home-play-html",
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html"
+      ]
+    },
+    {
+      "role": "surface",
+      "value": "#0a2396",
+      "occurrences": 1059,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sourceSelectors": [
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(2)",
+        "h2",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(5)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(2) > div#container-b7266185d4 > div.aem-Grid > div.button:nth-child(3) > a#button-f659764991",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.experiencefragment:nth-child(1)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.experiencefragment:nth-child(3)"
+      ],
+      "sources": [
+        "en-home-play-html",
+        "en-home-404-html",
+        "en-home-host-html"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#000000",
+      "occurrences": 1057,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sourceSelectors": [
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(1)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(4)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2)",
+        "… > div#container-dbc35ef2b2 > div.aem-Grid > div.container > div#container-21e5e1ed08 > div.aem-Grid > div.leadgeneration > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.inputs-row:nth-child(4) > div.v-lead-generation-form__buttons:nth-child(3) > button.button-primary-style",
+        "h4.v-lead-generation-form__title",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(6)"
+      ],
+      "sources": [
+        "en-home-404-html",
+        "en-home-play-html",
+        "content-redballtennis-en-home-html"
+      ]
+    },
+    {
+      "role": "accent-1",
+      "value": "#c80f2f",
+      "occurrences": 183,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "… > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(6) > div#container-05ecfdb5c5 > div.aem-Grid > div.container:nth-child(1) > div#container-1e9297a53d > div.aem-Grid > div.container > div#container-fae7303004 > div.aem-Grid > div.button:nth-child(7) > a#button-7fb4d3db0f"
+      ],
+      "sources": [
+        "en-home-play-html",
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#0357b8",
+      "occurrences": 85,
+      "usedAs": [
+        "text"
+      ],
+      "sourceSelectors": [
+        "… > div#container-dbc35ef2b2 > div.aem-Grid > div.container > div#container-21e5e1ed08 > div.aem-Grid > div.leadgeneration > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.v-lead-generation-form__terms-description:nth-child(5) > p > a:nth-child(1)",
+        "… > div#container-dbc35ef2b2 > div.aem-Grid > div.container > div#container-21e5e1ed08 > div.aem-Grid > div.leadgeneration > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.v-lead-generation-form__terms-description:nth-child(5) > p > a:nth-child(2)",
+        "… > div#mainContent > div.aem-Grid > div.container:nth-child(5) > div#container-bf635af697 > div.aem-Grid > div.leadgeneration > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.v-lead-generation-form__terms-description:nth-child(5) > p > a:nth-child(1)",
+        "… > div#mainContent > div.aem-Grid > div.container:nth-child(5) > div#container-bf635af697 > div.aem-Grid > div.leadgeneration > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.v-lead-generation-form__terms-description:nth-child(5) > p > a:nth-child(2)",
+        "… > div#mainContent > div.aem-Grid > div.container:nth-child(6) > div#container-05ecfdb5c5 > div.aem-Grid > div.leadgeneration:nth-child(2) > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.v-lead-generation-form__terms-description:nth-child(5) > p > a:nth-child(1)",
+        "… > div#mainContent > div.aem-Grid > div.container:nth-child(6) > div#container-05ecfdb5c5 > div.aem-Grid > div.leadgeneration:nth-child(2) > div > div.v-lead-generation-wrapper > div.v-lead-generation > div.v-lead-generation__in-page-view > div.v-lead-generation-form > div.v-lead-generation-form__terms-description:nth-child(5) > p > a:nth-child(2)"
+      ],
+      "sources": [
+        "en-home-confirmation-html",
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html"
+      ]
+    },
+    {
+      "role": "accent-3",
+      "value": "#333333",
+      "occurrences": 63,
+      "usedAs": [
+        "text"
+      ],
+      "sourceSelectors": [
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.iframetext:nth-child(4)",
+        "div#usntA42Toggle > button#usntA42Link",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(3)"
+      ],
+      "sources": [
+        "en-home-play-html",
+        "en-home-confirmation-html"
+      ]
+    },
+    {
+      "role": "accent-4",
+      "value": "#1e212a",
+      "occurrences": 54,
+      "usedAs": [
+        "text"
+      ],
+      "sourceSelectors": [
+        "h1.c367b0e82",
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b",
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(2) > button.c2bcb739e",
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(3) > button.c2bcb739e",
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(4) > button.c2bcb739e",
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header"
+      ],
+      "sources": [
+        "en-home-confirmation-html"
+      ]
+    },
+    {
+      "role": "accent-5",
+      "value": "#ebebf0",
+      "occurrences": 20,
+      "usedAs": [
+        "background"
+      ],
+      "sourceSelectors": [
+        "div#usntA42Toggle > button#usntA42Link"
+      ],
+      "sources": [
+        "en-home-confirmation-html"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Graphik XXCond Bold",
+      "stack": "\"Graphik XXCond Bold\", Tahoma, sans-serif",
+      "weights": [
+        400,
+        500
+      ],
+      "sizes": [
+        "100px",
+        "76px",
+        "56px",
+        "56px"
+      ],
+      "lineHeights": [
+        "110px",
+        "83.6px",
+        "61.6px",
+        "50.5px"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ],
+      "sources": [
+        "content-redballtennis-en-home-html",
+        "en-home-404-html",
+        "en-home-confirmation-html"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Graphik Semibold",
+      "stack": "\"Graphik Semibold\", Tahoma, sans-serif",
+      "weights": [
+        400,
+        700
+      ],
+      "sizes": [],
+      "lineHeights": [],
+      "letterSpacing": [],
+      "sourceSelectors": [
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(2)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(3)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(4)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.experiencefragment:nth-child(1)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2)",
+        "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.experiencefragment:nth-child(3)"
+      ],
+      "sources": [
+        "content-redballtennis-en-home-html",
+        "en-home-404-html",
+        "en-home-free-racquet-pack-html"
+      ]
+    },
+    "monoFamily": null,
+    "scaleRatio": 1.333,
+    "scaleAudit": {
+      "kind": "modular",
+      "ratios": [
+        1.316,
+        1.357
+      ],
+      "matchedScale": "perfect-fourth"
+    },
+    "loadStrategy": null,
+    "files": [
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/Graphik-Regular-App.woff2",
+        "family": "Graphik Regular",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/Graphik-Regular-App-9a0e5d07.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik Regular\"; src: url(\"../../../../../etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/Graphik-Regular-App.woff2\") format(\"woff2\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 24168
+      },
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/USTASans-Bold.otf",
+        "family": "USTA Sans",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/USTASans-Bold-86f670d0.otf",
+        "sourceCssRule": "@font-face { font-family: \"USTA Sans\"; src: url(\"../../../../../etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/USTASans-Bold.otf\") format(\"opentype\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/otf",
+        "bytes": 16076
+      },
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/Graphik-Semibold-App.woff2",
+        "family": "Graphik Semibold",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/Graphik-Semibold-App-28519ee9.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik Semibold\"; src: url(\"../../../../../etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/Graphik-Semibold-App.woff2\") format(\"woff2\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 26276
+      },
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/GraphikXXCondensed-Bold-App.woff2",
+        "family": "Graphik XXCond Bold",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/GraphikXXCondensed-Bold-App-8a4be8d0.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik XXCond Bold\"; src: url(\"../../../../../etc.clientlibs/redball/components/structure/page/clientlibs/resources/fonts/GraphikXXCondensed-Bold-App.woff2\") format(\"woff2\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 24740
+      },
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Regular-App.woff2",
+        "family": "Graphik Regular",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/Graphik-Regular-App-9a0e5d07.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik Regular\"; src: url(\"../../../etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Regular-App.woff2\") format(\"woff2\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 24168
+      },
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Semibold-App.woff2",
+        "family": "Graphik Semibold",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/Graphik-Semibold-App-28519ee9.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik Semibold\"; src: url(\"../../../etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Semibold-App.woff2\") format(\"woff2\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 26276
+      },
+      {
+        "url": "https://www.redballtennis.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/GraphikXXCondensed-Bold-App.woff2",
+        "family": "Graphik XXCond Bold",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/GraphikXXCondensed-Bold-App-8a4be8d0.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik XXCond Bold\"; src: url(\"../../../etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/GraphikXXCondensed-Bold-App.woff2\") format(\"woff2\"); font-weight: normal; font-style: normal; }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 24740
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "family": null,
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-300a3511.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "unknown",
+        "mime": "font/woff2",
+        "bytes": 34668
+      },
+      {
+        "url": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Regular-App.woff2",
+        "family": "ULP Custom",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/Graphik-Regular-App-9a0e5d07.woff2",
+        "sourceCssRule": "@font-face { font-family: \"ULP Custom\"; font-style: normal; src: local(\"ULP Custom\"), url(\"https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Regular-App.woff2\") format(\"woff\"); }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 24168
+      },
+      {
+        "url": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Semibold-App.woff2",
+        "family": "Graphik Semibold",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/Graphik-Semibold-App-28519ee9.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik Semibold\"; font-weight: 400; src: url(\"https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Semibold-App.woff2\"); }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 26276
+      },
+      {
+        "url": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/GraphikXXCondensed-Bold-App.woff2",
+        "family": "Graphik XXCond Bold",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "assets/fonts/GraphikXXCondensed-Bold-App-8a4be8d0.woff2",
+        "sourceCssRule": "@font-face { font-family: \"Graphik XXCond Bold\"; font-weight: 400; src: url(\"https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/GraphikXXCondensed-Bold-App.woff2\"); }",
+        "licensingFlag": "verify",
+        "mime": "font/woff2",
+        "bytes": 24740
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": null,
+    "scale": [],
+    "sectionPadding": "8px",
+    "containerMaxWidth": null,
+    "gridGap": "8px"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "3px",
+      "secondary": "90px",
+      "pill": "9999px",
+      "primarySources": [
+        "en-home-confirmation-html"
+      ],
+      "occurrences": {
+        "9999px": 47,
+        "50%": 8,
+        "3px": 4,
+        "90px": 2,
+        "0px 3px 3px 0px": 1,
+        "28px": 1,
+        "5px": 1
+      }
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.24) 0px 1px 2px 0px",
+        "uses": "cards",
+        "count": 2
+      }
+    ],
+    "gradients": [],
+    "patterns": [
+      {
+        "name": "hero-with-image",
+        "evidence": "hero section carries a background image",
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html"
+        ]
+      },
+      {
+        "name": "breadcrumb",
+        "evidence": "8 page(s) list components.breadcrumbs",
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html"
+        ]
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#ffffff",
+        "color": "#000000",
+        "borderRadius": "9999px",
+        "padding": "14px",
+        "fontWeight": 400,
+        "shadow": null,
+        "hoverDelta": null,
+        "occurrences": 11
+      },
+      "secondary": {
+        "background": "#000000",
+        "color": "#ffffff",
+        "borderRadius": "9999px",
+        "padding": "14px",
+        "fontWeight": 400,
+        "shadow": null,
+        "hoverDelta": null,
+        "occurrences": 8
+      },
+      "ghost": {
+        "background": "transparent",
+        "color": "#ffffff",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "fontWeight": 400,
+        "shadow": null,
+        "hoverDelta": null,
+        "occurrences": 44
+      }
+    },
+    "dualCTAPattern": null,
+    "cards": {
+      "background": "#0a2396",
+      "borderRadius": "9999px",
+      "padding": "0px",
+      "shadow": null,
+      "border": null,
+      "sourceSelector": "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(2)"
+    },
+    "inputs": null
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 5,
+      "headingSequence": [
+        "USTA Logo Home",
+        "Red Ball Logo"
+      ],
+      "ctaLabels": [
+        "Shop Now"
+      ],
+      "domFingerprintHash": "sha256:88a525b9ac3c6a2062f32e1970fba6d5981eceb742bd57ba4b6a1b3cf94a699e",
+      "exampleSlug": "index",
+      "exampleSelector": "div#container-01868b343c",
+      "examplePages": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html",
+        "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+        "index"
+      ]
+    },
+    {
+      "name": "background-motif-1",
+      "kind": "background-motif",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "sha256:451bd6215bec6a32d1bd752d5052ec55983f8366829c34d2facc20040cb98050",
+      "exampleSlug": "content-redballtennis-en-home-html",
+      "exampleSelector": "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(1) > div#container-bcf9eccfc8 > div.aem-Grid > div.container:nth-child(3) > div#container-fe5a953c16",
+      "examplePages": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-html",
+        "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+        "index"
+      ],
+      "exampleBlock": {
+        "url": "https://www.redballtennis.com/content/dam/redballtennis/home/vector-background-red.svg",
+        "domPath": "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(1) > div#container-bcf9eccfc8 > div.aem-Grid > div.container:nth-child(3) > div#container-fe5a953c16",
+        "boundingClientRect": {
+          "x": 840,
+          "y": 244,
+          "width": 600,
+          "height": 466
+        },
+        "backgroundSize": "cover",
+        "backgroundPosition": "50% 50%"
+      }
+    },
+    {
+      "name": "background-motif-2",
+      "kind": "background-motif",
+      "occurrences": 7,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "sha256:c68a9dbe5bbe9a0e1eab8a3053b2d1550a5220815c56190f91afa63826d5389f",
+      "exampleSlug": "content-redballtennis-en-home-html",
+      "exampleSelector": "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(3) > div#container-a86403325b",
+      "examplePages": [
+        "content-redballtennis-en-home-html",
+        "en-home-free-racquet-pack-html",
+        "en-home-host-html",
+        "en-home-html",
+        "en-home-play-html"
+      ],
+      "exampleBlock": {
+        "url": "https://www.redballtennis.com/content/dam/redballtennis/home/host-play-bg.jpg",
+        "domPath": "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(3) > div#container-a86403325b",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 1083,
+          "width": 1440,
+          "height": 589
+        },
+        "backgroundSize": "cover",
+        "backgroundPosition": "50% 50%"
+      }
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Red Ball Tennis",
+    "heroSubcopy": "Red Ball Tennis drops the pressure and dials up the fun of the classic game we all love. Whether you’re new to the game, coming back after a break, or just looking to get active, Red Ball makes it easy to jump in. No formal courts, no strict rules, just high-energy play whenever and wherever you want.",
+    "heroImage": {
+      "url": "https://www.redballtennis.com/content/dam/redballtennis/home/vector-background-red.svg",
+      "alt": null,
+      "source": "css-background",
+      "domPath": "div.root:nth-child(1) > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(1) > div#container-bcf9eccfc8 > div.aem-Grid > div.container:nth-child(3) > div#container-fe5a953c16",
+      "localPath": "assets/media/vector-background-red-e46ef88a.svg",
+      "rect": {
+        "x": 840,
+        "y": 244,
+        "width": 600,
+        "height": 466
+      }
+    },
+    "heroMedium": {
+      "kind": "video",
+      "mechanism": "youtube/vimeo-embed",
+      "src": "https://www.youtube.com/embed/0d6ahBtLavQ",
+      "domPath": "… > div#container-7f4b41abba > div.aem-Grid > div.container:nth-child(2) > div#mainContent > div.aem-Grid > div.container:nth-child(1) > div#container-bcf9eccfc8 > div.aem-Grid > div.container:nth-child(3) > div#container-fe5a953c16 > div.aem-Grid > div.embed > div#embed-ce7db2af52 > iframe.optanon-category-C0004",
+      "loader": null,
+      "rect": {
+        "x": 915,
+        "y": 316,
+        "width": 450,
+        "height": 315
+      }
+    },
+    "primaryCTALabel": "USTA SITES",
+    "ctaSamples": [
+      "HOME",
+      "HOST",
+      "PLAY",
+      "Privacy Policy"
+    ],
+    "navItems": [],
+    "footerHeadings": [],
+    "firstParagraph": "Red Ball Tennis drops the pressure and dials up the fun of the classic game we all love. Whether you’re new to the game, coming back after a break, or just looking to get active, Red Ball makes it easy to jump in. No formal courts, no strict rules, just high-energy play whenever and wherever you want.",
+    "tone": {
+      "guess": "playful-bright",
+      "evidence": "avg sentence 16.4 words · second-person 4 % of words · 23 exclamation(s) across 77 paragraph(s)"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "HOME",
+        "total": 8,
+        "pageCount": 8,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "HOST",
+        "total": 8,
+        "pageCount": 8,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "PLAY",
+        "total": 8,
+        "pageCount": 8,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "Privacy Policy",
+        "total": 8,
+        "pageCount": 8,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "Terms & Conditions",
+        "total": 8,
+        "pageCount": 8,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "USTA SITES",
+        "total": 8,
+        "pageCount": 8,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-404-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "*JOIN THE FUN",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      },
+      {
+        "label": "Shop Now",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "content-redballtennis-en-home-html",
+          "en-home-free-racquet-pack-html",
+          "en-home-host-html",
+          "en-home-html",
+          "en-home-play-html",
+          "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+          "index"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "REDESIGNED FOR YOU",
+        "total": 7,
+        "pageCount": 7,
+        "level": 2
+      },
+      {
+        "text": "RED IS IN. ARE YOU?",
+        "total": 6,
+        "pageCount": 6,
+        "level": 4
+      },
+      {
+        "text": "Red Ball Tennis",
+        "total": 5,
+        "pageCount": 5,
+        "level": 1
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 29,
+      "headingsUppercasePercent": 66,
+      "distinctHeadings": 14,
+      "distinctCtaLabels": 26
+    }
+  },
+  "crossPromo": {
+    "detected": true,
+    "anchorHeading": "REDESIGNED FOR YOU",
+    "cluster": [
+      {
+        "text": "REDESIGNED FOR YOU",
+        "total": 7,
+        "pageCount": 7,
+        "overlap": 7
+      },
+      {
+        "text": "RED IS IN. ARE YOU?",
+        "total": 6,
+        "pageCount": 6,
+        "overlap": 6
+      },
+      {
+        "text": "Red Ball Tennis",
+        "total": 5,
+        "pageCount": 5,
+        "overlap": 5
+      }
+    ],
+    "pages": [
+      "content-redballtennis-en-home-html",
+      "en-home-free-racquet-pack-html",
+      "en-home-host-html",
+      "en-home-html",
+      "en-home-play-html",
+      "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+      "index"
+    ],
+    "pageCount": 7,
+    "totalPages": 9
+  },
+  "register": "brand"
+}

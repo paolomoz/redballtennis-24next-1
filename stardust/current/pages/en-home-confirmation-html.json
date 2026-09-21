@@ -1,0 +1,1235 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-21T06:55:23.965Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "schemaVersion": 2,
+    "script": "crawl.mjs",
+    "heroSource": "meta-fallback",
+    "width": 1440,
+    "dpr": 1,
+    "technique": "headless",
+    "storageState": true,
+    "variants": [
+      {
+        "kind": "cookie",
+        "name": "mbox",
+        "value": "session#8bc6f53057eb47d1aa903d1404a207fc#1789975563|PC#8bc6f53057eb47d1aa903d1404a207fc.37_0#1853218503"
+      }
+    ],
+    "compatMode": "CSS1Compat"
+  },
+  "slug": "en-home-confirmation-html",
+  "url": "https://www.redballtennis.com/en/home/confirmation.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-21T06:55:23.965Z",
+  "finalUrl": "https://account.usta.com/u/login?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+  "title": "Sign In",
+  "metaDescription": null,
+  "description": null,
+  "heroHeadline": "",
+  "heroLede": "One USTA Account, All Access. Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null,
+    "siteName": null
+  },
+  "themeColor": {
+    "light": null,
+    "dark": null
+  },
+  "language": "en",
+  "alternates": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "level": 1,
+      "text": "Sign In",
+      "id": null,
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header > h1.c367b0e82",
+      "style": {
+        "fontFamily": "\"Graphik XXCond Bold\", Tahoma, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "76px",
+        "lineHeight": "92px",
+        "letterSpacing": "normal",
+        "color": "rgb(30, 33, 42)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "main",
+      "role": "main",
+      "id": null,
+      "classes": [
+        "_widget",
+        "login"
+      ],
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login",
+      "innerText": "Sign InOne USTA Account, All Access.Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.If you\u2019re a parent, start by creating your own USTA account. You can add your child later. Once they turn 13, they can create their own account or you can invite them to do so.SIGN IN header div { display: none; } header h1 { margin-bottom: 0 !important; } .usta-account-info { padding: 0 4px; } .usta-account-info b { display: block; margin-bottom: 8px; } One USTA Account, All Access. Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each. Not sure if you already have a USTA account? Find it here. Phone number or Email address *Email address or phone number is requiredEnter a valid email address or phone number. Phone numbers must include the country code.Password *Show passwordPassword is requiredThe password is too weakForgot password?SIGN INDon't have an account? Sign up document.addEventListener(\"DOMContentLoaded\", function() { var signUpURL = \"/u/signup?state=\" + ustaAuth.state; var usernameEl = document.getElementById(\"username\"); var passwordEl = document.getElementById(\"password\"); var errorEl = document.getElementById(\"username-error\"); var loginTypeEl = document.getElementById(\"login-type\"); var submitBtn = document.querySelector(\"button[data-action-button-primary='true']\"); var isNativeErrorsRemoved = false; var isUsernameErrorRemoved = false; document.getElementById(\"sign-up-link\").href = signUpURL; if (usernameEl && submitBtn && passwordEl) { usernameEl.insertAdjacentElement(\"afterend\", errorEl); submitBtn.disabled = disableSubmitButton(); usernameEl.addEventListener(\"input\", function() { if (!isNativeErrorsRemoved) ustaAuth.removeNativeErrors(); if (!isUsernameErrorRemoved) { isUsernameErrorRemoved = true; ustaAuth.hideError(errorEl, usernameEl); } submitBtn.disabled = disableSubmitButton(); }); usernameEl.addEventListener(\"focusout\", function() { if (disableSubmitButton(true)) { submitBtn.disabled = true; isUsernameErrorRemoved = false; } usernameEl.value.startsWith(\"+1\") ? loginTypeEl.value = \"phone\" : loginTypeEl.value = \"email\"; }); passwordEl.addEventListener(\"input\", function() { if (!isNativeErrorsRemoved) ustaAuth.removeNativeErrors(); submitBtn.disabled = disableSubmitButton(); }); function disableSubmitButton(showError = false) { return !(ustaAuth.isUsernameValid(errorEl, usernameEl, usernameEl.value, showError) && passwordEl.value.length > 0); } } }); OrContinue with GoogleContinue with AppleContinue with Facebook",
+      "rect": {
+        "x": 85,
+        "y": 170,
+        "width": 550,
+        "height": 888
+      },
+      "children": [
+        {
+          "tag": "header",
+          "role": null,
+          "id": "screen-header",
+          "classes": [
+            "c0326f8fa",
+            "cc7bc57ee"
+          ],
+          "purpose": "hero",
+          "headlineRef": 0,
+          "innerTextSummary": "Sign InOne USTA Account, All Access.Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.If you\u2019re a parent, start by creating your own USTA account. You can add your child later. Once they turn 1",
+          "wordCount": 56,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": [],
+          "richtext": "Sign In<p><b>One USTA Account, All Access.</b><b>Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.</b></p><p>If you\u2019re a parent, start by creating your own USTA account. You can add your child later. Once they turn 13, they can create their own account or you can invite them to do so.</p>",
+          "rect": {
+            "x": 85,
+            "y": 170,
+            "width": 550,
+            "height": 156
+          },
+          "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header"
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c0acd872b",
+            "c1a667bdc"
+          ],
+          "purpose": "form",
+          "headlineRef": null,
+          "innerTextSummary": "SIGN IN header div { display: none; } header h1 { margin-bottom: 0 !important; } .usta-account-info { padding: 0 4px; } .usta-account-info b { display: block; margin-bottom: 8px; } One USTA Account, All Access. Your USTA account works acros",
+          "wordCount": 232,
+          "body": [
+            "One USTA Account, All Access.\nYour USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.",
+            "Forgot password?",
+            "Don't have an account? Sign up"
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": [],
+          "richtext": "<p>Don't have an account? <a href=\"/u/signup?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc\">Sign up</a></p>Or",
+          "rect": {
+            "x": 85,
+            "y": 326,
+            "width": 550,
+            "height": 732
+          },
+          "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b"
+        }
+      ]
+    },
+    {
+      "tag": "header",
+      "role": "banner",
+      "id": "screen-header",
+      "classes": [
+        "c0326f8fa",
+        "cc7bc57ee"
+      ],
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header",
+      "innerText": "Sign InOne USTA Account, All Access.Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.If you\u2019re a parent, start by creating your own USTA account. You can add your child later. Once they turn 13, they can create their own account or you can invite them to do so.",
+      "rect": {
+        "x": 85,
+        "y": 170,
+        "width": 550,
+        "height": 156
+      },
+      "children": [
+        {
+          "tag": "h1",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c367b0e82",
+            "cefcd6eb6"
+          ],
+          "purpose": "hero",
+          "headlineRef": 0,
+          "innerTextSummary": "Sign In",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": [],
+          "richtext": "Sign In",
+          "rect": {
+            "x": 125,
+            "y": 210,
+            "width": 470,
+            "height": 92
+          },
+          "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header > h1.c367b0e82"
+        }
+      ]
+    }
+  ],
+  "body": [
+    "One USTA Account, All Access. Your USTA account works across all USTA platforms \u2014 USTA members are limited to one account each.",
+    "Forgot password?",
+    "Don't have an account? Sign up"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Enable accessibility",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#usntA42Toggle > button#usntA42Link",
+      "style": {
+        "backgroundColor": "rgb(235, 235, 240)",
+        "color": "rgb(54, 54, 56)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "90px",
+        "padding": "13px 0px 13px 44px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": true
+    },
+    {
+      "label": "Sign Up",
+      "href": "/u/signup?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "tag": "a",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > div.auth-tabs > div.auth-tabs_item:nth-child(2) > a#sign-up-link",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Graphik Semibold\", Tahoma, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": false
+    },
+    {
+      "label": "Not sure if you already have a USTA account? Find it here.",
+      "href": "https://www.usta.com/en/home/search-profile/find-your-account.html",
+      "tag": "a",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > div#ulp-container-form-content-start > div.center-container > a#find-account-link",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(3, 87, 184)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "3px",
+        "padding": "4px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": false
+    },
+    {
+      "label": "Show password",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > div.cf2abdb86:nth-child(5) > div.c29eda688 > div.input-wrapper:nth-child(2) > div.c5cdc91ba:nth-child(1) > button.c3e773acf",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "0px 3px 3px 0px",
+        "padding": "0px 0px 0px 4px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": true
+    },
+    {
+      "label": "Forgot password?",
+      "href": "/u/login/password-reset-start/migration-and-credentials-authentication?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "tag": "a",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > p.cd4925bee > a.ce65b92b3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(3, 87, 184)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "3px",
+        "padding": "4px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": false
+    },
+    {
+      "label": "SIGN IN",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > div.ce03cec30:nth-child(8) > button.c3e773acf",
+      "style": {
+        "backgroundColor": "rgb(168, 168, 168)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "9999px",
+        "padding": "4px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": true
+    },
+    {
+      "label": "Sign up",
+      "href": "/u/signup?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "tag": "a",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.ulp-alternate-action:nth-child(3) > p.cfab07cac > a.ce65b92b3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(3, 87, 184)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "3px",
+        "padding": "4px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": false
+    },
+    {
+      "label": "Continue with Google",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(2) > button.c2bcb739e",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(30, 33, 42)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "9999px",
+        "padding": "0px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": true
+    },
+    {
+      "label": "Continue with Apple",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(3) > button.c2bcb739e",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(30, 33, 42)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "9999px",
+        "padding": "0px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold",
+      "buttonLike": true
+    },
+    {
+      "label": "Continue with Facebook",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(4) > button.c2bcb739e",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(30, 33, 42)",
+        "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "9999px",
+        "padding": "0px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold",
+      "buttonLike": true
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "/u/signup?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+        "text": "Sign Up",
+        "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > div.auth-tabs > div.auth-tabs_item:nth-child(2) > a#sign-up-link"
+      },
+      {
+        "href": "/u/login/password-reset-start/migration-and-credentials-authentication?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+        "text": "Forgot password?",
+        "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > p.cd4925bee > a.ce65b92b3"
+      },
+      {
+        "href": "/u/signup?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+        "text": "Sign up",
+        "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.ulp-alternate-action:nth-child(3) > p.cfab07cac > a.ce65b92b3"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://www.usta.com/en/home/search-profile/find-your-account.html",
+        "text": "Not sure if you already have a USTA account? Find it here.",
+        "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > div#ulp-container-form-content-start > div.center-container > a#find-account-link"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.usta.com/content/dam/redballtennis/logos/red-ball-tennis-wbg.png",
+        "currentSrc": "https://www.usta.com/content/dam/redballtennis/logos/red-ball-tennis-wbg.png",
+        "srcset": null,
+        "sources": [],
+        "alt": "Redball Tennis Logo",
+        "naturalWidth": 528,
+        "naturalHeight": 331,
+        "rect": {
+          "x": 0,
+          "y": 9,
+          "width": 237,
+          "height": 70
+        },
+        "loading": null,
+        "resolves": true,
+        "localPath": "assets/media/red-ball-tennis-wbg-78def4d8.png",
+        "domPath": "div.main-wrapper:nth-child(3) > div.logo-image-wrapper:nth-child(1) > img",
+        "mime": "image/png"
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/usta-header-logo.png",
+        "currentSrc": "https://www.usta.com/content/dam/usta/logos/usta-header-logo.png",
+        "srcset": null,
+        "sources": [],
+        "alt": "USTA-DIGITAL-PROD",
+        "naturalWidth": 185,
+        "naturalHeight": 40,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "loading": null,
+        "resolves": true,
+        "localPath": "assets/media/usta-header-logo-a753d012.png",
+        "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header > img#prompt-logo-center",
+        "mime": "image/png"
+      },
+      {
+        "src": "https://www.usta.com/content/dam/redballtennis/okta-side-image/redballtennis-side.jpg",
+        "currentSrc": "https://www.usta.com/content/dam/redballtennis/okta-side-image/redballtennis-side.jpg",
+        "srcset": null,
+        "sources": [],
+        "alt": "",
+        "naturalWidth": 720,
+        "naturalHeight": 1375,
+        "rect": {
+          "x": 720,
+          "y": 88,
+          "width": 720,
+          "height": 1375
+        },
+        "loading": null,
+        "resolves": true,
+        "localPath": "assets/media/redballtennis-side-a61c4581.jpg",
+        "domPath": "div.main-wrapper:nth-child(3) > div.side-image-wrapper:nth-child(3) > img.side-image",
+        "mime": "image/jpeg"
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://www.usta.com/content/dam/redballtennis/logos/red-ball-tennis-wbg.png",
+        "alt": "Redball Tennis Logo",
+        "w": 528,
+        "h": 331
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/usta-header-logo.png",
+        "alt": "USTA-DIGITAL-PROD",
+        "w": 185,
+        "h": 40
+      },
+      {
+        "src": "https://www.usta.com/content/dam/redballtennis/okta-side-image/redballtennis-side.jpg",
+        "alt": "",
+        "w": 720,
+        "h": 1375
+      }
+    ],
+    "allImgCount": 3,
+    "cssBackgrounds": [],
+    "inlineSvgs": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [
+    {
+      "action": "/u/login?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "username",
+          "label": "Phone number or Email address *",
+          "required": true
+        },
+        {
+          "type": "password",
+          "name": "password",
+          "label": "Password *",
+          "required": true
+        }
+      ],
+      "thirdParty": null,
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f"
+    },
+    {
+      "action": "/u/login?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "method": "post",
+      "fields": [],
+      "thirdParty": null,
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(2)"
+    },
+    {
+      "action": "/u/login?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "method": "post",
+      "fields": [],
+      "thirdParty": null,
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(3)"
+    },
+    {
+      "action": "/u/login?state=hKFo2SAxWjU0cVpLbVYxQVNJZUhsS0ZsQk4xWWpqRVVneGtOR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFQxVnhnN05xeEd0MHRoaGJDSzJXYWRxZ241MGpPbEx3o2NpZNkgSE45UlJmRDFtNVJQa0FnVDR4WXkwbjF6TXJQeDlXUVc",
+      "method": "post",
+      "fields": [],
+      "thirdParty": null,
+      "domPath": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > div.c574fbd86:nth-child(6) > form.c89522a93:nth-child(4)"
+    }
+  ],
+  "widgets": {
+    "modals": [],
+    "accordions": [],
+    "tabs": []
+  },
+  "components": {
+    "cards": {
+      "count": 0,
+      "examples": []
+    },
+    "grids": {
+      "count": 0,
+      "examples": []
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 0,
+      "examples": []
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 2,
+      "examples": [
+        "iframe#destination_publishing_iframe_usta_0",
+        "iframe:nth-child(21)"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 0,
+      "examples": []
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 2,
+      "examples": [
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > div.cf2abdb86:nth-child(5) > div.c29eda688 > div.input-wrapper:nth-child(1) > div.c5cdc91ba:nth-child(1) > input#username",
+        "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b > form.c0d577f2f > div.cf2abdb86:nth-child(5) > div.c29eda688 > div.input-wrapper:nth-child(2) > div.c5cdc91ba:nth-child(1) > input#password"
+      ]
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > header#screen-header",
+      "purpose": "hero",
+      "rect": {
+        "x": 85,
+        "y": 170,
+        "width": 550,
+        "height": 156
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(30, 33, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "40px 24px",
+        "paddingInline": "40px",
+        "gap": null
+      },
+      "borderRadius": null,
+      "fontFamilies": [
+        "Graphik XXCond Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div.main-wrapper:nth-child(3) > div.widget-wrapper:nth-child(2) > main.login > section.c88701731 > div.cbfc842ac > div.cd7a00e20 > div.c0acd872b",
+      "purpose": "form",
+      "rect": {
+        "x": 85,
+        "y": 326,
+        "width": 550,
+        "height": 732
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(30, 33, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 40px",
+        "paddingInline": "40px",
+        "gap": "16px"
+      },
+      "borderRadius": "3px",
+      "fontFamilies": [
+        "Graphik Regular"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--primary-color",
+      "value": "#000000"
+    },
+    {
+      "name": "--button-font-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--secondary-button-border-color",
+      "value": "#c9cace"
+    },
+    {
+      "name": "--social-button-border-color",
+      "value": "#c9cace"
+    },
+    {
+      "name": "--radio-button-border-color",
+      "value": "#c9cace"
+    },
+    {
+      "name": "--secondary-button-text-color",
+      "value": "#1e212a"
+    },
+    {
+      "name": "--link-color",
+      "value": "#0357B8"
+    },
+    {
+      "name": "--title-font-color",
+      "value": "#1e212a"
+    },
+    {
+      "name": "--font-default-color",
+      "value": "#1e212a"
+    },
+    {
+      "name": "--widget-background-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--box-border-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--font-light-color",
+      "value": "#65676e"
+    },
+    {
+      "name": "--input-text-color",
+      "value": "#000000"
+    },
+    {
+      "name": "--input-border-color",
+      "value": "#c9cace"
+    },
+    {
+      "name": "--border-default-color",
+      "value": "#c9cace"
+    },
+    {
+      "name": "--input-background-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--icon-default-color",
+      "value": "#65676e"
+    },
+    {
+      "name": "--error-color",
+      "value": "#d03c38"
+    },
+    {
+      "name": "--error-text-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--success-color",
+      "value": "#13a688"
+    },
+    {
+      "name": "--base-focus-color",
+      "value": "#0357B8"
+    },
+    {
+      "name": "--transparency-focus-color",
+      "value": "rgba(3,87,184, 0.15)"
+    },
+    {
+      "name": "--base-hover-color",
+      "value": "#000000"
+    },
+    {
+      "name": "--transparency-hover-color",
+      "value": "rgba(0,0,0, 0.1)"
+    },
+    {
+      "name": "--ulp-captcha-widget-theme",
+      "value": "light"
+    },
+    {
+      "name": "--default-font-size",
+      "value": "1rem"
+    },
+    {
+      "name": "--small-font-size",
+      "value": "0.75rem"
+    },
+    {
+      "name": "--title-font-size",
+      "value": "1.5rem"
+    },
+    {
+      "name": "--lg-font-size",
+      "value": "1rem"
+    },
+    {
+      "name": "--xl-font-size",
+      "value": "1.25rem"
+    },
+    {
+      "name": "--spacing",
+      "value": "0.5rem"
+    },
+    {
+      "name": "--button-border-width",
+      "value": "1px"
+    },
+    {
+      "name": "--social-button-border-width",
+      "value": "1px"
+    },
+    {
+      "name": "--radio-border-width",
+      "value": "1px"
+    },
+    {
+      "name": "--input-border-width",
+      "value": "1px"
+    },
+    {
+      "name": "--border-radius-outer",
+      "value": "5px"
+    },
+    {
+      "name": "--box-border-width",
+      "value": "0px"
+    },
+    {
+      "name": "--prompt-width",
+      "value": "550px"
+    },
+    {
+      "name": "--logo-background-color",
+      "value": "#0a2396"
+    }
+  ],
+  "customProps": {
+    "--primary-color": "#000000",
+    "--button-font-color": "#ffffff",
+    "--secondary-button-border-color": "#c9cace",
+    "--social-button-border-color": "#c9cace",
+    "--radio-button-border-color": "#c9cace",
+    "--secondary-button-text-color": "#1e212a",
+    "--link-color": "#0357B8",
+    "--title-font-color": "#1e212a",
+    "--font-default-color": "#1e212a",
+    "--widget-background-color": "#ffffff",
+    "--box-border-color": "#ffffff",
+    "--font-light-color": "#65676e",
+    "--input-text-color": "#000000",
+    "--input-border-color": "#c9cace",
+    "--border-default-color": "#c9cace",
+    "--input-background-color": "#ffffff",
+    "--icon-default-color": "#65676e",
+    "--error-color": "#d03c38",
+    "--error-text-color": "#ffffff",
+    "--success-color": "#13a688",
+    "--base-focus-color": "#0357B8",
+    "--transparency-focus-color": "rgba(3,87,184, 0.15)",
+    "--base-hover-color": "#000000",
+    "--transparency-hover-color": "rgba(0,0,0, 0.1)",
+    "--ulp-captcha-widget-theme": "light",
+    "--default-font-size": "1rem",
+    "--small-font-size": "0.75rem",
+    "--title-font-size": "1.5rem",
+    "--lg-font-size": "1rem",
+    "--xl-font-size": "1.25rem",
+    "--spacing": "0.5rem",
+    "--button-border-width": "1px",
+    "--social-button-border-width": "1px",
+    "--radio-border-width": "1px",
+    "--input-border-width": "1px",
+    "--border-radius-outer": "5px",
+    "--box-border-width": "0px",
+    "--prompt-width": "550px",
+    "--logo-background-color": "#0a2396"
+  },
+  "stats": {
+    "bodyStyle": {
+      "fontFamily": "\"Graphik Regular\", Tahoma, sans-serif",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(30, 33, 42)"
+    },
+    "wordCount": 287,
+    "ctaCount": 10,
+    "internalLinkCount": 3,
+    "externalLinkCount": 1,
+    "imageCount": 3,
+    "inlineSvgCount": 0,
+    "motifs": {
+      "radii": {
+        "28px": 1,
+        "90px": 2,
+        "5px": 1,
+        "3px": 4,
+        "0px 3px 3px 0px": 1,
+        "9999px": 4
+      },
+      "shadows": {
+        "rgba(0, 0, 0, 0.24) 0px 1px 2px 0px": 2
+      },
+      "gradients": {}
+    }
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 2554,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "emptyMain": false,
+    "brokenImages": 0,
+    "subResourceBlock": false,
+    "overlayCoverPct": 0,
+    "shadowRoots": 0,
+    "shadowTextLen": 0,
+    "inferredHeadings": 0,
+    "iconFont": [],
+    "hiddenLiveStamped": 23,
+    "screenshotMode": "fullPage",
+    "docHeight": 1463,
+    "screenshotMobileMode": "fullPage",
+    "captureQuality": "ok"
+  },
+  "chrome": {
+    "header": {
+      "tag": "header",
+      "id": "screen-header",
+      "classes": [
+        "c0326f8fa",
+        "cc7bc57ee"
+      ],
+      "h": 156
+    },
+    "footer": null,
+    "navRows": 0,
+    "bodyClasses": [],
+    "stylesheets": [
+      "cdn.auth0.com/ulp/react-components/1.219.4/css/main_wcag_compliant.cdn.min.css"
+    ]
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.redballtennis.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://www.redballtennis.com/libs/granite/csrf/token.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 607,
+        "hits": 2,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dr",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "ref",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/16540420710/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "account.usta.com",
+        "path": "/9kJ2/dJsE/Iqg3X/Oq-Mg/u33Erf7m3ru70f/ZHE1PQ/B240W/A4Jbwo",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://account.usta.com/9kJ2/dJsE/Iqg3X/Oq-Mg/u33Erf7m3ru70f/ZHE1PQ/B240W/A4Jbwo",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.redballtennis.com",
+        "count": 15
+      },
+      {
+        "host": "a42cdn.usablenet.com",
+        "count": 7
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 6
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "maps.googleapis.com",
+        "count": 1
+      },
+      {
+        "host": "ajax.googleapis.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.auth0.com",
+        "count": 1
+      },
+      {
+        "host": "cdn01.basis.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.bttrack.com",
+        "count": 1
+      },
+      {
+        "host": "tag.simpli.fi",
+        "count": 1
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "usta.d2.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://account.usta.com/u/login",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 2,
+        "fieldNames": [
+          "username",
+          "password"
+        ],
+        "search": false
+      },
+      {
+        "action": "https://account.usta.com/u/login",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 0,
+        "fieldNames": [],
+        "search": false
+      },
+      {
+        "action": "https://account.usta.com/u/login",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 0,
+        "fieldNames": [],
+        "search": false
+      },
+      {
+        "action": "https://account.usta.com/u/login",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 0,
+        "fieldNames": [],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 5,
+    "triggers": [],
+    "mediaIds": [],
+    "tabs": {
+      "tablists": 0,
+      "expanders": 0
+    },
+    "shadowHosts": [],
+    "emptyConfigContainers": [],
+    "controlGroups": [],
+    "searchShell": false,
+    "players": [],
+    "chatLoaders": [],
+    "federated": {
+      "remoteEntries": [],
+      "registerCalls": 0
+    },
+    "quiz": {
+      "markers": 0,
+      "radioFieldsets": 0
+    },
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 5,
+      "thirdPartyScriptHosts": 14,
+      "inlineDataBlobs": 0,
+      "forms": 4,
+      "searchForms": 0,
+      "hydrated": false,
+      "tabs": 0,
+      "players": 0,
+      "controlGroups": 0,
+      "chatLoaders": 0,
+      "federated": 0,
+      "quiz": 0,
+      "searchShell": false
+    }
+  },
+  "screenshot": "assets/screenshots/en-home-confirmation-html.png",
+  "screenshotMobile": "assets/screenshots/en-home-confirmation-html-360.png",
+  "renderedHtml": "pages/en-home-confirmation-html.html",
+  "slots": {
+    "type": "unique",
+    "alias": "redirect \u2014 see state.json.pages[].redirect"
+  }
+}

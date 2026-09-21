@@ -1,0 +1,265 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-21T06:58:52.937Z",
+    "script": "state-update.mjs",
+    "stardustVersion": "0.24.0-next.4"
+  },
+  "site": {
+    "originUrl": "https://www.redballtennis.com",
+    "deployUrl": null,
+    "eds": {
+      "org": "paolomoz",
+      "site": "redballtennis-24next-1",
+      "repoUrl": "https://github.com/paolomoz/redballtennis-24next-1",
+      "previewHost": "https://main--redballtennis-24next-1--paolomoz.aem.page",
+      "liveHost": "https://main--redballtennis-24next-1--paolomoz.aem.live",
+      "daFolder": "https://da.live/#/paolomoz/redballtennis-24next-1",
+      "private": false,
+      "bootstrappedAt": "2026-09-21T06:44:03.901Z",
+      "bootstrappedBy": "existing"
+    },
+    "extractedAt": "2026-09-21T06:58:52.937Z",
+    "pageCap": "all",
+    "totalDiscovered": 9,
+    "crawled": 9,
+    "extractPhases": {
+      "captured": true,
+      "visionChecked": true,
+      "brandSurface": true,
+      "docs": false,
+      "review": true,
+      "scripts": true
+    }
+  },
+  "direction": null,
+  "handsOff": true,
+  "approvedChain": [
+    "replica",
+    "migrate",
+    "deploy",
+    "rollout"
+  ],
+  "flow": "replica",
+  "flowChosenAt": "2026-09-21T06:53:12Z",
+  "flowSource": "user-phrase",
+  "impeccable": {
+    "skillDir": "/Users/paolo/.claude/plugins/cache/impeccable/impeccable/4.3.1/skills/impeccable",
+    "launcher": "scripts/impeccable",
+    "version": "4.3.1",
+    "registryCommands": 23,
+    "probedAt": "2026-09-21T06:53:12.895Z",
+    "drift": []
+  },
+  "credentials": {
+    "at": "2026-09-21T06:53:13.613Z",
+    "da": "ok",
+    "daExpiresAt": "2026-09-22T06:52:00.360Z",
+    "daSource": "shell",
+    "daTarget": "ok",
+    "siteTokenEnv": null,
+    "gh": "ok"
+  },
+  "pages": [
+    {
+      "slug": "content-redballtennis-en-home-html",
+      "url": "https://www.redballtennis.com/content/redballtennis/en/home.html",
+      "title": "Home",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/content-redballtennis-en-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirect": {
+        "aliasOf": "index",
+        "reason": "/content/redballtennis/en/home.html 301s to /en/home.html"
+      },
+      "chromeVariant": "default",
+      "layoutCluster": "c1"
+    },
+    {
+      "slug": "en-home-404-html",
+      "url": "https://www.redballtennis.com/en/home/404.html",
+      "title": "404",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-404-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "chromeVariant": "default",
+      "layoutCluster": "tail"
+    },
+    {
+      "slug": "en-home-confirmation-html",
+      "url": "https://www.redballtennis.com/en/home/confirmation.html",
+      "title": "Sign In",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-confirmation-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirect": {
+        "redirectTo": "https://account.usta.com/u/login",
+        "reason": "source 302s off-site to the USTA Auth0 login; captured as evidence only, never migrated as content"
+      },
+      "chromeVariant": "variant-5e2e",
+      "layoutCluster": "tail"
+    },
+    {
+      "slug": "en-home-free-racquet-pack-html",
+      "url": "https://www.redballtennis.com/en/home/free-racquet-pack.html",
+      "title": "Home",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-free-racquet-pack-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirect": {
+        "redirectTo": "/",
+        "reason": "source redirects to /en/home.html"
+      },
+      "chromeVariant": "default",
+      "layoutCluster": "c1"
+    },
+    {
+      "slug": "en-home-host-html",
+      "url": "https://www.redballtennis.com/en/home/host.html",
+      "title": "Host",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-host-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "chromeVariant": "default",
+      "layoutCluster": "tail"
+    },
+    {
+      "slug": "en-home-html",
+      "url": "https://www.redballtennis.com/en/home.html",
+      "title": "Home",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirect": {
+        "aliasOf": "index",
+        "reason": "/en/home.html is the AEM canonical path of /"
+      },
+      "chromeVariant": "default",
+      "layoutCluster": "c1"
+    },
+    {
+      "slug": "en-home-play-html",
+      "url": "https://www.redballtennis.com/en/home/play.html",
+      "title": "Play",
+      "type": "program",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "chromeVariant": "default",
+      "layoutCluster": "tail"
+    },
+    {
+      "slug": "en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html",
+      "url": "https://www.redballtennis.com/en/home/stay-current/national/USTA-awards-wheelchair-tennis-grants.html",
+      "title": "Home",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-stay-current-national-usta-awards-wheelchair-tennis-grants-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirect": {
+        "redirectTo": "/",
+        "reason": "source redirects to /"
+      },
+      "chromeVariant": "default",
+      "layoutCluster": "c1"
+    },
+    {
+      "slug": "index",
+      "url": "https://www.redballtennis.com/",
+      "title": "Home",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-21T06:58:52.937Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "chromeVariant": "default",
+      "layoutCluster": "c1"
+    }
+  ]
+}
